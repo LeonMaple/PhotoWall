@@ -12,13 +12,13 @@
         function hideURLbar() {
             window.scrollTo(0, 1);
         } </script>
-    <link href="css/two/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/two/style.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/two/component.css" rel="stylesheet" type="text/css"/>
-    <link href="css/two/stylesheet.css" rel="stylesheet" type="text/css"/>
-    <script src="js/two/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="js/two/move-top.js"></script>
-    <script type="text/javascript" src="js/two/easing.js"></script>
+    <link href="{{ URL::asset('css/two/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all"/>
+    <link href="{{ URL::asset('css/two/style.css') }}" rel="stylesheet" type="text/css" media="all"/>
+    <link href="{{ URL::asset('css/two/component.css') }}" rel="stylesheet" type="text/css"/>
+    <link href="{{ URL::asset('css/two/stylesheet.css') }}" rel="stylesheet" type="text/css"/>
+    <script src="{{ URL::asset('js/two/jquery-1.11.1.min.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::asset('js/two/move-top.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::asset('js/two/easing.js') }}"></script>
     <script type="text/javascript">
         jQuery(document).ready(function ($) {
             $(".scroll").click(function (event) {
@@ -27,21 +27,16 @@
             });
         });
     </script>
-    <!-- start-smoth-scrolling -->
 </head>
 
 <body class="cbp-spmenu-push">
-<!-- banner -->
 <div class="banner">
     <div class="container">
         <div class="header">
-            <div class="header-left">
-
-            </div>
+            <div class="header-left"></div>
             <div class="header-left1">
                 <h1><a href="/two">Walk<span>Where To Go This Summer?</span></a></h1>
             </div>
-            <!-- #push_sidebar -->
             <div class="top-nav">
                 <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
                     <ul>
@@ -55,11 +50,9 @@
                 </nav>
 
                 <div class="main buttonset">
-                    <!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
-                    <button id="showRightPush"><img src="images/two/menu.png" alt=""/></button>
+                    <button id="showRightPush"><img src="{{ URL::asset('images/two/menu.png') }}" alt=""/></button>
                 </div>
-                <!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
-                <script src="js/two/classie.js"></script>
+                <script src="{{ URL::asset('js/two/classie.js') }}"></script>
                 <script>
                     var menuRight = document.getElementById('cbp-spmenu-s2'),
                         showRightPush = document.getElementById('showRightPush'),
@@ -78,9 +71,7 @@
                         }
                     }
                 </script>
-                <!-- /script-for-menu -->
             </div>
-            <!-- /#push_sidebar -->
             <div class="clearfix"></div>
         </div>
         {{--<div class="banner-info">--}}
@@ -108,9 +99,7 @@
         {{--</div>--}}
     </div>
 </div>
-<!-- //banner -->
 <div class="copyrights">Collect from </div>
-<!-- banner-bottom -->
 <div class="banner-bottom">
     <div class="col-md-2 banner-bottom-left">
 
@@ -144,7 +133,7 @@
     <div class="col-md-7 banner-bottom-left2">
         <div class="grid">
             <figure class="effect-lexi effect-lexi1">
-                <img src="images/two/3.jpg" alt="" class="img-responsive"/>
+                <img src="{{ URL::asset('images/two/3.jpg') }}" alt="" class="img-responsive"/>
                 <figcaption class="lexifig">
                     <h4>Life is an adventure take <span>Risks</span></h4>
                     <p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to
@@ -161,7 +150,7 @@
     <div class="col-md-6 banner-bottom-left2 banner-bottom1-left2">
         <div class="grid">
             <figure class="effect-lexi">
-                <img src="images/two/2.jpg" alt="" class="img-responsive"/>
+                <img src="{{ URL::asset('images/two/2.jpg') }}" alt="" class="img-responsive"/>
                 <figcaption>
                     <h4>Collect moments not <span>things</span></h4>
                     <p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to
@@ -204,7 +193,7 @@
     <div class="col-md-6 banner-bottom-left2 banner-bottom1-left2">
         <div class="grid">
             <figure class="effect-lexi effect-lexi1">
-                <img src="images/two/4.jpg" alt="" class="img-responsive"/>
+                <img src="{{ URL::asset('images/two/4.jpg') }}" alt="" class="img-responsive"/>
                 <figcaption class="lexifig">
                     <h4>Courage is found in unlikely <span>places</span></h4>
                     <p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to
@@ -215,8 +204,6 @@
     </div>
     <div class="clearfix"></div>
 </div>
-<!-- //banner-bottom -->
-<!-- banner-bottom-slider -->
 <div class="banner-bottom-slider">
     <div class="container">
         <div class="col-md-4 banner-bottom-slider-left">
@@ -227,7 +214,7 @@
             <ul id="flexiselDemo1">
                 <li>
                     <div class="banner-bottom-slider-right1">
-                        <img src="images/two/5.jpg" alt=" " class="img-responsive"/>
+                        <img src="{{ URL::asset('images/two/5.jpg') }}" alt=" " class="img-responsive"/>
                         <ul>
                             <li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> 8</a>
                             </li>
@@ -241,7 +228,7 @@
                 </li>
                 <li>
                     <div class="banner-bottom-slider-right1">
-                        <img src="images/two/7.jpg" alt=" " class="img-responsive"/>
+                        <img src="{{ URL::asset('images/two/7.jpg') }}" alt=" " class="img-responsive"/>
                         <ul>
                             <li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> 8</a>
                             </li>
@@ -255,7 +242,7 @@
                 </li>
                 <li>
                     <div class="banner-bottom-slider-right1">
-                        <img src="images/two/6.jpg" alt=" " class="img-responsive"/>
+                        <img src="{{ URL::asset('images/two/6.jpg') }}" alt=" " class="img-responsive"/>
                         <ul>
                             <li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> 8</a>
                             </li>
@@ -294,17 +281,15 @@
 
                 });
             </script>
-            <script type="text/javascript" src="js/two/jquery.flexisel.js"></script>
+            <script type="text/javascript" src="{{ URL::asset('js/two/jquery.flexisel.js') }}"></script>
         </div>
         <div class="clearfix"></div>
     </div>
 </div>
-<!-- //banner-bottom-slider -->
-<!-- footer -->
 <div class="footer">
     <div class="container">
         <div class="col-md-3 footer-grid">
-            <img src="images/two/8.jpg" alt=" " class="img-responsive"/>
+            <img src="{{ URL::asset('images/two/8.jpg') }}" alt=" " class="img-responsive"/>
         </div>
         <div class="col-md-3 footer-grid">
             <h2><a href="index">Walk<span>Where To Go This Summer?</span></a></h2>
@@ -376,8 +361,6 @@
         <p>Copyright &copy; 2016.Company name All rights reserved.More Templates - Collect from</p>
     </div>
 </div>
-<!-- //footer -->
-<!-- here stars scrolling icon -->
 <script type="text/javascript">
     $(document).ready(function () {
         /*
@@ -393,6 +376,5 @@
 
     });
 </script>
-<!-- //here ends scrolling icon -->
 </body>
 </html>

@@ -12,13 +12,13 @@
         function hideURLbar() {
             window.scrollTo(0, 1);
         } </script>
-    <link href="../css/two/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="../css/two/style.css" rel="stylesheet" type="text/css" media="all"/>
-    <link href="../css/two/component.css" rel="stylesheet" type="text/css"/>
-    <script src="../js/two/jquery-1.11.1.min.js"></script>
-    <link href="../css/two/stylesheet.css" rel="stylesheet" type="text/css"/>
-    <script type="text/javascript" src="../js/two/move-top.js"></script>
-    <script type="text/javascript" src="../js/two/easing.js"></script>
+    <link href="{{ URL::asset('css/two/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all"/>
+    <link href="{{ URL::asset('css/two/style.css') }}" rel="stylesheet" type="text/css" media="all"/>
+    <link href="{{ URL::asset('css/two/component.css') }}" rel="stylesheet" type="text/css"/>
+    <link href="{{ URL::asset('css/two/stylesheet.css') }}" rel="stylesheet" type="text/css"/>
+    <script src="{{ URL::asset('js/two/jquery-1.11.1.min.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::asset('js/two/move-top.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::asset('js/two/easing.js') }}"></script>
     <script type="text/javascript">
         jQuery(document).ready(function ($) {
             $(".scroll").click(function (event) {
