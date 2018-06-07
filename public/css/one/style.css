@@ -738,7 +738,7 @@ a.play {
 	color: #fff;
 }
 a.play :focus{ 
- outline:noe
+ outline:none
 
 }
 .modal-body.about iframe {
@@ -1073,7 +1073,7 @@ h1.title a{
 }
 .pic img {
     border-radius: 50%;
-	-webkit- border-radius: 50%;
+	-webkit-border-radius: 50%;
 	-o-border-radius: 50%;
 	-moz-border-radius: 50%;
     width: 20%;
@@ -1692,7 +1692,7 @@ ul.bottom i {
 }
 .pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
     color:#3eaabf;
-    background-color: none;
+    background-color: #cccccc;
     border-color: #ddd;
 }
 .pagination > li > a, .pagination > li > span {
