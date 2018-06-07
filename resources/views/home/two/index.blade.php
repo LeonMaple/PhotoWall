@@ -2,7 +2,6 @@
 <html>
 <head>
     <title>Home</title>
-    <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="keywords" content="Walk Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"/>
@@ -13,17 +12,11 @@
         function hideURLbar() {
             window.scrollTo(0, 1);
         } </script>
-    <!-- //for-mobile-apps -->
     <link href="css/two/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="css/two/style.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="css/two/component.css" rel="stylesheet" type="text/css"/>
-    <!-- js -->
+    <link href="css/two/stylesheet.css" rel="stylesheet" type="text/css"/>
     <script src="js/two/jquery-1.11.1.min.js"></script>
-    <!-- //js -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic'
-          rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
-    <!-- start-smoth-scrolling -->
     <script type="text/javascript" src="js/two/move-top.js"></script>
     <script type="text/javascript" src="js/two/easing.js"></script>
     <script type="text/javascript">
