@@ -14,9 +14,9 @@ class PhotoController extends Controller
     public function index()
     {
         //
-        $a = '11';
-        $password = $a ? $a : 'vcyber' . 333;
-        var_dump($password);
+//        $a = '11';
+        $password = isset($a) ? $a : $_SERVER;
+        dump($password);
         $this->_echo('index');
     }
 
