@@ -46,14 +46,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<!-- #push_sidebar -->
 				<div class="top-nav">
 					 <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
-						<h3>Menu</h3>
 						 <ul>
-							 <li><a href="/two"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
-							 <li><a href="about"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>About</a></li>
-							 <li class="active"><a href="services"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span>Services</a></li>
-							 <li><a href="gallery"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>Gallery</a></li>
-							 <li><a href="shortcodes"><span class="glyphicon glyphicon-text-size" aria-hidden="true"></span>Short Codes</a></li>
-							 <li><a href="contact"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Contact</a></li>
+							 <li><a href="/two">Home</a></li>
+							 <li><a href="about">About</a></li>
+							 <li class="active"><a href="services">Services</a></li>
+							 <li><a href="gallery">Gallery</a></li>
+							 <li><a href="shortcodes">Short Codes</a></li>
+							 <li><a href="contact">Contact</a></li>
 						 </ul>
 					</nav>
 					 <div class="main buttonset">	

@@ -13,31 +13,31 @@
 
 Route::get('/', function () {
 //    return view('welcome');
-    return view('one.index');
+    return view('home.one.index');
 });
 
 Route::get('/typography', function () {
-    return view('one.typography');
+    return view('home.one.typography');
 });
 
 Route::get('/blog', function () {
-    return view('one.blog');
+    return view('home.one.blog');
 });
 
 Route::get('/gallery', function () {
-    return view('one.gallery');
+    return view('home.one.gallery');
 });
 
 Route::get('/contact', function () {
-    return view('one.contact');
+    return view('home.one.contact');
 });
 
-Route::get('two', function () { return view('two.index'); });
-Route::get('two/about', function () { return view('two.about'); });
-Route::get('two/services', function () { return view('two.services'); });
-Route::get('two/gallery', function () { return view('two.gallery'); });
-Route::get('two/shortcodes', function () { return view('two.shortcodes'); });
-Route::get('two/contact', function () { return view('two.contact'); });
+Route::get('two', function () { return view('home.two.index'); });
+Route::get('two/about', function () { return view('home.two.about'); });
+Route::get('two/services', function () { return view('home.two.services'); });
+Route::get('two/gallery', function () { return view('home.two.gallery'); });
+Route::get('two/shortcodes', function () { return view('home.two.shortcodes'); });
+Route::get('two/contact', function () { return view('home.two.contact'); });
 
 
 
