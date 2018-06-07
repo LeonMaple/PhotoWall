@@ -47,7 +47,7 @@ Route::any('/index', 'WelcomeController@index');
 //http://h.laravel.com/photo
 Route::resource('photo', 'PhotoController');
 
-//Route::get('home/index', 'IndexController@index');
+Route::get('home/index', 'Home\IndexController@index');
 
 
 Route::resource('articles', 'ArticlesController');
