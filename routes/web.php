@@ -16,21 +16,13 @@ Route::get('/', function () {
     return view('home.one.index');
 });
 
-Route::get('/typography', function () {
-    return view('home.one.typography');
-});
+Route::get('/typography', function () { return view('home.one.typography'); });
 
-Route::get('/blog', function () {
-    return view('home.one.blog');
-});
+Route::get('/blog', function () { return view('home.one.blog'); });
 
-Route::get('/gallery', function () {
-    return view('home.one.gallery');
-});
+Route::get('/gallery', function () { return view('home.one.gallery'); });
 
-Route::get('/contact', function () {
-    return view('home.one.contact');
-});
+Route::get('/contact', function () { return view('home.one.contact'); });
 
 Route::get('two', function () { return view('home.two.index'); });
 Route::get('two/about', function () { return view('home.two.about'); });
