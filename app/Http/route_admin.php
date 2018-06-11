@@ -41,3 +41,16 @@ Route::group(['namespace' => 'Blog'], function()
     Route::get('admin/blogList', 'BlogController@blogList');
     Route::get('admin/blogDetail', 'BlogController@blogDetail');
 });
+
+//媒体
+Route::group(['namespace' => 'Media'], function()
+{
+    Route::get('admin/media', 'MediaController@index');
+});
+
+
+//email
+Route::group(['namespace' => 'Mail'], function()
+{
+    Route::get('admin/mail', 'MailController@index');
+});
