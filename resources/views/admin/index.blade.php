@@ -7,24 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <!-- Le styles -->
-
-
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/loader-style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
-
     <link rel="stylesheet" type="text/css" href="assets/js/progress-bar/number-pb.css">
-
-
     <style type="text/css">
         canvas#canvas4 {
             position: relative;
             top: 20px;
         }
     </style>
-
-
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -51,62 +43,47 @@
                 <span class="entypo-list-add"></span>
             </button>
 
-
             <div id="logo-mobile" class="visible-xs">
                 <h1>WEB管理<span>v1.2</span></h1>
             </div>
 
         </div>
 
-
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-
                 <li class="dropdown">
-
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i style="font-size:20px;"
-                                                                                  class="icon-conversation"></i>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i style="font-size:20px;" class="icon-conversation"></i>
                         <div class="noft-red">23</div>
                     </a>
-
 
                     <ul style="margin: 11px 0 0 9px;" role="menu" class="dropdown-menu dropdown-wrap">
                         <li>
                             <a href="#">
-                                <img alt="" class="img-msg img-circle"
-                                     src="http://api.randomuser.me/portraits/thumb/men/1.jpg">Jhon Doe <b>Just Now</b>
+                                <img alt="" class="img-msg img-circle" src="http://api.randomuser.me/portraits/thumb/men/1.jpg">Jhon Doe <b>Just Now</b>
                             </a>
                         </li>
                         <li class="divider"></li>
                         <li>
                             <a href="#">
-                                <img alt="" class="img-msg img-circle"
-                                     src="http://api.randomuser.me/portraits/thumb/women/1.jpg">Jeniffer <b>3 Min
-                                    Ago</b>
+                                <img alt="" class="img-msg img-circle" src="http://api.randomuser.me/portraits/thumb/women/1.jpg">Jeniffer <b>3 Min Ago</b>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#"><img alt="" class="img-msg img-circle" src="http://api.randomuser.me/portraits/thumb/men/2.jpg">Dave <b>2 Hours Ago</b>
                             </a>
                         </li>
                         <li class="divider"></li>
                         <li>
                             <a href="#">
-                                <img alt="" class="img-msg img-circle"
-                                     src="http://api.randomuser.me/portraits/thumb/men/2.jpg">Dave <b>2 Hours Ago</b>
+                                <img alt="" class="img-msg img-circle" src="http://api.randomuser.me/portraits/thumb/men/3.jpg"><i>Keanu</i> <b>1 Day Ago</b>
                             </a>
                         </li>
                         <li class="divider"></li>
                         <li>
                             <a href="#">
-                                <img alt="" class="img-msg img-circle"
-                                     src="http://api.randomuser.me/portraits/thumb/men/3.jpg"><i>Keanu</i> <b>1 Day
-                                    Ago</b>
-                            </a>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <a href="#">
-                                <img alt="" class="img-msg img-circle"
-                                     src="http://api.randomuser.me/portraits/thumb/men/4.jpg"><i>Masashi</i> <b>2 Mounth
-                                    Ago</b>
+                                <img alt="" class="img-msg img-circle" src="http://api.randomuser.me/portraits/thumb/men/4.jpg"><i>Masashi</i> <b>2 Mounth Ago</b>
                             </a>
                         </li>
                         <li class="divider"></li>
@@ -117,8 +94,7 @@
                 </li>
                 <li>
 
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i style="font-size:19px;"
-                                                                                  class="icon-warning tooltitle"></i>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i style="font-size:19px;" class="icon-warning tooltitle"></i>
                         <div class="noft-green">5</div>
                     </a>
                     <ul style="margin: 12px 0 0 0;" role="menu" class="dropdown-menu dropdown-wrap">
@@ -138,8 +114,7 @@
                         <li class="divider"></li>
                         <li>
                             <a href="#">
-                                <span style="background:#FFA200" class="noft-icon maki-aboveground-rail"></span><i>Delay
-                                    for</i> <b>09 Min</b>
+                                <span style="background:#FFA200" class="noft-icon maki-aboveground-rail"></span><i>Delay for</i> <b>09 Min</b>
                             </a>
                         </li>
                         <li class="divider"></li>
@@ -162,8 +137,7 @@
                         </li>
                     </ul>
                 </li>
-                <li><a href="#"><i data-toggle="tooltip" data-placement="bottom" title="Help" style="font-size:20px;"
-                                   class="icon-help tooltitle"></i></a>
+                <li><a href="#"><i data-toggle="tooltip" data-placement="bottom" title="Help" style="font-size:20px;" class="icon-help tooltitle"></i></a>
                 </li>
 
             </ul>
@@ -171,8 +145,6 @@
                 <ul class="date-top">
                     <li class="entypo-calendar" style="margin-right:5px"></li>
                     <li id="Date"></li>
-
-
                 </ul>
 
                 <ul id="digital-clock" class="digital">
@@ -210,9 +182,7 @@
             <ul style="margin-right:0;" class="nav navbar-nav navbar-right">
                 <li>
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                        <img alt="" class="admin-pic img-circle"
-                             src="http://api.randomuser.me/portraits/thumb/men/10.jpg">Hi, Dave Mattew <b
-                                class="caret"></b>
+                        <img alt="" class="admin-pic img-circle" src="http://api.randomuser.me/portraits/thumb/men/10.jpg">Hi, Dave Mattew <b class="caret"></b>
                     </a>
                     <ul style="margin-top:14px;" role="menu" class="dropdown-setting dropdown-menu">
                         <li>
@@ -281,10 +251,9 @@
     </a>
     <div class="dark">
         <form action="#">
-                <span>
-                    <input type="text" name="search" value="" class="search rounded id_search"
-                           placeholder="Search Menu..." autofocus="">
-                </span>
+            <span>
+                <input type="text" name="search" value="" class="search rounded id_search" placeholder="Search Menu..." autofocus="">
+            </span>
         </form>
     </div>
 
@@ -294,17 +263,14 @@
         </form>
     </div>
 
-
     <div class="skin-part">
         <div id="tree-wrap">
             <div class="side-bar">
                 <ul class="topnav menu-left-nest">
                     <li>
                         <a href="#" style="border-left:0px solid!important;" class="title-menu-left">
-
                             <span class="widget-menu"></span>
                             <i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i>
-
                         </a>
                     </li>
 
@@ -312,16 +278,13 @@
                         <a class="tooltip-tip ajax-load" href="#" title="Blog App">
                             <i class="icon-document-edit"></i>
                             <span>Blog App</span>
-
                         </a>
                         <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="blog-list.html" title="Blog List"><i
-                                            class="entypo-doc-text"></i><span>Blog List</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="blog-list.html" title="Blog List"><i class="entypo-doc-text"></i><span>Blog List</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="blog-detail.html" title="Blog Detail"><i
-                                            class="entypo-newspaper"></i><span>Blog Details</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="blog-detail.html" title="Blog Detail"><i class="entypo-newspaper"></i><span>Blog Details</span></a>
                             </li>
                         </ul>
                     </li>
@@ -329,14 +292,12 @@
                         <a class="tooltip-tip ajax-load" href="social.html" title="Social">
                             <i class="icon-feed"></i>
                             <span>Social</span>
-
                         </a>
                     </li>
                     <li>
                         <a class="tooltip-tip ajax-load" href="media.html" title="Media">
                             <i class="icon-camera"></i>
                             <span>Media</span>
-
                         </a>
                     </li>
                 </ul>
@@ -344,10 +305,8 @@
                 <ul class="topnav menu-left-nest">
                     <li>
                         <a href="#" style="border-left:0px solid!important;" class="title-menu-left">
-
                             <span class="design-kit"></span>
                             <i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i>
-
                         </a>
                     </li>
 
@@ -355,7 +314,6 @@
                         <a class="tooltip-tip ajax-load" href="index.html" title="Dashboard">
                             <i class="icon-window"></i>
                             <span>Dashboard</span>
-
                         </a>
                     </li>
                     <li>
@@ -381,36 +339,28 @@
                         </a>
                         <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="blank_page.html" title="Blank Page"><i
-                                            class="icon-media-record"></i><span>Blank Page</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="blank_page.html" title="Blank Page"><i class="icon-media-record"></i><span>Blank Page</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="profile.html" title="Profile Page"><i
-                                            class="icon-user"></i><span>Profile Page</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="profile.html" title="Profile Page"><i class="icon-user"></i><span>Profile Page</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="invoice.html" title="Invoice"><i
-                                            class="entypo-newspaper"></i><span>Invoice</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="invoice.html" title="Invoice"><i class="entypo-newspaper"></i><span>Invoice</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="pricing_table.html" title="Pricing Table"><i
-                                            class="fontawesome-money"></i><span>Pricing Table</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="pricing_table.html" title="Pricing Table"><i class="fontawesome-money"></i><span>Pricing Table</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="time-line.html" title="Time Line"><i
-                                            class="entypo-clock"></i><span>Time Line</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="time-line.html" title="Time Line"><i class="entypo-clock"></i><span>Time Line</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2" href="404.html" title="404 Error Page"><i
-                                            class="icon-thumbs-down"></i><span>404 Error Page</span></a>
+                                <a class="tooltip-tip2" href="404.html" title="404 Error Page"><i class="icon-thumbs-down"></i><span>404 Error Page</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2" href="500.html" title="500 Error Page"><i
-                                            class="icon-thumbs-down"></i><span>500 Error Page</span></a>
+                                <a class="tooltip-tip2" href="500.html" title="500 Error Page"><i class="icon-thumbs-down"></i><span>500 Error Page</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2" href="lock-screen.html" title="Lock Screen"><i
-                                            class="icon-lock"></i><span>Lock Screen</span></a>
+                                <a class="tooltip-tip2" href="lock-screen.html" title="Lock Screen"><i class="icon-lock"></i><span>Lock Screen</span></a>
                             </li>
                         </ul>
                     </li>
@@ -427,10 +377,8 @@
                 <ul id="menu-showhide" class="topnav menu-left-nest">
                     <li>
                         <a href="#" style="border-left:0px solid!important;" class="title-menu-left">
-
                             <span class="component"></span>
                             <i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i>
-
                         </a>
                     </li>
 
@@ -442,35 +390,29 @@
                         </a>
                         <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="element.html" title="Element"><i
-                                            class="icon-attachment"></i><span>Element</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="element.html" title="Element"><i class="icon-attachment"></i><span>Element</span></a>
                             </li>
-                            <li><a class="tooltip-tip2 ajax-load" href="button.html" title="Button"><i
-                                            class="icon-view-list-large"></i><span>Button</span>
+                            <li>
+                                <a class="tooltip-tip2 ajax-load" href="button.html" title="Button"><i class="icon-view-list-large"></i><span>Button</span>
                                     <div class="noft-blue-number">10</div>
                                 </a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="wizard.html" title="Tab & Accordion"><i
-                                            class="icon-folder"></i><span>Wizard</span>
+                                <a class="tooltip-tip2 ajax-load" href="wizard.html" title="Tab & Accordion"><i class="icon-folder"></i><span>Wizard</span>
                                     <div class="noft-purple-number">3</div>
                                 </a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="calendar.html" title="Calender"><i
-                                            class="icon-calendar"></i><span>Calendar</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="calendar.html" title="Calender"><i class="icon-calendar"></i><span>Calendar</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="tree.html" title="Tree View"><i
-                                            class="icon-view-list"></i><span>Tree View</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="tree.html" title="Tree View"><i class="icon-view-list"></i><span>Tree View</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="grids.html" title="Grids"><i
-                                            class="icon-menu"></i><span>Grids</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="grids.html" title="Grids"><i class="icon-menu"></i><span>Grids</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="chart.html" title="Chart"><i
-                                            class="icon-graph-pie"></i><span>Chart</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="chart.html" title="Chart"><i class="icon-graph-pie"></i><span>Chart</span></a>
                             </li>
                             <li>
                                 <a class="tooltip-tip ajax-load" href="typhography.html" title="Typhoghrapy">
@@ -487,20 +429,16 @@
                         </a>
                         <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="form-element.html" title="Form Elements"><i
-                                            class="icon-document-edit"></i><span>Form Elements</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="form-element.html" title="Form Elements"><i class="icon-document-edit"></i><span>Form Elements</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="andvance-form.html" title="Andvance Form"><i
-                                            class="icon-map"></i><span>Andvance Form</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="andvance-form.html" title="Andvance Form"><i class="icon-map"></i><span>Andvance Form</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="text-editor.html" title="Text Editor"><i
-                                            class="icon-code"></i><span>Text Editor</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="text-editor.html" title="Text Editor"><i class="icon-code"></i><span>Text Editor</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="file-upload.html" title="File Upload"><i
-                                            class="icon-upload"></i><span>File Upload</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="file-upload.html" title="File Upload"><i class="icon-upload"></i><span>File Upload</span></a>
                             </li>
                         </ul>
                     </li>
@@ -511,12 +449,10 @@
                         </a>
                         <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="table-static.html" title="Table Static"><i
-                                            class="entypo-layout"></i><span>Table Static</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="table-static.html" title="Table Static"><i class="entypo-layout"></i><span>Table Static</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="table-dynamic.html" title="Table Dynamic"><i
-                                            class="entypo-menu"></i><span>Table Dynamic</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="table-dynamic.html" title="Table Dynamic"><i class="entypo-menu"></i><span>Table Dynamic</span></a>
                             </li>
                         </ul>
                     </li>
@@ -525,7 +461,6 @@
                         <a class="tooltip-tip ajax-load" href="map.html" title="Map">
                             <i class="icon-location"></i>
                             <span>Map</span>
-
                         </a>
                     </li>
                 </ul>
@@ -537,16 +472,13 @@
                     </h3>
                     <ul class="side-dashh-list">
                         <li>Avg. Traffic
-                            <span>25k<i style="color:#44BBC1;" class="fa fa-arrow-circle-up"></i>
-                                </span>
+                            <span>25k<i style="color:#44BBC1;" class="fa fa-arrow-circle-up"></i></span>
                         </li>
                         <li>Visitors
-                            <span>80%<i style="color:#AB6DB0;" class="fa fa-arrow-circle-down"></i>
-                                </span>
+                            <span>80%<i style="color:#AB6DB0;" class="fa fa-arrow-circle-down"></i></span>
                         </li>
                         <li>Convertion Rate
-                            <span>13m<i style="color:#19A1F9;" class="fa fa-arrow-circle-up"></i>
-                                </span>
+                            <span>13m<i style="color:#19A1F9;" class="fa fa-arrow-circle-up"></i></span>
                         </li>
                     </ul>
                     <h3>
@@ -578,8 +510,6 @@
 <!--  PAPER WRAP -->
 <div class="wrap-fluid">
     <div class="container-fluid paper-wrap bevel tlbr">
-
-
         <!-- CONTENT -->
         <!--TITLE -->
         <div class="row">
@@ -587,10 +517,8 @@
                 <div class="col-lg-3">
                     <h2 class="tittle-content-header">
                         <i class="icon-window"></i>
-                        <span>Dashboard
-                            </span>
+                        <span>Dashboard</span>
                     </h2>
-
                 </div>
 
                 <div class="col-lg-7">
@@ -603,10 +531,7 @@
                             Welcome back,&nbsp;
                             <strong>Dave mattew!</strong>&nbsp;&nbsp;Your last sig in at Yesterday, 16:54 PM
                         </div>
-
-
                     </div>
-
                 </div>
                 <div class="col-lg-2">
                     <div class="devider-vertical visible-lg"></div>
@@ -620,21 +545,16 @@
                         </button>
                         <ul role="menu" class="dropdown-menu">
                             <li>
-                                <a href="#">
-                                    <span class="entypo-plus-circled margin-iconic"></span>Add New</a>
+                                <a href="#"><span class="entypo-plus-circled margin-iconic"></span>Add New</a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <span class="entypo-heart margin-iconic"></span>Favorite</a>
+                                <a href="#"><span class="entypo-heart margin-iconic"></span>Favorite</a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <span class="entypo-cog margin-iconic"></span>Setting</a>
+                                <a href="#"><span class="entypo-cog margin-iconic"></span>Setting</a>
                             </li>
                         </ul>
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -642,27 +562,19 @@
 
         <!-- BREADCRUMB -->
         <ul id="breadcrumb">
-            <li>
-                <span class="entypo-home"></span>
-            </li>
-            <li><i class="fa fa-lg fa-angle-right"></i>
-            </li>
-            <li><a href="#" title="Sample page 1">Home</a>
-            </li>
-            <li><i class="fa fa-lg fa-angle-right"></i>
-            </li>
-            <li><a href="#" title="Sample page 1">Dashboard</a>
-            </li>
+            <li><span class="entypo-home"></span></li>
+            <li><i class="fa fa-lg fa-angle-right"></i></li>
+            <li><a href="#" title="Sample page 1">Home</a></li>
+            <li><i class="fa fa-lg fa-angle-right"></i></li>
+            <li><a href="#" title="Sample page 1">Dashboard</a></li>
             <li class="pull-right">
                 <div class="input-group input-widget">
-
                     <input style="border-radius:15px" type="text" placeholder="Search..." class="form-control">
                 </div>
             </li>
         </ul>
 
         <!-- END OF BREADCRUMB -->
-
 
         <div id="paper-middle">
             <div id="mapContainer"></div>
@@ -675,8 +587,7 @@
                     <div class="profit" id="profitClose">
                         <div class="headline ">
                             <h3>
-                                    <span>
-                                        <i class="maki-ferry"></i>&#160;&#160;Ferry Arrival</span>
+                                <span><i class="maki-ferry"></i>&#160;&#160;Ferry Arrival</span>
                             </h3>
                             <div class="titleClose">
                                 <a href="#profitClose" class="gone">
@@ -686,15 +597,11 @@
                         </div>
 
                         <div class="value">
-                                <span class="pull-left"><i class="entypo-clock clock-position"></i>
-                                </span>
+                            <span class="pull-left"><i class="entypo-clock clock-position"></i></span>
                             <div id="getting-started">
                                 <span>%M</span>
-
                                 <span>%S</span>
                             </div>
-
-
                         </div>
 
                         <div class="progress-tinny">
@@ -708,10 +615,8 @@
                 <div class="col-lg-3">
                     <div class="revenue" id="revenueClose">
                         <div class="headline ">
-
                             <h3>
-                                    <span>
-                                        <i class="maki-aboveground-rail"></i>&#160;&#160;Train Speed</span>
+                                <span><i class="maki-aboveground-rail"></i>&#160;&#160;Train Speed</span>
                             </h3>
 
                             <div class="titleClose">
@@ -725,7 +630,6 @@
                                 </span>
                             <canvas id="canvas4" width="70" height="70"></canvas>
                             <i class="pull-right">/Km</i>
-
                         </div>
 
 
@@ -741,8 +645,7 @@
                     <div class="order" id="orderClose">
                         <div class="headline ">
                             <h3>
-                                    <span>
-                                        <i class="maki-airport"></i>&#160;&#160;AIR PORT TRAFFIC</span>
+                                <span><i class="maki-airport"></i>&#160;&#160;AIR PORT TRAFFIC</span>
                             </h3>
                             <div class="titleClose">
                                 <a href="#orderClose" class="gone">
@@ -751,9 +654,8 @@
                             </div>
                         </div>
                         <div class="value">
-                                <span><i class="fa fa-plane fa-2x"></i>
-                                </span><b id="speed"></b><b>Take Off</b>
-
+                            <span><i class="fa fa-plane fa-2x"></i></span>
+                            <b id="speed"></b><b>Take Off</b>
                         </div>
 
                         <div class="progress-tinny">
@@ -768,10 +670,10 @@
                     <div class=" member" id="memberClose">
                         <div class="headline ">
                             <h3>
-                                    <span>
-                                        <i class="fa fa-truck"></i>
+                                <span>
+                                    <i class="fa fa-truck"></i>
                                         &#160;&#160;CARGO
-                                    </span>
+                                </span>
                             </h3>
                             <div class="titleClose">
                                 <a href="#memberClose" class="gone">
@@ -780,9 +682,8 @@
                             </div>
                         </div>
                         <div class="value">
-                                <span><i class="maki-warehouse"></i>
-                                </span>45<b>Sent</b>
-
+                            <span><i class="maki-warehouse"></i>
+                            </span>45<b>Sent</b>
                         </div>
                         <div class="progress-tinny">
                             <div style="width: 50%" class="bar"></div>
@@ -795,7 +696,6 @@
             </div>
         </div>
         <!--  / DEVICE MANAGER -->
-
 
         <div class="content-wrap">
             <div class="row">

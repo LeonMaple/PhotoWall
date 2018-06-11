@@ -9,7 +9,6 @@ class LoginController extends Controller
 {
     public function login()
     {
-        var_dump('login');
-        return view('login');
+        return view('admin.login');
     }
 }

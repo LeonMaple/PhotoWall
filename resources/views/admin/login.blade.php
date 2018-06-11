@@ -1,188 +1,96 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>登录</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="{{ URL::asset('admin/login/css/roboto.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('admin/login/bootstrap/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('admin/login/font-awesome/css/font-awesome.min.css') }}">
+		<link rel="stylesheet" href="{{ URL::asset('admin/login/css/form-elements.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('admin/login/css/style.css') }}">
+        <link rel="stylesheet" href="{{ URL::asset('admin/login/css/login.css') }}">
 
-<head>
-    <meta charset="utf-8">
-    <title>TMS终端管理系统 1.3</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="{{ URL::asset('admin/login/js/html5shiv.js') }}"></script>
+            <script src="{{ URL::asset('admin/login/js/respond.min.js') }}"></script>
+        <![endif]-->
 
-    <!-- Le styles -->
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+        <!-- Favicon and touch icons -->
+        <link rel="shortcut icon" href="{{ URL::asset('admin/login/ico/favicon.png') }}">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ URL::asset('admin/login/ico/apple-touch-icon-144-precomposed.png') }}">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ URL::asset('admin/login/ico/apple-touch-icon-114-precomposed.png') }}">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ URL::asset('admin/login/ico/apple-touch-icon-72-precomposed.png') }}">
+        <link rel="apple-touch-icon-precomposed" href="{{ URL::asset('admin/login/ico/apple-touch-icon-57-precomposed.png') }}">
+    </head>
 
-    <!--  <link rel="stylesheet" href="assets/css/style.css"> -->
-    <link rel="stylesheet" href="assets/css/loader-style.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/signin.css">
-
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!-- Fav and touch icons -->
-    <link rel="shortcut icon" href="assets/ico/minus.png">
-</head>
-
-<body>
-<!-- Preloader -->
-<div id="preloader">
-    <div id="status">&nbsp;</div>
-</div>
-
-<div class="container">
-
-
-    <div class="" id="login-wrapper">
-        <div class="row">
-            <div class="col-md-4 col-md-offset-4">
-                <div id="logo-login">
-                    <h1>TMS终端管理系统
-                        <span>v1.3</span>
-                    </h1>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="row">
-            <div class="col-md-4 col-md-offset-4">
-                <div class="account-box">
-                    <form role="form" action="index.html">
-                        <div class="form-group">
-                            <!--a href="#" class="pull-right label-forgot">Forgot email?</a-->
-                            <label for="inputUsernameEmail">用户名</label>
-                            <input type="text" id="inputUsernameEmail" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <!--a href="#" class="pull-right label-forgot">Forgot password?</a-->
-                            <label for="inputPassword">密码</label>
-                            <input type="password" id="inputPassword" class="form-control">
-                        </div>
-                        <div class="checkbox pull-left">
-                            <label>
-                                <input type="checkbox">记住用户名</label>
-                        </div>
-                        <button class="btn btn btn-primary pull-right" type="submit">
-                            登 录
-                        </button>
-                    </form>
-                    <a class="forgotLnk" href="index.html"></a>
-                    <!--div class="or-box">
-
-                        <center><span class="text-center login-with">Login or <b>Sign Up</b></span></center>
-                        <div class="row">
-                            <div class="col-md-6 row-block">
-                                <a href="index.html" class="btn btn-facebook btn-block">
-                                    <span class="entypo-facebook space-icon"></span>Facebook</a>
-                            </div>
-                            <div class="col-md-6 row-block">
-                                <a href="index.html" class="btn btn-twitter btn-block">
-                                    <span class="entypo-twitter space-icon"></span>Twitter</a>
-
-                            </div>
-
-                        </div>
-                        <div style="margin-top:25px" class="row">
-                            <div class="col-md-6 row-block">
-                                <a href="index.html" class="btn btn-google btn-block"><span class="entypo-gplus space-icon"></span>Google +</a>
-                            </div>
-                            <div class="col-md-6 row-block">
-                                <a href="index.html" class="btn btn-instagram btn-block"><span class="entypo-instagrem space-icon"></span>Instagram</a>
-                            </div>
-
+    <body>
+        <!-- Top content -->
+        <div class="top-content">
+            <div class="inner-bg">
+                <div class="container">
+                    <div class="row" style="margin-bottom: 100px;">
+                        <div class="col-sm-8 col-sm-offset-2 text">
+                            {{--<h1><strong>Bootstrap</strong> Login </h1>--}}
+                            {{--<div class="description">--}}
+                            	{{--<p>--}}
+	                            	{{--This is a free responsive login form made with Bootstrap.--}}
+	                            	{{--Download it on <a href="#"><strong>AZMIND</strong></a>, customize and use it as you like!--}}
+                            	{{--</p>--}}
+                            {{--</div>--}}
                         </div>
                     </div>
-                    <hr>
-                    <div class="row-block">
-                        <div class="row">
-                            <div class="col-md-12 row-block">
-                                <a href="index.html" class="btn btn-primary btn-block">Create New Account</a>
-                            </div>
-                        </div>
-                    </div-->
-                    <div class="row-block">
-                        <div class="row">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3 form-box">
+                            <div class="form-bottom">
+			                    <form role="form" action="" method="post" class="login-form">
+			                    	<div class="form-group">
+			                    		<label class="sr-only" for="form-username">用户名</label>
+			                        	<input type="text" name="form-username" placeholder="Username..." class="form-username form-control" id="form-username">
+			                        </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="form-password">密码</label>
+			                        	<input type="password" name="form-password" placeholder="Password..." class="form-password form-control" id="form-password">
+			                        </div>
+			                        <button type="submit" class="btn">登录</button>
+			                    </form>
+		                    </div>
                         </div>
                     </div>
+                    {{--<div class="row">--}}
+                        {{--<div class="col-sm-6 col-sm-offset-3 social-login">--}}
+                        	{{--<h3>...or login with:</h3>--}}
+                        	{{--<div class="social-login-buttons">--}}
+	                        	{{--<a class="btn btn-link-1 btn-link-1-facebook" href="#">--}}
+	                        		{{--<i class="fa fa-facebook"></i> Facebook--}}
+	                        	{{--</a>--}}
+	                        	{{--<a class="btn btn-link-1 btn-link-1-twitter" href="#">--}}
+	                        		{{--<i class="fa fa-twitter"></i> Twitter--}}
+	                        	{{--</a>--}}
+	                        	{{--<a class="btn btn-link-1 btn-link-1-google-plus" href="#">--}}
+	                        		{{--<i class="fa fa-google-plus"></i> Google Plus--}}
+	                        	{{--</a>--}}
+                        	{{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
                 </div>
             </div>
         </div>
-    </div>
+        {{--<div class="copyrights">Collect from </div>--}}
 
-    <p>&nbsp;</p>
-    <div style="text-align:center;margin:0 auto;">
-        <h6 style="color:#fff;">Copyright(C)2014 fjcloudsoft.com All Rights Reserved<br/>
-            福建云软网络科技有限公司 版权所有 闽IP备07021605号</h6>
-    </div>
-
-</div>
-<div id="test1" class="gmap3"></div>
-
-
-<!--  END OF PAPER WRAP -->
-
-
-<!-- MAIN EFFECT -->
-<script type="text/javascript" src="assets/js/preloader.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.js"></script>
-<script type="text/javascript" src="assets/js/app.js"></script>
-<script type="text/javascript" src="assets/js/load.js"></script>
-<script type="text/javascript" src="assets/js/main.js"></script>
-
-<script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
-<script type="text/javascript" src="assets/js/map/gmap3.js"></script>
-<script type="text/javascript">
-    $(function () {
-
-        $("#test1").gmap3({
-            marker: {
-                latLng: [-7.782893, 110.402645],
-                options: {
-                    draggable: true
-                },
-                events: {
-                    dragend: function (marker) {
-                        $(this).gmap3({
-                            getaddress: {
-                                latLng: marker.getPosition(),
-                                callback: function (results) {
-                                    var map = $(this).gmap3("get"),
-                                        infowindow = $(this).gmap3({
-                                            get: "infowindow"
-                                        }),
-                                        content = results && results[1] ? results && results[1].formatted_address : "no address";
-                                    if (infowindow) {
-                                        infowindow.open(map, marker);
-                                        infowindow.setContent(content);
-                                    } else {
-                                        $(this).gmap3({
-                                            infowindow: {
-                                                anchor: marker,
-                                                options: {
-                                                    content: content
-                                                }
-                                            }
-                                        });
-                                    }
-                                }
-                            }
-                        });
-                    }
-                }
-            },
-            map: {
-                options: {
-                    zoom: 15
-                }
-            }
-        });
-
-    });
-</script>
-
-
-</body>
+        <!-- Javascript -->
+        <script src="{{ URL::asset('admin/login/js/jquery-1.11.1.min.js') }}"></script>
+        <script src="{{ URL::asset('admin/login/bootstrap/js/bootstrap.min.js') }}"></script>
+        <script src="{{ URL::asset('admin/login/js/jquery.backstretch.min.js') }}"></script>
+        <script src="{{ URL::asset('admin/login/js/scripts.js') }}"></script>
+        
+        <!--[if lt IE 10]>
+            <script src="{{ URL::asset('admin/login/js/placeholder.js') }}"></script>
+        <![endif]-->
+    </body>
 
 </html>

@@ -15,6 +15,8 @@ class RouteServiceProvider extends ServiceProvider
      * @var string
      */
     protected $namespace = 'App\Http\Controllers';
+    protected $backendNamespace = 'App\Http\Controllers\Admin';
+    protected $frontendNamespace = 'App\Http\Controllers\Home';
 
     /**
      * Define your route model bindings, pattern filters, etc.
@@ -23,8 +25,6 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
-
         parent::boot();
     }
 
@@ -39,7 +39,6 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->mapWebRoutes();
 
-        //
     }
 
     /**
@@ -51,9 +50,31 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected function mapWebRoutes()
     {
-        Route::middleware('web')
-             ->namespace($this->namespace)
-             ->group(base_path('routes/web.php'));
+
+        $url_prefix = explode('.',$_SERVER['HTTP_HOST'])[0];
+
+        $backendUrl = config('route.admin_url');
+        $frontendUrl = config('route.home_url');
+
+        if($url_prefix=='h'){
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/web.php'));
+        }else if($url_prefix=='admin'){
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('Http/route_admin.php'));
+
+//            Route::group([
+//                    'domain' => $backendUrl,
+//                    'namespace' => $this->backendNamespace],
+//                    function ($router) {
+//                        require app_path('Http/route_admin.php');
+//                    }
+//                );
+
+        }
+
     }
 
     /**
