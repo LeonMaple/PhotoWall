@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Apricot 1.3</title>
+    <title>HeLinFeng 1.3</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -14,13 +14,13 @@
     <link rel="stylesheet" href="assets/css/loader-style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
 
-    <link href="assets/js/iCheck/flat/all.css" rel="stylesheet">
-    <link href="assets/js/iCheck/line/all.css" rel="stylesheet">
 
-    <link href="assets/js/colorPicker/bootstrap-colorpicker.css" rel="stylesheet">
-    <link href="assets/js/switch/bootstrap-switch.css" rel="stylesheet">
-    <link href="assets/js/validate/validate.css" rel="stylesheet">
-    <link href="assets/js/idealform/css/jquery.idealforms.css" rel="stylesheet">
+    <link href="assets/js/footable/css/footable.core.css?v=2-0-1" rel="stylesheet" type="text/css">
+    <link href="assets/js/footable/css/footable.standalone.css" rel="stylesheet" type="text/css">
+    <link href="assets/js/footable/css/footable-demos.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="assets/js/dataTable/lib/jquery.dataTables/css/DT_bootstrap.css">
+    <link rel="stylesheet" href="assets/js/dataTable/css/datatables.responsive.css">
 
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -33,7 +33,7 @@
 
 <body>
 <div id="awwwards" class="right black"><a
-            href="http://www.awwwards.com/best-websites/apricot-navigation-admin-dashboard-template" target="_blank">best
+            href="http://www.awwwards.com/best-websites/HeLinFeng-navigation-admin-dashboard-template" target="_blank">best
         websites of the world</a></div>
 <!-- Preloader -->
 <div id="preloader">
@@ -54,7 +54,7 @@
 
 
             <div id="logo-mobile" class="visible-xs">
-                <h1>Apricot<span>v1.3</span></h1>
+                <h1>HeLinFeng<span>v1.0</span></h1>
             </div>
 
         </div>
@@ -230,7 +230,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="http://themeforest.net/item/apricot-navigation-admin-dashboard-template/7664475?WT.ac=category_item&WT.z_author=themesmile">
+                            <a href="http://themeforest.net/item/HeLinFeng-navigation-admin-dashboard-template/7664475?WT.ac=category_item&WT.z_author=themesmile">
                                 <span class="entypo-basket"></span>&#160;&#160; Purchase</a>
                         </li>
                     </ul>
@@ -274,7 +274,7 @@
 <!-- SIDE MENU -->
 <div id="skin-select">
     <div id="logo">
-        <h1>Apricot<span>v1.3</span></h1>
+        <h1>HeLinFeng<span>v1.0</span></h1>
     </div>
 
     <a id="toggle">
@@ -486,7 +486,7 @@
                             <span>Form</span>
                         </a>
                         <ul>
-                            <li class="active">
+                            <li>
                                 <a class="tooltip-tip2 ajax-load" href="form-element.html" title="Form Elements"><i
                                             class="icon-document-edit"></i><span>Form Elements</span></a>
                             </li>
@@ -586,8 +586,8 @@
             <div id="paper-top">
                 <div class="col-sm-3">
                     <h2 class="tittle-content-header">
-                        <i class="icon-document-edit"></i>
-                        <span>Form Element
+                        <span class="entypo-menu"></span>
+                        <span>Table Dynamic
                             </span>
                     </h2>
 
@@ -647,11 +647,11 @@
             </li>
             <li><i class="fa fa-lg fa-angle-right"></i>
             </li>
-            <li><a href="#" title="Sample page 1">Form</a>
+            <li><a href="#" title="Sample page 1">Table</a>
             </li>
             <li><i class="fa fa-lg fa-angle-right"></i>
             </li>
-            <li><a href="#" title="Sample page 1">Form Element</a>
+            <li><a href="#" title="Sample page 1">Table Dynamic</a>
             </li>
             <li class="pull-right">
                 <div class="input-group input-widget">
@@ -669,53 +669,161 @@
 
 
                 <div class="col-sm-12">
-                    <div class="nest" id="basicClose">
+
+                    <div class="nest" id="FootableClose">
                         <div class="title-alt">
-                            <h6>Basic</h6>
+                            <h6>
+                                Footable paginate</h6>
                             <div class="titleClose">
-                                <a class="gone" href="#basicClose">
+                                <a class="gone" href="#FootableClose">
                                     <span class="entypo-cancel"></span>
                                 </a>
                             </div>
                             <div class="titleToggle">
-                                <a class="nav-toggle-alt" href="#basic">
+                                <a class="nav-toggle-alt" href="#Footable">
                                     <span class="entypo-up-open"></span>
                                 </a>
                             </div>
 
                         </div>
 
-                        <div class="body-nest" id="basic">
-                            <div class="form_center">
-                                <form role="form">
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1">Email address</label>
-                                        <input type="email" placeholder="Enter email" id="exampleInputEmail1"
-                                               class="form-control">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputPassword1">Password</label>
-                                        <input type="password" placeholder="Password" id="exampleInputPassword1"
-                                               class="form-control">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputFile">File input</label>
-                                        <input type="file" id="exampleInputFile">
-                                        <p class="help-block">Example block-level help text here.</p>
-                                    </div>
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox">Check me out
-                                        </label>
-                                    </div>
-                                    <button class="btn btn-info" type="submit">Submit</button>
-                                </form>
-                            </div>
+                        <div class="body-nest" id="Footable">
 
+                            <p class="lead well">FooTable is a jQuery plugin that aims to make HTML tables on smaller
+                                devices look awesome - No matter how many columns of data you may have in them. And it's
+                                responsive i think this better than DataTable in some way</p>
+
+                            <table class="table-striped footable-res footable metro-blue" data-page-size="6">
+                                <thead>
+                                <tr>
+                                    <th>
+                                        First Name
+                                    </th>
+                                    <th>
+                                        Last Name
+                                    </th>
+                                    <th data-hide="phone,tablet">
+                                        Job Title
+                                    </th>
+                                    <th data-hide="phone,tablet">
+                                        DOB
+                                    </th>
+                                    <th data-hide="phone">
+                                        Status
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Isidra</td>
+                                    <td><a href="#">Boudreaux</a>
+                                    </td>
+                                    <td>Traffic Court Referee</td>
+                                    <td data-value="78025368997">22 Jun 1972</td>
+                                    <td data-value="1">
+                                        <span class="status-metro status-active" title="Active">Active</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Shona</td>
+                                    <td>Woldt</td>
+                                    <td><a href="#">Airline Transport Pilot</a>
+                                    </td>
+                                    <td data-value="370961043292">3 Oct 1981</td>
+                                    <td data-value="2">
+                                        <span class="status-metro status-disabled" title="Disabled">Disabled</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Granville</td>
+                                    <td>Leonardo</td>
+                                    <td>Business Services Sales Representative</td>
+                                    <td data-value="-22133780420">19 Apr 1969</td>
+                                    <td data-value="3">
+                                        <span class="status-metro status-suspended" title="Suspended">Suspended</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Easer</td>
+                                    <td>Dragoo</td>
+                                    <td>Drywall Stripper</td>
+                                    <td data-value="250833505574">13 Dec 1977</td>
+                                    <td data-value="1">
+                                        <span class="status-metro status-active" title="Active">Active</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Maple</td>
+                                    <td>Halladay</td>
+                                    <td>Aviation Tactical Readiness Officer</td>
+                                    <td data-value="694116650726">30 Dec 1991</td>
+                                    <td data-value="3">
+                                        <span class="status-metro status-suspended" title="Suspended">Suspended</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Maxine</td>
+                                    <td><a href="#">Woldt</a>
+                                    </td>
+                                    <td><a href="#">Business Services Sales Representative</a>
+                                    </td>
+                                    <td data-value="561440464855">17 Oct 1987</td>
+                                    <td data-value="2">
+                                        <span class="status-metro status-disabled" title="Disabled">Disabled</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lorraine</td>
+                                    <td>Mcgaughy</td>
+                                    <td>Hemodialysis Technician</td>
+                                    <td data-value="437400551390">11 Nov 1983</td>
+                                    <td data-value="2">
+                                        <span class="status-metro status-disabled" title="Disabled">Disabled</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lizzee</td>
+                                    <td><a href="#">Goodlow</a>
+                                    </td>
+                                    <td>Technical Services Librarian</td>
+                                    <td data-value="-257733999319">1 Nov 1961</td>
+                                    <td data-value="3">
+                                        <span class="status-metro status-suspended" title="Suspended">Suspended</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Judi</td>
+                                    <td>Badgett</td>
+                                    <td>Electrical Lineworker</td>
+                                    <td data-value="362134712000">23 Jun 1981</td>
+                                    <td data-value="1">
+                                        <span class="status-metro status-active" title="Active">Active</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lauri</td>
+                                    <td>Hyland</td>
+                                    <td>Blackjack Supervisor</td>
+                                    <td data-value="500874333932">15 Nov 1985</td>
+                                    <td data-value="3">
+                                        <span class="status-metro status-suspended" title="Suspended">Suspended</span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                                <tfoot>
+                                <tr>
+                                    <td colspan="5">
+                                        <div class="pagination pagination-centered"></div>
+                                    </td>
+                                </tr>
+                                </tfoot>
+                            </table>
 
                         </div>
 
                     </div>
+
+
                 </div>
 
             </div>
@@ -725,420 +833,177 @@
         <div class="content-wrap">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="nest" id="horizontalClose">
+                    <div class="nest" id="FilteringClose">
                         <div class="title-alt">
                             <h6>
-                                Horizontal Forms</h6>
+                                Footable Filtering</h6>
                             <div class="titleClose">
-                                <a class="gone" href="#horizontalClose">
+                                <a class="gone" href="#FilteringClose">
                                     <span class="entypo-cancel"></span>
                                 </a>
                             </div>
                             <div class="titleToggle">
-                                <a class="nav-toggle-alt" href="#horizontal">
+                                <a class="nav-toggle-alt" href="#Filtering">
                                     <span class="entypo-up-open"></span>
                                 </a>
                             </div>
 
                         </div>
 
-                        <div class="body-nest" id="horizontal">
+                        <div class="body-nest" id="Filtering">
 
-                            <div class="form_center">
-                                <form role="form" class="form-horizontal">
-                                    <div class="form-group">
-                                        <label class="col-lg-2 col-sm-2 control-label" for="inputEmail1">Email</label>
-                                        <div class="col-lg-10">
-                                            <input type="email" placeholder="Email" id="inputEmail1"
-                                                   class="form-control">
-                                            <p class="help-block">Example block-level help text here.</p>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-lg-2 col-sm-2 control-label"
-                                               for="inputPassword1">Password</label>
-                                        <div class="col-lg-10">
-                                            <input type="password" placeholder="Password" id="inputPassword1"
-                                                   class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-lg-offset-2 col-lg-10">
-                                            <div class="checkbox">
-                                                <label>
-                                                    <input type="checkbox">Remember me
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-lg-offset-2 col-lg-10">
-                                            <button class="btn btn-danger" type="submit">Sign in</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="content-wrap">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="nest" id="inlineClose">
-                        <div class="title-alt">
-                            <h6>
-                                Inline form</h6>
-                            <div class="titleClose">
-                                <a class="gone" href="#inlineClose">
-                                    <span class="entypo-cancel"></span>
-                                </a>
-                            </div>
-                            <div class="titleToggle">
-                                <a class="nav-toggle-alt" href="#inline">
-                                    <span class="entypo-up-open"></span>
-                                </a>
-                            </div>
-
-                        </div>
-
-                        <div class="body-nest" id="inline">
-
-                            <div class="form_center">
-                                <form role="form" class="form-inline">
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail2" class="sr-only">Email address</label>
-                                        <input type="email" placeholder="Enter email" id="exampleInputEmail2"
-                                               class="form-control">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputPassword2" class="sr-only">Password</label>
-                                        <input type="password" placeholder="Password" id="exampleInputPassword2"
-                                               class="form-control">
-                                    </div>
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox">Remember me
-                                        </label>
-                                    </div>
-                                    <button class="btn btn-success" type="submit">Sign in</button>
-                                </form>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="content-wrap">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="nest" id="elementClose">
-                        <div class="title-alt">
-                            <h6>
-                                Form Elements</h6>
-                            <div class="titleClose">
-                                <a class="gone" href="#elementClose">
-                                    <span class="entypo-cancel"></span>
-                                </a>
-                            </div>
-                            <div class="titleToggle">
-                                <a class="nav-toggle-alt" href="#element">
-                                    <span class="entypo-up-open"></span>
-                                </a>
-                            </div>
-
-                        </div>
-
-                        <div class="body-nest" id="element">
-
-                            <div class="panel-body">
-                                <form method="get" class="form-horizontal bucket-form">
-                                    <div class="form-group">
-                                        <label class="col-sm-3 control-label">Default</label>
-                                        <div class="col-sm-6">
-                                            <input type="text" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-sm-3 control-label">Help text</label>
-                                        <div class="col-sm-6">
-                                            <input type="text" class="form-control">
-                                            <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-sm-3 control-label">Rounder</label>
-                                        <div class="col-sm-6">
-                                            <input type="text" class="form-control round-input">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-sm-3 control-label">Input focus</label>
-                                        <div class="col-sm-6">
-                                            <input type="text" value="This is focused..." id="focusedInput"
-                                                   class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-sm-3 control-label">Disabled</label>
-                                        <div class="col-sm-6">
-                                            <input type="text" disabled="" placeholder="Disabled input here..."
-                                                   id="disabledInput" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-sm-3 control-label">Placeholder</label>
-                                        <div class="col-sm-6">
-                                            <input type="text" placeholder="placeholder" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="col-sm-3 control-label">Password</label>
-                                        <div class="col-sm-6">
-                                            <input type="password" placeholder="" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class=" col-sm-3 control-label">Static control</label>
-                                        <div class="col-lg-6">
-                                            <p class="form-control-static">email@example.com
-                                                <script type="text/javascript">
-                                                    /* &lt;![CDATA[ */
-                                                    (function () {
-                                                        try {
-                                                            var s, a, i, j, r, c, l,
-                                                                b = document.getElementsByTagName("script");
-                                                            l = b[b.length - 1].previousSibling;
-                                                            a = l.getAttribute('data-cfemail');
-                                                            if (a) {
-                                                                s = '';
-                                                                r = parseInt(a.substr(0, 2), 16);
-                                                                for (j = 2; a.length - j; j += 2) {
-                                                                    c = parseInt(a.substr(j, 2), 16) ^ r;
-                                                                    s += String.fromCharCode(c);
-                                                                }
-                                                                s = document.createTextNode(s);
-                                                                l.parentNode.replaceChild(s, l);
-                                                            }
-                                                        } catch (e) {
-                                                        }
-                                                    })();
-                                                    /* ]]&gt; */
-                                                </script>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="form-group has-success">
-                                        <label for="inputSuccess" class="col-sm-3 control-label col-lg-3">Input with
-                                            success</label>
-                                        <div class="col-lg-6">
-                                            <input type="text" id="inputSuccess" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="form-group has-warning">
-                                        <label for="inputWarning" class="col-sm-3 control-label col-lg-3">Input with
-                                            warning</label>
-                                        <div class="col-lg-6">
-                                            <input type="text" id="inputWarning" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="form-group has-error">
-                                        <label for="inputError" class="col-sm-3 control-label col-lg-3">Input with
-                                            error</label>
-                                        <div class="col-lg-6">
-                                            <input type="text" id="inputError" class="form-control">
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="content-wrap">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="nest" id="labelClose">
-                        <div class="title-alt">
-                            <h6>
-                                Checkbox and radio Button Pretty</h6>
-                            <div class="titleClose">
-                                <a class="gone" href="#labelClose">
-                                    <span class="entypo-cancel"></span>
-                                </a>
-                            </div>
-                            <div class="titleToggle">
-                                <a class="nav-toggle-alt" href="#label">
-                                    <span class="entypo-up-open"></span>
-                                </a>
-                            </div>
-
-                        </div>
-
-                        <div class="body-nest" id="label">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="skin skin-flat">
-
-                                        <ul class="list">
-                                            <li>
-                                                <input tabindex="13" type="checkbox" id="flat-checkbox-1">
-                                                <label for="flat-checkbox-1">Checkbox 1</label>
-                                            </li>
-                                            <li>
-                                                <input tabindex="14" type="checkbox" id="flat-checkbox-2" checked="">
-                                                <label for="flat-checkbox-2">Checkbox 2</label>
-                                            </li>
-                                            <li>
-                                                <input type="checkbox" id="flat-checkbox-disabled" disabled="">
-                                                <label for="flat-checkbox-disabled">Disabled</label>
-                                            </li>
-                                            <li>
-                                                <input type="checkbox" id="flat-checkbox-disabled-checked" checked=""
-                                                       disabled="">
-                                                <label for="flat-checkbox-disabled-checked">Disabled &amp;
-                                                    checked</label>
-                                            </li>
-                                        </ul>
-                                        <ul class="list">
-                                            <li>
-                                                <input tabindex="11" type="radio" id="square-radio-1"
-                                                       name="square-radio">
-                                                <label for="square-radio-1">Radio button 1</label>
-                                            </li>
-                                            <li>
-                                                <input tabindex="12" type="radio" id="square-radio-2"
-                                                       name="square-radio" checked="">
-                                                <label for="square-radio-2">Radio button 2</label>
-                                            </li>
-                                            <li>
-                                                <input type="radio" id="square-radio-disabled" disabled="">
-                                                <label for="square-radio-disabled">Disabled</label>
-                                            </li>
-                                            <li>
-                                                <input type="radio" id="square-radio-disabled-checked" checked=""
-                                                       disabled="">
-                                                <label for="square-radio-disabled-checked">Disabled &amp;
-                                                    checked</label>
-                                            </li>
-                                        </ul>
-                                        <div style="clear:both;"></div>
-                                    </div>
+                            <div class="row" style="margin-bottom:10px;">
+                                <div class="col-sm-4">
+                                    <input class="form-control" id="filter" placeholder="Search..." type="text">
                                 </div>
-
+                                <div class="col-sm-2">
+                                    <select class="filter-status form-control">
+                                        <option value="active">Active
+                                        <option value="disabled">Disabled
+                                        <option value="suspended">Suspended
+                                    </select>
+                                </div>
                                 <div class="col-sm-6">
-                                    <div class="skin skin-line">
-                                        <ul class="list">
-                                            <li>
-                                                <input tabindex="17" type="checkbox" id="line-checkbox-1">
-                                                <label for="line-checkbox-1">Checkbox 1</label>
-                                            </li>
-                                            <li>
-                                                <input tabindex="18" type="checkbox" id="line-checkbox-2" checked="">
-                                                <label for="line-checkbox-2">Checkbox 2</label>
-                                            </li>
-                                            <li>
-                                                <input type="checkbox" id="line-checkbox-disabled" disabled="">
-                                                <label for="line-checkbox-disabled">Disabled</label>
-                                            </li>
-                                            <li>
-                                                <input type="checkbox" id="line-checkbox-disabled-checked" checked=""
-                                                       disabled="">
-                                                <label for="line-checkbox-disabled-checked">Disabled &amp;
-                                                    checked</label>
-                                            </li>
-                                        </ul>
-                                        <ul class="list">
-                                            <li>
-                                                <input tabindex="19" type="radio" id="line-radio-1" name="line-radio">
-                                                <label for="line-radio-1">Radio button 1</label>
-                                            </li>
-                                            <li>
-                                                <input tabindex="20" type="radio" id="line-radio-2" name="line-radio"
-                                                       checked="">
-                                                <label for="line-radio-2">Radio button 2</label>
-                                            </li>
-                                            <li>
-                                                <input type="radio" id="line-radio-disabled" disabled="">
-                                                <label for="line-radio-disabled">Disabled</label>
-                                            </li>
-                                            <li>
-                                                <input type="radio" id="line-radio-disabled-checked" checked=""
-                                                       disabled="">
-                                                <label for="line-radio-disabled-checked">Disabled &amp; checked</label>
-                                            </li>
-                                        </ul>
-                                        <div style="clear:both;"></div>
-                                    </div>
+
+                                    <a href="#clear" style="margin-left:10px;"
+                                       class="pull-right btn btn-info clear-filter" title="clear filter">clear</a>
+                                    <a href="#api" class="pull-right btn btn-info filter-api"
+                                       title="Filter using the Filter API">filter API</a>
+
+
                                 </div>
 
                             </div>
 
+                            <table id="footable-res2" class="demo" data-filter="#filter" data-filter-text-only="true">
+                                <thead>
+                                <tr>
+                                    <th data-toggle="true">
+                                        First Name
+                                    </th>
+                                    <th>
+                                        Last Name
+                                    </th>
+                                    <th data-hide="phone,tablet">
+                                        Job Title
+                                    </th>
+                                    <th data-hide="phone,tablet">
+                                        DOB
+                                    </th>
+                                    <th data-hide="phone">
+                                        Status
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Isidra</td>
+                                    <td><a href="#">Boudreaux</a>
+                                    </td>
+                                    <td>Traffic Court Referee</td>
+                                    <td data-value="78025368997">22 Jun 1972</td>
+                                    <td data-value="1">
+                                        <span class="status-metro status-active" title="Active">Active</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Shona</td>
+                                    <td>Woldt</td>
+                                    <td><a href="#">Airline Transport Pilot</a>
+                                    </td>
+                                    <td data-value="370961043292">3 Oct 1981</td>
+                                    <td data-value="2">
+                                        <span class="status-metro status-disabled" title="Disabled">Disabled</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Granville</td>
+                                    <td>Leonardo</td>
+                                    <td>Business Services Sales Representative</td>
+                                    <td data-value="-22133780420">19 Apr 1969</td>
+                                    <td data-value="3">
+                                        <span class="status-metro status-suspended" title="Suspended">Suspended</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Easer</td>
+                                    <td>Dragoo</td>
+                                    <td>Drywall Stripper</td>
+                                    <td data-value="250833505574">13 Dec 1977</td>
+                                    <td data-value="1">
+                                        <span class="status-metro status-active" title="Active">Active</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Maple</td>
+                                    <td>Halladay</td>
+                                    <td>Aviation Tactical Readiness Officer</td>
+                                    <td data-value="694116650726">30 Dec 1991</td>
+                                    <td data-value="3">
+                                        <span class="status-metro status-suspended" title="Suspended">Suspended</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Maxine</td>
+                                    <td><a href="#">Woldt</a>
+                                    </td>
+                                    <td><a href="#">Business Services Sales Representative</a>
+                                    </td>
+                                    <td data-value="561440464855">17 Oct 1987</td>
+                                    <td data-value="2">
+                                        <span class="status-metro status-disabled" title="Disabled">Disabled</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lorraine</td>
+                                    <td>Mcgaughy</td>
+                                    <td>Hemodialysis Technician</td>
+                                    <td data-value="437400551390">11 Nov 1983</td>
+                                    <td data-value="2">
+                                        <span class="status-metro status-disabled" title="Disabled">Disabled</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lizzee</td>
+                                    <td><a href="#">Goodlow</a>
+                                    </td>
+                                    <td>Technical Services Librarian</td>
+                                    <td data-value="-257733999319">1 Nov 1961</td>
+                                    <td data-value="3">
+                                        <span class="status-metro status-suspended" title="Suspended">Suspended</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Judi</td>
+                                    <td>Badgett</td>
+                                    <td>Electrical Lineworker</td>
+                                    <td data-value="362134712000">23 Jun 1981</td>
+                                    <td data-value="1">
+                                        <span class="status-metro status-active" title="Active">Active</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Lauri</td>
+                                    <td>Hyland</td>
+                                    <td>Blackjack Supervisor</td>
+                                    <td data-value="500874333932">15 Nov 1985</td>
+                                    <td data-value="3">
+                                        <span class="status-metro status-suspended" title="Suspended">Suspended</span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+
                         </div>
+
                     </div>
+
+
                 </div>
+
             </div>
         </div>
 
-
-        <div class="content-wrap">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="nest" id="switchClose">
-                        <div class="title-alt">
-                            <h6>
-                                switch</h6>
-                            <div class="titleClose">
-                                <a class="gone" href="#switchClose">
-                                    <span class="entypo-cancel"></span>
-                                </a>
-                            </div>
-                            <div class="titleToggle">
-                                <a class="nav-toggle-alt" href="#switch">
-                                    <span class="entypo-up-open"></span>
-                                </a>
-                            </div>
-
-                        </div>
-
-                        <div class="body-nest" id="switch">
-
-                            <div class="make-switch" data-on="primary" data-off="info">
-                                <input type="checkbox" checked="">
-                            </div>
-                            <div class="make-switch" data-on="info" data-off="success">
-                                <input type="checkbox" checked="">
-                            </div>
-                            <div class="make-switch" data-on="success" data-off="warning">
-                                <input type="checkbox" checked="">
-                            </div>
-                            <div class="make-switch" data-on="warning" data-off="danger">
-                                <input type="checkbox" checked="">
-                            </div>
-                            <div class="make-switch" data-on="danger" data-off="default">
-                                <input type="checkbox" checked="">
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- /END OF CONTENT -->
 
 
@@ -1162,6 +1027,7 @@
     </div>
 </div>
 <!--  END OF PAPER WRAP -->
+
 <!-- RIGHT SLIDER CONTENT -->
 <div class="sb-slidebar sb-right">
     <div class="right-wrapper">
@@ -1314,35 +1180,60 @@
 
 
 <!-- /MAIN EFFECT -->
-<script type="text/javascript" src="assets/js/iCheck/jquery.icheck.js"></script>
-<script type="text/javascript" src="assets/js/switch/bootstrap-switch.js"></script>
+<!-- GAGE -->
+<script type="text/javascript" src="assets/js/toggle_close.js"></script>
+<script src="assets/js/footable/js/footable.js?v=2-0-1" type="text/javascript"></script>
+<script src="assets/js/footable/js/footable.sort.js?v=2-0-1" type="text/javascript"></script>
+<script src="assets/js/footable/js/footable.filter.js?v=2-0-1" type="text/javascript"></script>
+<script src="assets/js/footable/js/footable.paginate.js?v=2-0-1" type="text/javascript"></script>
+<script src="assets/js/footable/js/footable.paginate.js?v=2-0-1" type="text/javascript"></script>
 
-<!--  PLUGIN -->
-<script>
-    $(document).ready(function () {
-        //CHECKBOX PRETTYFY
-        $('.skin-flat input').iCheck({
-            checkboxClass: 'icheckbox_flat-red',
-            radioClass: 'iradio_flat-red'
-        });
-        $('.skin-line input').each(function () {
-            var self = $(this),
-                label = self.next(),
-                label_text = label.text();
 
-            label.remove();
-            self.iCheck({
-                checkboxClass: 'icheckbox_line-blue',
-                radioClass: 'iradio_line-blue',
-                insert: '<div class="icheck_line-icon"></div>' + label_text
-            });
-        });
-        //Switch Button
-
-        $('.make-switch').bootstrapSwitch('setSizeClass', 'switch-small');
+<script type="text/javascript">
+    $(function () {
+        $('.footable-res').footable();
     });
 </script>
+<script type="text/javascript">
+    $(function () {
+        $('#footable-res2').footable().bind('footable_filtering', function (e) {
+            var selected = $('.filter-status').find(':selected').text();
+            if (selected && selected.length > 0) {
+                e.filter += (e.filter && e.filter.length > 0) ? ' ' + selected : selected;
+                e.clear = !e.filter;
+            }
+        });
 
+        $('.clear-filter').click(function (e) {
+            e.preventDefault();
+            $('.filter-status').val('');
+            $('table.demo').trigger('footable_clear_filter');
+        });
+
+        $('.filter-status').change(function (e) {
+            e.preventDefault();
+            $('table.demo').trigger('footable_filter', {
+                filter: $('#filter').val()
+            });
+        });
+
+        $('.filter-api').click(function (e) {
+            e.preventDefault();
+
+            //get the footable filter object
+            var footableFilter = $('table').data('footable-filter');
+
+            alert('about to filter table by "tech"');
+            //filter by 'tech'
+            footableFilter.filter('tech');
+
+            //clear the filter
+            if (confirm('clear filter now?')) {
+                footableFilter.clearFilter();
+            }
+        });
+    });
+</script>
 
 </body>
 

@@ -3,32 +3,29 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Apricot 1.3</title>
+    <title>HeLinFeng v 1.2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Le styles -->
-    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="{{ URL::asset('admin/js/jquery.js') }}"></script>
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/loader-style.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-
-    <link rel="stylesheet" href="assets/css/extra-pages.css">
-
+    <link rel="stylesheet" href="{{ URL::asset('admin/css/style.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('admin/css/loader-style.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('admin/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('admin/css/media.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('admin/css/social.css') }}">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <!--<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <!-- Fav and touch icons -->
-    <link rel="shortcut icon" href="assets/ico/minus.png">
+    <link rel="shortcut icon" href="{{ URL::asset('admin/ico/minus.png') }}">
 </head>
 
 <body>
-<div id="awwwards" class="right black"><a
-            href="http://www.awwwards.com/best-websites/apricot-navigation-admin-dashboard-template" target="_blank">best
-        websites of the world</a></div>
+<div id="awwwards" class="right black"><a href="" target="_blank">best websites of the world</a></div>
 <!-- Preloader -->
 <div id="preloader">
     <div id="status">&nbsp;</div>
@@ -38,70 +35,54 @@
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" class="navbar-toggle"
-                    type="button">
+            <button data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" class="navbar-toggle" type="button">
                 <span class="entypo-menu"></span>
             </button>
             <button class="navbar-toggle toggle-menu-mobile toggle-left" type="button">
                 <span class="entypo-list-add"></span>
             </button>
-
-
             <div id="logo-mobile" class="visible-xs">
-                <h1>Apricot<span>v1.3</span></h1>
+                <h1>HeLinFeng<span>v1.0</span></h1>
             </div>
-
         </div>
-
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
 
                 <li class="dropdown">
-
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i style="font-size:20px;"
-                                                                                  class="icon-conversation"></i>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i style="font-size:20px;" class="icon-conversation"></i>
                         <div class="noft-red">23</div>
                     </a>
-
 
                     <ul style="margin: 11px 0 0 9px;" role="menu" class="dropdown-menu dropdown-wrap">
                         <li>
                             <a href="#">
-                                <img alt="" class="img-msg img-circle"
-                                     src="http://api.randomuser.me/portraits/thumb/men/1.jpg">Jhon Doe <b>Just Now</b>
+                                <img alt="" class="img-msg img-circle" src="http://api.randomuser.me/portraits/thumb/men/1.jpg">Jhon Doe <b>Just Now</b>
                             </a>
                         </li>
                         <li class="divider"></li>
                         <li>
                             <a href="#">
-                                <img alt="" class="img-msg img-circle"
-                                     src="http://api.randomuser.me/portraits/thumb/women/1.jpg">Jeniffer <b>3 Min
-                                    Ago</b>
+                                <img alt="" class="img-msg img-circle" src="http://api.randomuser.me/portraits/thumb/women/1.jpg">Jeniffer <b>3 Min Ago</b>
                             </a>
                         </li>
                         <li class="divider"></li>
                         <li>
                             <a href="#">
-                                <img alt="" class="img-msg img-circle"
-                                     src="http://api.randomuser.me/portraits/thumb/men/2.jpg">Dave <b>2 Hours Ago</b>
+                                <img alt="" class="img-msg img-circle" src="http://api.randomuser.me/portraits/thumb/men/2.jpg">Dave <b>2 Hours Ago</b>
                             </a>
                         </li>
                         <li class="divider"></li>
                         <li>
                             <a href="#">
-                                <img alt="" class="img-msg img-circle"
-                                     src="http://api.randomuser.me/portraits/thumb/men/3.jpg"><i>Keanu</i> <b>1 Day
-                                    Ago</b>
+                                <img alt="" class="img-msg img-circle" src="http://api.randomuser.me/portraits/thumb/men/3.jpg"><i>Keanu</i> <b>1 Day Ago</b>
                             </a>
                         </li>
                         <li class="divider"></li>
                         <li>
                             <a href="#">
-                                <img alt="" class="img-msg img-circle"
-                                     src="http://api.randomuser.me/portraits/thumb/men/4.jpg"><i>Masashi</i> <b>2 Mounth
-                                    Ago</b>
+                                <img alt="" class="img-msg img-circle" src="http://api.randomuser.me/portraits/thumb/men/4.jpg"><i>Masashi</i> <b>2 Mounth Ago</b>
                             </a>
                         </li>
                         <li class="divider"></li>
@@ -112,8 +93,7 @@
                 </li>
                 <li>
 
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i style="font-size:19px;"
-                                                                                  class="icon-warning tooltitle"></i>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i style="font-size:19px;" class="icon-warning tooltitle"></i>
                         <div class="noft-green">5</div>
                     </a>
                     <ul style="margin: 12px 0 0 0;" role="menu" class="dropdown-menu dropdown-wrap">
@@ -133,8 +113,7 @@
                         <li class="divider"></li>
                         <li>
                             <a href="#">
-                                <span style="background:#FFA200" class="noft-icon maki-aboveground-rail"></span><i>Delay
-                                    for</i> <b>09 Min</b>
+                                <span style="background:#FFA200" class="noft-icon maki-aboveground-rail"></span><i>Delay for</i> <b>09 Min</b>
                             </a>
                         </li>
                         <li class="divider"></li>
@@ -157,8 +136,7 @@
                         </li>
                     </ul>
                 </li>
-                <li><a href="#"><i data-toggle="tooltip" data-placement="bottom" title="Help" style="font-size:20px;"
-                                   class="icon-help tooltitle"></i></a>
+                <li><a href="#"><i data-toggle="tooltip" data-placement="bottom" title="Help" style="font-size:20px;" class="icon-help tooltitle"></i></a>
                 </li>
 
             </ul>
@@ -166,8 +144,6 @@
                 <ul class="date-top">
                     <li class="entypo-calendar" style="margin-right:5px"></li>
                     <li id="Date"></li>
-
-
                 </ul>
 
                 <ul id="digital-clock" class="digital">
@@ -205,35 +181,27 @@
             <ul style="margin-right:0;" class="nav navbar-nav navbar-right">
                 <li>
                     <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                        <img alt="" class="admin-pic img-circle"
-                             src="http://api.randomuser.me/portraits/thumb/men/10.jpg">Hi, Dave Mattew <b
-                                class="caret"></b>
+                        <img alt="" class="admin-pic img-circle" src="http://api.randomuser.me/portraits/thumb/men/10.jpg">Hi, Dave Mattew <b class="caret"></b>
                     </a>
                     <ul style="margin-top:14px;" role="menu" class="dropdown-setting dropdown-menu">
                         <li>
-                            <a href="#">
-                                <span class="entypo-user"></span>&#160;&#160;My Profile</a>
+                            <a href="#"><span class="entypo-user"></span>&#160;&#160;My Profile</a>
                         </li>
                         <li>
-                            <a href="#">
-                                <span class="entypo-vcard"></span>&#160;&#160;Account Setting</a>
+                            <a href="#"><span class="entypo-vcard"></span>&#160;&#160;Account Setting</a>
                         </li>
                         <li>
-                            <a href="#">
-                                <span class="entypo-lifebuoy"></span>&#160;&#160;Help</a>
+                            <a href="#"><span class="entypo-lifebuoy"></span>&#160;&#160;Help</a>
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="http://themeforest.net/item/apricot-navigation-admin-dashboard-template/7664475?WT.ac=category_item&WT.z_author=themesmile">
-                                <span class="entypo-basket"></span>&#160;&#160; Purchase</a>
+                            <a href="http://themeforest.net/item/HeLinFeng-navigation-admin-dashboard-template/7664475?WT.ac=category_item&WT.z_author=themesmile"><span class="entypo-basket"></span>&#160;&#160; Purchase</a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                        <span class="icon-gear"></span>&#160;&#160;Setting</a>
+                    <a data-toggle="dropdown" class="dropdown-toggle" href="#"><span class="icon-gear"></span>&#160;&#160;Setting</a>
                     <ul role="menu" class="dropdown-setting dropdown-menu">
-
                         <li class="theme-bg">
                             <div id="button-bg"></div>
                             <div id="button-bg2"></div>
@@ -258,17 +226,12 @@
             </ul>
 
         </div>
-        <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container-fluid -->
 </nav>
 
-<!-- /END OF TOP NAVBAR -->
-
-<!-- SIDE MENU -->
 <div id="skin-select">
     <div id="logo">
-        <h1>Apricot<span>v1.3</span></h1>
+        <h1>HeLinFeng<span>v1.0</span></h1>
     </div>
 
     <a id="toggle">
@@ -277,8 +240,7 @@
     <div class="dark">
         <form action="#">
                 <span>
-                    <input type="text" name="search" value="" class="search rounded id_search"
-                           placeholder="Search Menu..." autofocus="">
+                    <input type="text" name="search" value="" class="search rounded id_search" placeholder="Search Menu..." autofocus="">
                 </span>
         </form>
     </div>
@@ -289,16 +251,22 @@
         </form>
     </div>
 
+
+    <div class="search-hover">
+        <form id="demo-2">
+            <input type="search" placeholder="Search Menu..." class="id_search">
+        </form>
+    </div>
+
+
     <div class="skin-part">
         <div id="tree-wrap">
             <div class="side-bar">
                 <ul class="topnav menu-left-nest">
                     <li>
                         <a href="#" style="border-left:0px solid!important;" class="title-menu-left">
-
                             <span class="widget-menu"></span>
                             <i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i>
-
                         </a>
                     </li>
 
@@ -306,16 +274,13 @@
                         <a class="tooltip-tip ajax-load" href="#" title="Blog App">
                             <i class="icon-document-edit"></i>
                             <span>Blog App</span>
-
                         </a>
                         <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="blog-list.html" title="Blog List"><i
-                                            class="entypo-doc-text"></i><span>Blog List</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="blog-list.html" title="Blog List"><i class="entypo-doc-text"></i><span>Blog List</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="blog-detail.html" title="Blog Detail"><i
-                                            class="entypo-newspaper"></i><span>Blog Details</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="blog-detail.html" title="Blog Detail"><i class="entypo-newspaper"></i><span>Blog Details</span></a>
                             </li>
                         </ul>
                     </li>
@@ -323,14 +288,12 @@
                         <a class="tooltip-tip ajax-load" href="social.html" title="Social">
                             <i class="icon-feed"></i>
                             <span>Social</span>
-
                         </a>
                     </li>
                     <li>
                         <a class="tooltip-tip ajax-load" href="media.html" title="Media">
                             <i class="icon-camera"></i>
                             <span>Media</span>
-
                         </a>
                     </li>
                 </ul>
@@ -338,10 +301,8 @@
                 <ul class="topnav menu-left-nest">
                     <li>
                         <a href="#" style="border-left:0px solid!important;" class="title-menu-left">
-
                             <span class="design-kit"></span>
                             <i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i>
-
                         </a>
                     </li>
 
@@ -349,7 +310,6 @@
                         <a class="tooltip-tip ajax-load" href="index.html" title="Dashboard">
                             <i class="icon-window"></i>
                             <span>Dashboard</span>
-
                         </a>
                     </li>
                     <li>
@@ -375,36 +335,28 @@
                         </a>
                         <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="blank_page.html" title="Blank Page"><i
-                                            class="icon-media-record"></i><span>Blank Page</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="blank_page.html" title="Blank Page"><i class="icon-media-record"></i><span>Blank Page</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="profile.html" title="Profile Page"><i
-                                            class="icon-user"></i><span>Profile Page</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="profile.html" title="Profile Page"><i class="icon-user"></i><span>Profile Page</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="invoice.html" title="Invoice"><i
-                                            class="entypo-newspaper"></i><span>Invoice</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="invoice.html" title="Invoice"><i class="entypo-newspaper"></i><span>Invoice</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="pricing_table.html" title="Pricing Table"><i
-                                            class="fontawesome-money"></i><span>Pricing Table</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="pricing_table.html" title="Pricing Table"><i class="fontawesome-money"></i><span>Pricing Table</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="time-line.html" title="Time Line"><i
-                                            class="entypo-clock"></i><span>Time Line</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="time-line.html" title="Time Line"><i class="entypo-clock"></i><span>Time Line</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2" href="404.html" title="404 Error Page"><i
-                                            class="icon-thumbs-down"></i><span>404 Error Page</span></a>
+                                <a class="tooltip-tip2" href="404.html" title="404 Error Page"><i class="icon-thumbs-down"></i><span>404 Error Page</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2" href="500.html" title="500 Error Page"><i
-                                            class="icon-thumbs-down"></i><span>500 Error Page</span></a>
+                                <a class="tooltip-tip2" href="500.html" title="500 Error Page"><i class="icon-thumbs-down"></i><span>500 Error Page</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2" href="lock-screen.html" title="Lock Screen"><i
-                                            class="icon-lock"></i><span>Lock Screen</span></a>
+                                <a class="tooltip-tip2" href="lock-screen.html" title="Lock Screen"><i class="icon-lock"></i><span>Lock Screen</span></a>
                             </li>
                         </ul>
                     </li>
@@ -421,13 +373,10 @@
                 <ul id="menu-showhide" class="topnav menu-left-nest">
                     <li>
                         <a href="#" style="border-left:0px solid!important;" class="title-menu-left">
-
                             <span class="component"></span>
                             <i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i>
-
                         </a>
                     </li>
-
 
                     <li>
                         <a class="tooltip-tip" href="#" title="UI Element">
@@ -436,35 +385,25 @@
                         </a>
                         <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="element.html" title="Element"><i
-                                            class="icon-attachment"></i><span>Element</span></a>
-                            </li>
-                            <li><a class="tooltip-tip2 ajax-load" href="button.html" title="Button"><i
-                                            class="icon-view-list-large"></i><span>Button</span>
-                                    <div class="noft-blue-number">10</div>
-                                </a>
+                                <a class="tooltip-tip2 ajax-load" href="element.html" title="Element"><i class="icon-attachment"></i><span>Element</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="wizard.html" title="Tab & Accordion"><i
-                                            class="icon-folder"></i><span>Wizard</span>
-                                    <div class="noft-purple-number">3</div>
-                                </a>
+                                <a class="tooltip-tip2 ajax-load" href="button.html" title="Button"><i class="icon-view-list-large"></i><span>Button</span><div class="noft-blue-number">10</div></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="calendar.html" title="Calender"><i
-                                            class="icon-calendar"></i><span>Calendar</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="wizard.html" title="Tab & Accordion"><i class="icon-folder"></i><span>Wizard</span><div class="noft-purple-number">3</div></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="tree.html" title="Tree View"><i
-                                            class="icon-view-list"></i><span>Tree View</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="calendar.html" title="Calender"><i class="icon-calendar"></i><span>Calendar</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="grids.html" title="Grids"><i
-                                            class="icon-menu"></i><span>Grids</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="tree.html" title="Tree View"><i class="icon-view-list"></i><span>Tree View</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="chart.html" title="Chart"><i
-                                            class="icon-graph-pie"></i><span>Chart</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="grids.html" title="Grids"><i class="icon-menu"></i><span>Grids</span></a>
+                            </li>
+                            <li>
+                                <a class="tooltip-tip2 ajax-load" href="chart.html" title="Chart"><i class="icon-graph-pie"></i><span>Chart</span></a>
                             </li>
                             <li>
                                 <a class="tooltip-tip ajax-load" href="typhography.html" title="Typhoghrapy">
@@ -481,20 +420,16 @@
                         </a>
                         <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="form-element.html" title="Form Elements"><i
-                                            class="icon-document-edit"></i><span>Form Elements</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="form-element.html" title="Form Elements"><i class="icon-document-edit"></i><span>Form Elements</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="andvance-form.html" title="Andvance Form"><i
-                                            class="icon-map"></i><span>Andvance Form</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="andvance-form.html" title="Andvance Form"><i class="icon-map"></i><span>Andvance Form</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="text-editor.html" title="Text Editor"><i
-                                            class="icon-code"></i><span>Text Editor</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="text-editor.html" title="Text Editor"><i class="icon-code"></i><span>Text Editor</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="file-upload.html" title="File Upload"><i
-                                            class="icon-upload"></i><span>File Upload</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="file-upload.html" title="File Upload"><i class="icon-upload"></i><span>File Upload</span></a>
                             </li>
                         </ul>
                     </li>
@@ -505,12 +440,10 @@
                         </a>
                         <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="table-static.html" title="Table Static"><i
-                                            class="entypo-layout"></i><span>Table Static</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="table-static.html" title="Table Static"><i class="entypo-layout"></i><span>Table Static</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="table-dynamic.html" title="Table Dynamic"><i
-                                            class="entypo-menu"></i><span>Table Dynamic</span></a>
+                                <a class="tooltip-tip2 ajax-load" href="table-dynamic.html" title="Table Dynamic"><i class="entypo-menu"></i><span>Table Dynamic</span></a>
                             </li>
                         </ul>
                     </li>
@@ -519,11 +452,9 @@
                         <a class="tooltip-tip ajax-load" href="map.html" title="Map">
                             <i class="icon-location"></i>
                             <span>Map</span>
-
                         </a>
                     </li>
                 </ul>
-
 
                 <div class="side-dash">
                     <h3>
@@ -531,16 +462,13 @@
                     </h3>
                     <ul class="side-dashh-list">
                         <li>Avg. Traffic
-                            <span>25k<i style="color:#44BBC1;" class="fa fa-arrow-circle-up"></i>
-                                </span>
+                            <span>25k<i style="color:#44BBC1;" class="fa fa-arrow-circle-up"></i></span>
                         </li>
                         <li>Visitors
-                            <span>80%<i style="color:#AB6DB0;" class="fa fa-arrow-circle-down"></i>
-                                </span>
+                            <span>80%<i style="color:#AB6DB0;" class="fa fa-arrow-circle-down"></i></span>
                         </li>
                         <li>Convertion Rate
-                            <span>13m<i style="color:#19A1F9;" class="fa fa-arrow-circle-up"></i>
-                                </span>
+                            <span>13m<i style="color:#19A1F9;" class="fa fa-arrow-circle-up"></i></span>
                         </li>
                     </ul>
                     <h3>
@@ -568,11 +496,9 @@
 </div>
 <!-- END OF SIDE MENU -->
 
-
 <!--  PAPER WRAP -->
 <div class="wrap-fluid">
     <div class="container-fluid paper-wrap bevel tlbr">
-
 
         <!-- CONTENT -->
         <!--TITLE -->
@@ -580,55 +506,42 @@
             <div id="paper-top">
                 <div class="col-sm-3">
                     <h2 class="tittle-content-header">
-                        <span class="fontawesome-money"></span>
-                        <span>Pricing Table
-                            </span>
+                        <span class="entypo-doc-text"></span>
+                        <span>Blog List</span>
                     </h2>
-
                 </div>
 
                 <div class="col-sm-7">
                     <div class="devider-vertical visible-lg"></div>
                     <div class="tittle-middle-header">
-
                         <div class="alert">
                             <button type="button" class="close" data-dismiss="alert">×</button>
                             <span class="tittle-alert entypo-info-circled"></span>
                             Welcome back,&nbsp;
                             <strong>Dave mattew!</strong>&nbsp;&nbsp;Your last sig in at Yesterday, 16:54 PM
                         </div>
-
-
                     </div>
-
                 </div>
                 <div class="col-sm-2">
                     <div class="devider-vertical visible-lg"></div>
                     <div class="btn-group btn-wigdet pull-right visible-lg">
-                        <div class="btn">
-                            Widget
-                        </div>
+                        <div class="btn">Widget</div>
                         <button data-toggle="dropdown" class="btn dropdown-toggle" type="button">
                             <span class="caret"></span>
                             <span class="sr-only">Toggle Dropdown</span>
                         </button>
                         <ul role="menu" class="dropdown-menu">
                             <li>
-                                <a href="#">
-                                    <span class="entypo-plus-circled margin-iconic"></span>Add New</a>
+                                <a href="#"><span class="entypo-plus-circled margin-iconic"></span>Add New</a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <span class="entypo-heart margin-iconic"></span>Favorite</a>
+                                <a href="#"><span class="entypo-heart margin-iconic"></span>Favorite</a>
                             </li>
                             <li>
-                                <a href="#">
-                                    <span class="entypo-cog margin-iconic"></span>Setting</a>
+                                <a href="#"><span class="entypo-cog margin-iconic"></span>Setting</a>
                             </li>
                         </ul>
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -636,20 +549,13 @@
 
         <!-- BREADCRUMB -->
         <ul id="breadcrumb">
-            <li>
-                <span class="entypo-home"></span>
-            </li>
-            <li><i class="fa fa-lg fa-angle-right"></i>
-            </li>
-            <li><a href="#" title="Sample page 1">Extra Page</a>
-            </li>
-            <li><i class="fa fa-lg fa-angle-right"></i>
-            </li>
-            <li><a href="#" title="Sample page 1">Pricing Table</a>
-            </li>
+            <li><span class="entypo-home"></span></li>
+            <li><i class="fa fa-lg fa-angle-right"></i></li>
+            <li><a href="#" title="Sample page 1">Blog</a></li>
+            <li><i class="fa fa-lg fa-angle-right"></i></li>
+            <li><a href="#" title="Sample page 1">Blog List</a></li>
             <li class="pull-right">
                 <div class="input-group input-widget">
-
                     <input style="border-radius:15px" type="text" placeholder="Search..." class="form-control">
                 </div>
             </li>
@@ -657,196 +563,309 @@
 
         <!-- END OF BREADCRUMB -->
 
+        <!--CONTENT-->
+        <div class="row" style="margin-top:30px;padding:0 15px;">
+            <!--  BLOG CONTENT -->
+            <div class="col-sm-8">
 
-        <div class="content-wrap wrap-price-table">
-            <div class="row">
-
-                <div class="col-sm-3">
-                    <div class="plan">
-                        <h3 class="plan-title">Started</h3>
-                        <p class="plan-price">$19
-                            <span class="plan-unit">per month</span>
-                        </p>
-                        <ul class="plan-features">
-                            <li class="plan-feature">2
-                                <span class="plan-feature-name">websites</span>
-                            </li>
-                            <li class="plan-feature">5
-                                <span class="plan-feature-unit">GB</span>
-                                <span class="plan-feature-name">storage</span>
-                            </li>
-                            <li class="plan-feature">3
-                                <span class="plan-feature-name">users</span>
-                            </li>
-                        </ul>
-                        <a href="#" class="plan-button">Choose Plan</a>
+                <div class="blog-list-nest">
+                    <div class="vendor">
+                        <img class="img-responsive-media" src="http://lorempixel.com/output/food-q-c-600-300-9.jpg" alt="">
                     </div>
 
+                    <div class="blog-list-content">
+                        <h2>Article Heading</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet
+                            vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.
+                            Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis.
+                            Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</p>
+
+                        <p class="pull-right">
+                            <span class="label label-default">keyword</span>
+                            <span class="label label-default">tag</span>
+                            <span class="label label-default">post</span>
+                        </p>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#"><span class="entypo-network"></span>&nbsp;2 Days Ago</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="entypo-chat"></span>&nbsp;2 Comments</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="entypo-share"></span>&nbsp;14 Shares</a>
+                            </li>
+                        </ul>
+                        <hr>
+                        <button class="btn btn-info pull-right">Read More</button>
+                        <div style="clear:both;"></div>
+                    </div>
                 </div>
 
 
-                <div class="col-sm-3">
-                    <div class="plan plan-highlight">
-                        <p class="plan-recommended">Recommended</p>
-                        <h3 class="plan-title">Team</h3>
-                        <p class="plan-price">$49
-                            <span class="plan-unit">per month</span>
-                        </p>
-                        <ul class="plan-features">
-                            <li class="plan-feature">5
-                                <span class="plan-feature-name">websites</span>
-                            </li>
-                            <li class="plan-feature">20
-                                <span class="plan-feature-unit">GB</span>
-                                <span class="plan-feature-name">storage</span>
-                            </li>
-                            <li class="plan-feature">10
-                                <span class="plan-feature-name">users</span>
-                            </li>
-                        </ul>
-                        <a href="#" class="plan-button">Choose Plan</a>
+                <div class="blog-list-nest">
+                    <div class="vendor youtube-nest">
+                        <iframe width="560" height="315" src="http://www.youtube.com/embed/Pe0jFDPHkzo" frameborder="0" allowfullscreen=""></iframe>
                     </div>
 
+                    <div class="blog-list-content">
+                        <h2>Godzilla</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet
+                            vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.
+                            Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis.
+                            Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</p>
+
+                        <p class="pull-right">
+                            <span class="label label-default">keyword</span>
+                            <span class="label label-default">tag</span>
+                            <span class="label label-default">post</span>
+                        </p>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#"><span class="entypo-network"></span>&nbsp;2 Days Ago</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="entypo-chat"></span>&nbsp;2 Comments</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="entypo-share"></span>&nbsp;14 Shares</a>
+                            </li>
+                        </ul>
+                        <hr>
+                        <button class="btn btn-info pull-right">Read More</button>
+                        <div style="clear:both;"></div>
+                    </div>
                 </div>
 
 
-                <div class="col-sm-3">
-
-                    <div class="plan">
-                        <h3 class="plan-title">Premium</h3>
-                        <p class="plan-price">$99
-                            <span class="plan-unit">per month</span>
-                        </p>
-                        <ul class="plan-features">
-                            <li class="plan-feature">20
-                                <span class="plan-feature-name">websites</span>
-                            </li>
-                            <li class="plan-feature">50
-                                <span class="plan-feature-unit">GB</span>
-                                <span class="plan-feature-name">storage</span>
-                            </li>
-                            <li class="plan-feature">25
-                                <span class="plan-feature-name">users</span>
-                            </li>
-                        </ul>
-                        <a href="#" class="plan-button">Choose Plan</a>
+                <div class="blog-list-nest">
+                    <div class="vendor">
+                        <blockquote>
+                            <p>"How can we win when fools can be king"</p>
+                            <p>
+                                <small>Mattew Bellamy</small>
+                            </p>
+                        </blockquote>
                     </div>
 
+                    <div class="blog-list-content">
+                        <h2>Muse</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet
+                            vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.
+                            Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis.
+                            Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</p>
+
+                        <p class="pull-right">
+                            <span class="label label-default">keyword</span>
+                            <span class="label label-default">tag</span>
+                            <span class="label label-default">post</span>
+                        </p>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#"><span class="entypo-network"></span>&nbsp;2 Days Ago</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="entypo-chat"></span>&nbsp;2 Comments</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="entypo-share"></span>&nbsp;14 Shares</a>
+                            </li>
+                        </ul>
+                        <hr>
+                        <button class="btn btn-info pull-right">Read More</button>
+                        <div style="clear:both;"></div>
+                    </div>
                 </div>
 
 
-                <div class="col-sm-3">
-                    <div class="plan">
-                        <h3 class="plan-title">Corporate</h3>
-                        <p class="plan-price">$249
-                            <span class="plan-unit">per month</span>
-                        </p>
-                        <ul class="plan-features">
-                            <li class="plan-feature">&infin;
-                                <span class="plan-feature-name">websites</span>
-                            </li>
-                            <li class="plan-feature">200
-                                <span class="plan-feature-unit">GB</span>
-                                <span class="plan-feature-name">storage</span>
-                            </li>
-                            <li class="plan-feature">&infin;
-                                <span class="plan-feature-name">users</span>
-                            </li>
-                        </ul>
-                        <a href="#" class="plan-button">Choose Plan</a>
+                <div class="blog-list-nest">
+                    <div class="vendor">
+                        <iframe width="100%" height="166" scrolling="no" frameborder="no" src=""></iframe>
                     </div>
 
+                    <div class="blog-list-content">
+                        <h2>Favright</h2>
+                        <p>Lorem111111 ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit
+                            amet
+                            vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.
+                            Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis.
+                            Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</p>
 
+                        <p class="pull-right">
+                            <span class="label label-default">keyword</span>
+                            <span class="label label-default">tag</span>
+                            <span class="label label-default">post</span>
+                        </p>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#"><span class="entypo-network"></span>&nbsp;2 Days Ago</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="entypo-chat"></span>&nbsp;2 Comments</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="entypo-share"></span>&nbsp;14 Shares</a>
+                            </li>
+                        </ul>
+                        <hr>
+                        <button class="btn btn-info pull-right">Read More</button>
+                        <div style="clear:both;"></div>
+                    </div>
                 </div>
+
+
+                <ul class="pager success">
+                    <li class="previous"><a href="#">�?Older</a>
+                    </li>
+                    <li class="next disabled"><a href="#">Newer �?/a>
+                        </a></li>
+                </ul>
+
 
             </div>
-        </div>
+            <!--  END OF BLOG CONTENT -->
 
+            <!--  BLOG SIDE CONTENT -->
+            <div class="col-sm-4">
+                <div class="panel panel-default">
+                    <img class="media-object img-circle blog-profile" data-src="holder.js/64x64" alt="64x64"
+                         src="http://api.randomuser.me/portraits/thumb/men/10.jpg">
+                    <hr style="margin:0;">
 
-        <div class="content-wrap wrap-price-table">
-            <div class="row">
-                <!-- SIDEMENU MAIL -->
+                    <div class="panel-body">
+                        <p class="lead text-center">Dave Mattew</p>
+                        <p class="tex-center social-blog-profile">
+                            <a href="#">
+                                <span class="entypo-facebook-circled"></span>
+                            </a>
+                            <a class="tweet-link" href="#">
+                                <span class="entypo-twitter-circled"></span>
+                            </a>
+                            <a class="gplus-textcolor" href="#">
+                                <span class="entypo-instagrem"></span>
+                            </a>
 
-                <!-- CONTENT MAIL -->
-                <div class="col-sm-4">
-                    <div class="plan">
-                        <div class="plan-circle">
-                            <h3>Started</h3>
-                            <p>$19</p>
-                            <span>per month</span>
-
-                        </div>
-                        <ul class="plan-features">
-                            <li class="plan-feature">2
-                                <span class="plan-feature-name">websites</span>
-                            </li>
-                            <li class="plan-feature">5
-                                <span class="plan-feature-unit">GB</span>
-                                <span class="plan-feature-name">storage</span>
-                            </li>
-                            <li class="plan-feature">3
-                                <span class="plan-feature-name">users</span>
-                            </li>
-                        </ul>
-                        <a href="#" class="plan-button">Choose Plan</a>
+                        </p>
+                        <p class="social-follower text-center">A graphics designer, a web developer, a boyfriend, a friend, a son</p>
                     </div>
+                </div>
+
+                <div class="blog-side-nest">
+                    <h4 class="text-center">JOIN NEWSLETTER</h4>
+                    <p class="text-center">Sign up for our daily Newslatter</p>
+                    <form role="form">
+                        <div class="row">
+                            <div class="col-xs-8">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Enter email">
+                                </div>
+                            </div>
+                            <!-- /.col-xs-8 -->
+                            <div class="col-xs-4 col-full-width-left">
+                                <button type="submit" class="btn btn-info btn-block">Sign up</button>
+                            </div>
+                            <!-- /.col-xs-4 -->
+                        </div>
+                        <!-- /.row -->
+                    </form>
 
                 </div>
 
+                <div class="blog-side-nest">
+                    <h4 class="text-left">POPULAR POST</h4>
+                    <hr style="margin:0">
 
-                <div class="col-sm-4">
-                    <div class="plan plan-highlight">
-                        <div class="plan-circle-highlight">
-                            <!--   <h2>Recommended</h2> -->
-                            <h3>Team</h3>
-                            <p>$49</p>
-                            <span>per month</span>
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object img-responsive-media" data-src="holder.js/64x64" alt="64x64"
+                                 src="http://placehold.it/64x64">
+                        </a>
+                        <div class="media-body">
+                            <h5 class="media-heading">Cras sit amet nibh Lorem ipsum dolor si amet</h5>
+                            <a class="link-comment recentpost-link" style="margin:-10px 0 10px" href="#">88 Views</a>
                         </div>
-
-                        <ul class="plan-features">
-                            <li class="plan-feature">5
-                                <span class="plan-feature-name">websites</span>
-                            </li>
-                            <li class="plan-feature">20
-                                <span class="plan-feature-unit">GB</span>
-                                <span class="plan-feature-name">storage</span>
-                            </li>
-                            <li class="plan-feature">10
-                                <span class="plan-feature-name">users</span>
-                            </li>
-                        </ul>
-                        <a href="#" class="plan-button">Choose Plan</a>
                     </div>
 
-                </div>
-
-
-                <div class="col-sm-4">
-                    <div class="plan">
-                        <div class="plan-circle">
-                            <h3>Corporate</h3>
-                            <p>$249</p>
-                            <span>per month</span>
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object img-responsive-media" data-src="holder.js/64x64" alt="64x64"
+                                 src="http://placehold.it/64x64">
+                        </a>
+                        <div class="media-body">
+                            <h5 class="media-heading">Cras sit amet nibh Lorem ipsum dolor si amet</h5>
+                            <a class="link-comment recentpost-link" style="margin:-10px 0 10px" href="#">90 Views</a>
                         </div>
-                        <ul class="plan-features">
-                            <li class="plan-feature">&infin;
-                                <span class="plan-feature-name">websites</span>
-                            </li>
-                            <li class="plan-feature">200
-                                <span class="plan-feature-unit">GB</span>
-                                <span class="plan-feature-name">storage</span>
-                            </li>
-                            <li class="plan-feature">&infin;
-                                <span class="plan-feature-name">users</span>
-                            </li>
-                        </ul>
-                        <a href="#" class="plan-button">Choose Plan</a>
                     </div>
 
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object img-responsive-media" data-src="holder.js/64x64" alt="64x64"
+                                 src="http://placehold.it/64x64">
+                        </a>
+                        <div class="media-body">
+                            <h5 class="media-heading">Cras sit amet nibh Lorem ipsum dolor si amet</h5>
+                            <a class="link-comment recentpost-link" style="margin:-10px 0 10px" href="#">42 Views</a>
+                        </div>
+                    </div>
 
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object img-responsive-media" data-src="holder.js/64x64" alt="64x64"
+                                 src="http://placehold.it/64x64">
+                        </a>
+                        <div class="media-body">
+                            <h5 class="media-heading">Cras sit amet nibh Lorem ipsum dolor si amet</h5>
+                            <a class="link-comment recentpost-link" style="margin:-10px 0 10px" href="#">111 Views</a>
+                        </div>
+                    </div>
+
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object img-responsive-media" data-src="holder.js/64x64" alt="64x64"
+                                 src="http://placehold.it/64x64">
+                        </a>
+                        <div class="media-body">
+                            <h5 class="media-heading">Cras sit amet nibh Lorem ipsum dolor si amet</h5>
+                            <a class="link-comment recentpost-link" style="margin:-10px 0 10px" href="#">123 Views</a>
+                        </div>
+                    </div>
+
+                    <br>
                 </div>
 
+                <div class="blog-side-nest">
+                    <h4 class="text-left">TAG</h4>
+                    <hr style="margin:0">
+                    <ul class="list-inline">
+                        <li>
+                            <a class="btn btn-info" href="#">Admin</a>
+                        </li>
+                        <li>
+                            <a class="btn btn-info" href="#">Fleet</a>
+                        </li>
+                        <li>
+                            <a class="btn btn-info" href="#">Music</a>
+                        </li>
+                        <li>
+                            <a class="btn btn-info" href="#">Video</a>
+                        </li>
+                        <li>
+                            <a class="btn btn-info" href="#">Typhography</a>
+                        </li>
+                        <li>
+                            <a class="btn btn-info" href="#">Computer</a>
+                        </li>
+                        <li>
+                            <a class="btn btn-info" href="#">Web Design</a>
+                        </li>
+                        <li>
+                            <a class="btn btn-info" href="#">Movie</a>
+                        </li>
+
+                    </ul>
+                </div>
             </div>
+            <!--  END OF BLOG SIDE CONTENT -->
         </div>
 
 
@@ -931,8 +950,7 @@
                     <li>
                         <a href="#">
                                 <span>
-                                    <img alt="" class="img-chat img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/20.jpg">
+                                    <img alt="" class="img-chat img-circle" src="http://api.randomuser.me/portraits/thumb/men/20.jpg">
                                 </span><b>Dave Junior</b>
                             <br><i>Last seen : 08:00 PM</i>
                         </a>
@@ -940,8 +958,7 @@
                     <li>
                         <a href="#">
                                 <span>
-                                    <img alt="" class="img-chat img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/21.jpg">
+                                    <img alt="" class="img-chat img-circle" src="http://api.randomuser.me/portraits/thumb/men/21.jpg">
                                 </span><b>Kenneth Lucas</b>
                             <br><i>Last seen : 07:21 PM</i>
                         </a>
@@ -949,8 +966,7 @@
                     <li>
                         <a href="#">
                                 <span>
-                                    <img alt="" class="img-chat img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/22.jpg">
+                                    <img alt="" class="img-chat img-circle" src="http://api.randomuser.me/portraits/thumb/men/22.jpg">
                                 </span><b>Heidi Perez</b>
                             <br><i>Last seen : 05:43 PM</i>
                         </a>
@@ -964,8 +980,7 @@
                     <li>
                         <a href="#">
                                 <span>
-                                    <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/23.jpg">
+                                    <img alt="" class="img-chat img-offline img-circle" src="http://api.randomuser.me/portraits/thumb/men/23.jpg">
                                 </span><b>Dave Junior</b>
                             <br><i>Last seen : 08:00 PM</i>
                         </a>
@@ -973,8 +988,7 @@
                     <li>
                         <a href="#">
                                 <span>
-                                    <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/women/24.jpg">
+                                    <img alt="" class="img-chat img-offline img-circle" src="http://api.randomuser.me/portraits/thumb/women/24.jpg">
                                 </span><b>Kenneth Lucas</b>
                             <br><i>Last seen : 07:21 PM</i>
                         </a>
@@ -982,8 +996,7 @@
                     <li>
                         <a href="#">
                                 <span>
-                                    <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/25.jpg">
+                                    <img alt="" class="img-chat img-offline img-circle" src="http://api.randomuser.me/portraits/thumb/men/25.jpg">
                                 </span><b>Heidi Perez</b>
                             <br><i>Last seen : 05:43 PM</i>
                         </a>
@@ -991,8 +1004,7 @@
                     <li>
                         <a href="#">
                                 <span>
-                                    <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/women/25.jpg">
+                                    <img alt="" class="img-chat img-offline img-circle" src="http://api.randomuser.me/portraits/thumb/women/25.jpg">
                                 </span><b>Kenneth Lucas</b>
                             <br><i>Last seen : 07:21 PM</i>
                         </a>
@@ -1000,13 +1012,11 @@
                     <li>
                         <a href="#">
                                 <span>
-                                    <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/26.jpg">
+                                    <img alt="" class="img-chat img-offline img-circle" src="http://api.randomuser.me/portraits/thumb/men/26.jpg">
                                 </span><b>Heidi Perez</b>
                             <br><i>Last seen : 05:43 PM</i>
                         </a>
                     </li>
-
 
                 </ul>
             </div>
@@ -1018,11 +1028,21 @@
 
 
 <!-- MAIN EFFECT -->
-<script type="text/javascript" src="assets/js/preloader.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.js"></script>
-<script type="text/javascript" src="assets/js/app.js"></script>
-<script type="text/javascript" src="assets/js/load.js"></script>
-<script type="text/javascript" src="assets/js/main.js"></script>
+<script type="text/javascript" src="{{ URL::asset('admin/js/preloader.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('admin/js/bootstrap.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('admin/js/app.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('admin/js/load.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('admin/js/main.js') }}"></script>
+<script src="{{ URL::asset('admin/js/flatvideo/jquery.fitvids.js') }}"></script>
+
+
+<script>
+    // Basic FitVids Test
+    $(".blog-list-nest").fitVids();
+    // Custom selector and No-Double-Wrapping Prevention Test
+    $(".blog-list-nest").fitVids();
+    // Custom selector and No-Double-Wrapping Prevention Test
+</script>
 
 
 </body>

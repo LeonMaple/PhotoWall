@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Apricot 1.3</title>
+    <title>HeLinFeng 1.3</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -14,13 +14,10 @@
     <link rel="stylesheet" href="assets/css/loader-style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
 
+    <link rel="stylesheet" href="assets/js/upload/demos/css/uploader.css">
+    <link rel="stylesheet" href="assets/js/upload/demos/css/demo.css">
 
-    <link href="assets/js/footable/css/footable.core.css?v=2-0-1" rel="stylesheet" type="text/css">
-    <link href="assets/js/footable/css/footable.standalone.css" rel="stylesheet" type="text/css">
-    <link href="assets/js/footable/css/footable-demos.css" rel="stylesheet" type="text/css">
-
-    <link rel="stylesheet" href="assets/js/dataTable/lib/jquery.dataTables/css/DT_bootstrap.css">
-    <link rel="stylesheet" href="assets/js/dataTable/css/datatables.responsive.css">
+    <link rel="stylesheet" href="assets/js/dropZone/downloads/css/dropzone.css">
 
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -33,7 +30,7 @@
 
 <body>
 <div id="awwwards" class="right black"><a
-            href="http://www.awwwards.com/best-websites/apricot-navigation-admin-dashboard-template" target="_blank">best
+            href="http://www.awwwards.com/best-websites/HeLinFeng-navigation-admin-dashboard-template" target="_blank">best
         websites of the world</a></div>
 <!-- Preloader -->
 <div id="preloader">
@@ -54,7 +51,7 @@
 
 
             <div id="logo-mobile" class="visible-xs">
-                <h1>Apricot<span>v1.3</span></h1>
+                <h1>HeLinFeng<span>v1.0</span></h1>
             </div>
 
         </div>
@@ -230,7 +227,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="http://themeforest.net/item/apricot-navigation-admin-dashboard-template/7664475?WT.ac=category_item&WT.z_author=themesmile">
+                            <a href="http://themeforest.net/item/HeLinFeng-navigation-admin-dashboard-template/7664475?WT.ac=category_item&WT.z_author=themesmile">
                                 <span class="entypo-basket"></span>&#160;&#160; Purchase</a>
                         </li>
                     </ul>
@@ -274,7 +271,7 @@
 <!-- SIDE MENU -->
 <div id="skin-select">
     <div id="logo">
-        <h1>Apricot<span>v1.3</span></h1>
+        <h1>HeLinFeng<span>v1.0</span></h1>
     </div>
 
     <a id="toggle">
@@ -392,6 +389,7 @@
                                 <a class="tooltip-tip2 ajax-load" href="invoice.html" title="Invoice"><i
                                             class="entypo-newspaper"></i><span>Invoice</span></a>
                             </li>
+
                             <li>
                                 <a class="tooltip-tip2 ajax-load" href="pricing_table.html" title="Pricing Table"><i
                                             class="fontawesome-money"></i><span>Pricing Table</span></a>
@@ -586,8 +584,8 @@
             <div id="paper-top">
                 <div class="col-sm-3">
                     <h2 class="tittle-content-header">
-                        <span class="entypo-menu"></span>
-                        <span>Table Dynamic
+                        <i class="icon-upload"></i>
+                        <span>File Upload
                             </span>
                     </h2>
 
@@ -647,11 +645,11 @@
             </li>
             <li><i class="fa fa-lg fa-angle-right"></i>
             </li>
-            <li><a href="#" title="Sample page 1">Table</a>
+            <li><a href="#" title="Sample page 1">Form</a>
             </li>
             <li><i class="fa fa-lg fa-angle-right"></i>
             </li>
-            <li><a href="#" title="Sample page 1">Table Dynamic</a>
+            <li><a href="#" title="Sample page 1">File Upload</a>
             </li>
             <li class="pull-right">
                 <div class="input-group input-widget">
@@ -663,168 +661,77 @@
 
         <!-- END OF BREADCRUMB -->
 
-
         <div class="content-wrap">
             <div class="row">
 
 
                 <div class="col-sm-12">
-
-                    <div class="nest" id="FootableClose">
+                    <div class="nest" id="headerClose">
                         <div class="title-alt">
                             <h6>
-                                Footable paginate</h6>
+                                Image Uploader</h6>
                             <div class="titleClose">
-                                <a class="gone" href="#FootableClose">
+                                <a class="gone" href="#headerClose">
                                     <span class="entypo-cancel"></span>
                                 </a>
                             </div>
                             <div class="titleToggle">
-                                <a class="nav-toggle-alt" href="#Footable">
+                                <a class="nav-toggle-alt" href="#header">
                                     <span class="entypo-up-open"></span>
                                 </a>
                             </div>
 
                         </div>
 
-                        <div class="body-nest" id="Footable">
+                        <div class="body-nest" id="header">
 
-                            <p class="lead well">FooTable is a jQuery plugin that aims to make HTML tables on smaller
-                                devices look awesome - No matter how many columns of data you may have in them. And it's
-                                responsive i think this better than DataTable in some way</p>
+                            <div class="row demo-columns">
+                                <div class="col-md-6">
+                                    <!-- D&D Zone-->
+                                    <div id="drag-and-drop-zone" class="uploader">
+                                        <div>Drag &amp; Drop Images Here</div>
+                                        <div class="or">-or-</div>
+                                        <div class="browser">
+                                            <label>
+                                                <span>Click to open the file Browser</span>
+                                                <input type="file" name="files[]" multiple="multiple"
+                                                       title='Click to add Files'>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <!-- /D&D Zone -->
 
-                            <table class="table-striped footable-res footable metro-blue" data-page-size="6">
-                                <thead>
-                                <tr>
-                                    <th>
-                                        First Name
-                                    </th>
-                                    <th>
-                                        Last Name
-                                    </th>
-                                    <th data-hide="phone,tablet">
-                                        Job Title
-                                    </th>
-                                    <th data-hide="phone,tablet">
-                                        DOB
-                                    </th>
-                                    <th data-hide="phone">
-                                        Status
-                                    </th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>Isidra</td>
-                                    <td><a href="#">Boudreaux</a>
-                                    </td>
-                                    <td>Traffic Court Referee</td>
-                                    <td data-value="78025368997">22 Jun 1972</td>
-                                    <td data-value="1">
-                                        <span class="status-metro status-active" title="Active">Active</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Shona</td>
-                                    <td>Woldt</td>
-                                    <td><a href="#">Airline Transport Pilot</a>
-                                    </td>
-                                    <td data-value="370961043292">3 Oct 1981</td>
-                                    <td data-value="2">
-                                        <span class="status-metro status-disabled" title="Disabled">Disabled</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Granville</td>
-                                    <td>Leonardo</td>
-                                    <td>Business Services Sales Representative</td>
-                                    <td data-value="-22133780420">19 Apr 1969</td>
-                                    <td data-value="3">
-                                        <span class="status-metro status-suspended" title="Suspended">Suspended</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Easer</td>
-                                    <td>Dragoo</td>
-                                    <td>Drywall Stripper</td>
-                                    <td data-value="250833505574">13 Dec 1977</td>
-                                    <td data-value="1">
-                                        <span class="status-metro status-active" title="Active">Active</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Maple</td>
-                                    <td>Halladay</td>
-                                    <td>Aviation Tactical Readiness Officer</td>
-                                    <td data-value="694116650726">30 Dec 1991</td>
-                                    <td data-value="3">
-                                        <span class="status-metro status-suspended" title="Suspended">Suspended</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Maxine</td>
-                                    <td><a href="#">Woldt</a>
-                                    </td>
-                                    <td><a href="#">Business Services Sales Representative</a>
-                                    </td>
-                                    <td data-value="561440464855">17 Oct 1987</td>
-                                    <td data-value="2">
-                                        <span class="status-metro status-disabled" title="Disabled">Disabled</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Lorraine</td>
-                                    <td>Mcgaughy</td>
-                                    <td>Hemodialysis Technician</td>
-                                    <td data-value="437400551390">11 Nov 1983</td>
-                                    <td data-value="2">
-                                        <span class="status-metro status-disabled" title="Disabled">Disabled</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Lizzee</td>
-                                    <td><a href="#">Goodlow</a>
-                                    </td>
-                                    <td>Technical Services Librarian</td>
-                                    <td data-value="-257733999319">1 Nov 1961</td>
-                                    <td data-value="3">
-                                        <span class="status-metro status-suspended" title="Suspended">Suspended</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Judi</td>
-                                    <td>Badgett</td>
-                                    <td>Electrical Lineworker</td>
-                                    <td data-value="362134712000">23 Jun 1981</td>
-                                    <td data-value="1">
-                                        <span class="status-metro status-active" title="Active">Active</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Lauri</td>
-                                    <td>Hyland</td>
-                                    <td>Blackjack Supervisor</td>
-                                    <td data-value="500874333932">15 Nov 1985</td>
-                                    <td data-value="3">
-                                        <span class="status-metro status-suspended" title="Suspended">Suspended</span>
-                                    </td>
-                                </tr>
-                                </tbody>
-                                <tfoot>
-                                <tr>
-                                    <td colspan="5">
-                                        <div class="pagination pagination-centered"></div>
-                                    </td>
-                                </tr>
-                                </tfoot>
-                            </table>
+                                    <!-- Debug box -->
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h5 class="panel-title">Debug</h5>
+                                        </div>
+                                        <div class="panel-body demo-panel-debug">
+                                            <ul id="demo-debug">
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- /Debug box -->
+                                </div>
+                                <!-- / Left column -->
+
+                                <div class="col-md-6">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">
+                                            <h5 class="panel-title">Uploads</h5>
+                                        </div>
+                                        <div class="panel-body demo-panel-files" id='demo-files'>
+                                            <span class="demo-note">No Files have been selected/droped yet...</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- / Right column -->
+                            </div>
 
                         </div>
-
                     </div>
-
-
                 </div>
+
 
             </div>
         </div>
@@ -832,175 +739,36 @@
 
         <div class="content-wrap">
             <div class="row">
+
+
                 <div class="col-sm-12">
-                    <div class="nest" id="FilteringClose">
+                    <div class="nest" id="DropZoneClose">
                         <div class="title-alt">
                             <h6>
-                                Footable Filtering</h6>
+                                DropZone</h6>
                             <div class="titleClose">
-                                <a class="gone" href="#FilteringClose">
+                                <a class="gone" href="#DropZoneClose">
                                     <span class="entypo-cancel"></span>
                                 </a>
                             </div>
                             <div class="titleToggle">
-                                <a class="nav-toggle-alt" href="#Filtering">
+                                <a class="nav-toggle-alt" href="#DropZone">
                                     <span class="entypo-up-open"></span>
                                 </a>
                             </div>
 
                         </div>
 
-                        <div class="body-nest" id="Filtering">
+                        <div class="body-nest" id="DropZone">
 
-                            <div class="row" style="margin-bottom:10px;">
-                                <div class="col-sm-4">
-                                    <input class="form-control" id="filter" placeholder="Search..." type="text">
-                                </div>
-                                <div class="col-sm-2">
-                                    <select class="filter-status form-control">
-                                        <option value="active">Active
-                                        <option value="disabled">Disabled
-                                        <option value="suspended">Suspended
-                                    </select>
-                                </div>
-                                <div class="col-sm-6">
+                            <form action="assets/js/dropZone/upload" class="dropzone" id="my-dropzone"></form>
+                            <button style="margin-top:10px;" class="btn btn-info" id="submit-all">Submit all files
+                            </button>
 
-                                    <a href="#clear" style="margin-left:10px;"
-                                       class="pull-right btn btn-info clear-filter" title="clear filter">clear</a>
-                                    <a href="#api" class="pull-right btn btn-info filter-api"
-                                       title="Filter using the Filter API">filter API</a>
-
-
-                                </div>
-
-                            </div>
-
-                            <table id="footable-res2" class="demo" data-filter="#filter" data-filter-text-only="true">
-                                <thead>
-                                <tr>
-                                    <th data-toggle="true">
-                                        First Name
-                                    </th>
-                                    <th>
-                                        Last Name
-                                    </th>
-                                    <th data-hide="phone,tablet">
-                                        Job Title
-                                    </th>
-                                    <th data-hide="phone,tablet">
-                                        DOB
-                                    </th>
-                                    <th data-hide="phone">
-                                        Status
-                                    </th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td>Isidra</td>
-                                    <td><a href="#">Boudreaux</a>
-                                    </td>
-                                    <td>Traffic Court Referee</td>
-                                    <td data-value="78025368997">22 Jun 1972</td>
-                                    <td data-value="1">
-                                        <span class="status-metro status-active" title="Active">Active</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Shona</td>
-                                    <td>Woldt</td>
-                                    <td><a href="#">Airline Transport Pilot</a>
-                                    </td>
-                                    <td data-value="370961043292">3 Oct 1981</td>
-                                    <td data-value="2">
-                                        <span class="status-metro status-disabled" title="Disabled">Disabled</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Granville</td>
-                                    <td>Leonardo</td>
-                                    <td>Business Services Sales Representative</td>
-                                    <td data-value="-22133780420">19 Apr 1969</td>
-                                    <td data-value="3">
-                                        <span class="status-metro status-suspended" title="Suspended">Suspended</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Easer</td>
-                                    <td>Dragoo</td>
-                                    <td>Drywall Stripper</td>
-                                    <td data-value="250833505574">13 Dec 1977</td>
-                                    <td data-value="1">
-                                        <span class="status-metro status-active" title="Active">Active</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Maple</td>
-                                    <td>Halladay</td>
-                                    <td>Aviation Tactical Readiness Officer</td>
-                                    <td data-value="694116650726">30 Dec 1991</td>
-                                    <td data-value="3">
-                                        <span class="status-metro status-suspended" title="Suspended">Suspended</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Maxine</td>
-                                    <td><a href="#">Woldt</a>
-                                    </td>
-                                    <td><a href="#">Business Services Sales Representative</a>
-                                    </td>
-                                    <td data-value="561440464855">17 Oct 1987</td>
-                                    <td data-value="2">
-                                        <span class="status-metro status-disabled" title="Disabled">Disabled</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Lorraine</td>
-                                    <td>Mcgaughy</td>
-                                    <td>Hemodialysis Technician</td>
-                                    <td data-value="437400551390">11 Nov 1983</td>
-                                    <td data-value="2">
-                                        <span class="status-metro status-disabled" title="Disabled">Disabled</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Lizzee</td>
-                                    <td><a href="#">Goodlow</a>
-                                    </td>
-                                    <td>Technical Services Librarian</td>
-                                    <td data-value="-257733999319">1 Nov 1961</td>
-                                    <td data-value="3">
-                                        <span class="status-metro status-suspended" title="Suspended">Suspended</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Judi</td>
-                                    <td>Badgett</td>
-                                    <td>Electrical Lineworker</td>
-                                    <td data-value="362134712000">23 Jun 1981</td>
-                                    <td data-value="1">
-                                        <span class="status-metro status-active" title="Active">Active</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>Lauri</td>
-                                    <td>Hyland</td>
-                                    <td>Blackjack Supervisor</td>
-                                    <td data-value="500874333932">15 Nov 1985</td>
-                                    <td data-value="3">
-                                        <span class="status-metro status-suspended" title="Suspended">Suspended</span>
-                                    </td>
-                                </tr>
-                                </tbody>
-                            </table>
 
                         </div>
-
                     </div>
-
-
                 </div>
-
             </div>
         </div>
 
@@ -1177,62 +945,97 @@
 <script type="text/javascript" src="assets/js/app.js"></script>
 <script type="text/javascript" src="assets/js/load.js"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script type="text/javascript" src="assets/js/upload/demos/js/demo.min.js"></script>
+<script type="text/javascript" src="assets/js/upload/src/dmuploader.min.js"></script>
 
 
-<!-- /MAIN EFFECT -->
-<!-- GAGE -->
-<script type="text/javascript" src="assets/js/toggle_close.js"></script>
-<script src="assets/js/footable/js/footable.js?v=2-0-1" type="text/javascript"></script>
-<script src="assets/js/footable/js/footable.sort.js?v=2-0-1" type="text/javascript"></script>
-<script src="assets/js/footable/js/footable.filter.js?v=2-0-1" type="text/javascript"></script>
-<script src="assets/js/footable/js/footable.paginate.js?v=2-0-1" type="text/javascript"></script>
-<script src="assets/js/footable/js/footable.paginate.js?v=2-0-1" type="text/javascript"></script>
-
+<script src="assets/js/dropZone/lib/dropzone.js"></script>
 
 <script type="text/javascript">
-    $(function () {
-        $('.footable-res').footable();
+    $('#drag-and-drop-zone').dmUploader({
+        url: '/assets/js/upload/demos/upload.php',
+        dataType: 'json',
+        allowedTypes: 'image/*',
+        /*extFilter: 'jpg;png;gif',*/
+        onInit: function () {
+            $.danidemo.addLog('#demo-debug', 'default', 'Plugin initialized correctly');
+        },
+        onBeforeUpload: function (id) {
+            $.danidemo.addLog('#demo-debug', 'default', 'Starting the upload of #' + id);
+
+            $.danidemo.updateFileStatus(id, 'default', 'Uploading...');
+        },
+        onNewFile: function (id, file) {
+            $.danidemo.addFile('#demo-files', id, file);
+        },
+        onComplete: function () {
+            $.danidemo.addLog('#demo-debug', 'default', 'All pending tranfers completed');
+        },
+        onUploadProgress: function (id, percent) {
+            var percentStr = percent + '%';
+
+            $.danidemo.updateFileProgress(id, percentStr);
+        },
+        onUploadSuccess: function (id, data) {
+            $.danidemo.addLog('#demo-debug', 'success', 'Upload of file #' + id + ' completed');
+
+            $.danidemo.addLog('#demo-debug', 'info', 'Server Response for file #' + id + ': ' + JSON.stringify(data));
+
+            $.danidemo.updateFileStatus(id, 'success', 'Upload Complete');
+
+            $.danidemo.updateFileProgress(id, '100%');
+        },
+        onUploadError: function (id, message) {
+            $.danidemo.updateFileStatus(id, 'error', message);
+
+            $.danidemo.addLog('#demo-debug', 'error', 'Failed to Upload file #' + id + ': ' + message);
+        },
+        onFileTypeError: function (file) {
+            $.danidemo.addLog('#demo-debug', 'error', 'File /'
+            ' + file.name + ' / ' cannot be added: must be an image'
+        )
+            ;
+        },
+        onFileSizeError: function (file) {
+            $.danidemo.addLog('#demo-debug', 'error', 'File /'
+            ' + file.name + ' / ' cannot be added: size excess limit'
+        )
+            ;
+        },
+        /*onFileExtError: function(file){
+          $.danidemo.addLog('#demo-debug', 'error', 'File /'' + file.name + '/' has a Not Allowed Extension');
+        },*/
+        onFallbackMode: function (message) {
+            $.danidemo.addLog('#demo-debug', 'info', 'Browser not supported(do something else here!): ' + message);
+        }
     });
 </script>
-<script type="text/javascript">
-    $(function () {
-        $('#footable-res2').footable().bind('footable_filtering', function (e) {
-            var selected = $('.filter-status').find(':selected').text();
-            if (selected && selected.length > 0) {
-                e.filter += (e.filter && e.filter.length > 0) ? ' ' + selected : selected;
-                e.clear = !e.filter;
-            }
-        });
 
-        $('.clear-filter').click(function (e) {
-            e.preventDefault();
-            $('.filter-status').val('');
-            $('table.demo').trigger('footable_clear_filter');
-        });
 
-        $('.filter-status').change(function (e) {
-            e.preventDefault();
-            $('table.demo').trigger('footable_filter', {
-                filter: $('#filter').val()
+<script>
+    Dropzone.options.myDropzone = {
+
+        // Prevents Dropzone from uploading dropped files immediately
+        autoProcessQueue: false,
+
+        init: function () {
+            var submitButton = document.querySelector("#submit-all")
+            myDropzone = this; // closure
+
+            submitButton.addEventListener("click", function () {
+                myDropzone.processQueue(); // Tell Dropzone to process all queued files.
             });
-        });
 
-        $('.filter-api').click(function (e) {
-            e.preventDefault();
+            // You might want to show the submit button only when 
+            // files are dropped here:
+            this.on("addedfile", function () {
+                // Show submit button here and/or inform user to click it.
+            });
 
-            //get the footable filter object
-            var footableFilter = $('table').data('footable-filter');
-
-            alert('about to filter table by "tech"');
-            //filter by 'tech'
-            footableFilter.filter('tech');
-
-            //clear the filter
-            if (confirm('clear filter now?')) {
-                footableFilter.clearFilter();
-            }
-        });
-    });
+        }
+    };
 </script>
 
 </body>

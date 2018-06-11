@@ -25,7 +25,7 @@
             <div class="col-md-4 col-md-offset-4">
                 <div id="logo-login">
                     <h1>后台管理系统
-                        <span>v1.3</span>
+                        <span>v1.0</span>
                     </h1>
                 </div>
             </div>

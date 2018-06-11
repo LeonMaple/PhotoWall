@@ -34,3 +34,9 @@ Route::group(['namespace' => 'User'], function()
     Route::get('admin/user', 'LoginController@login');
 
 });
+
+//博客文章操作
+Route::group(['namespace' => 'Blog'], function()
+{
+    Route::get('admin/blogList', 'BlogController@blogList');
+});

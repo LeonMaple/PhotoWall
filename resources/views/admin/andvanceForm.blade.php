@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Apricot v 1.2</title>
+    <title>HeLinFeng v1.0</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -13,8 +13,18 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/loader-style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/media.css">
-    <link rel="stylesheet" href="assets/css/social.css">
+
+    <link href="assets/js/colorPicker/bootstrap-colorpicker.css" rel="stylesheet">
+    <link href="assets/js/validate/validate.css" rel="stylesheet">
+    <link href="assets/js/idealform/css/jquery.idealforms.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/js/timepicker/bootstrap-timepicker.css">
+    <link rel="stylesheet" href="assets/js/datepicker/datepicker.css">
+    <link rel="stylesheet" href="assets/js/datepicker/clockface.css">
+    <link rel="stylesheet" href="assets/js/datepicker/bootstrap-datetimepicker.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/js/tag/jquery.tagsinput.css">
 
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -27,7 +37,7 @@
 
 <body>
 <div id="awwwards" class="right black"><a
-            href="http://www.awwwards.com/best-websites/apricot-navigation-admin-dashboard-template" target="_blank">best
+            href="http://www.awwwards.com/best-websites/HeLinFeng-navigation-admin-dashboard-template" target="_blank">best
         websites of the world</a></div>
 <!-- Preloader -->
 <div id="preloader">
@@ -48,7 +58,9 @@
 
 
             <div id="logo-mobile" class="visible-xs">
-                <h1>Apricot<span>v1.3</span></h1>
+                <h1>HeLinFeng
+                    <span>v1.0</span>
+                </h1>
             </div>
 
         </div>
@@ -224,7 +236,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="http://themeforest.net/item/apricot-navigation-admin-dashboard-template/7664475?WT.ac=category_item&WT.z_author=themesmile">
+                            <a href="http://themeforest.net/item/HeLinFeng-navigation-admin-dashboard-template/7664475?WT.ac=category_item&WT.z_author=themesmile">
                                 <span class="entypo-basket"></span>&#160;&#160; Purchase</a>
                         </li>
                     </ul>
@@ -268,7 +280,7 @@
 <!-- SIDE MENU -->
 <div id="skin-select">
     <div id="logo">
-        <h1>Apricot<span>v1.3</span></h1>
+        <h1>HeLinFeng<span>v1.0</span></h1>
     </div>
 
     <a id="toggle">
@@ -588,8 +600,8 @@
             <div id="paper-top">
                 <div class="col-sm-3">
                     <h2 class="tittle-content-header">
-                        <span class="entypo-newspaper"></span>
-                        <span>Blog Detail
+                        <i class="icon-map"></i>
+                        <span>Advance Form
                             </span>
                     </h2>
 
@@ -642,7 +654,6 @@
         </div>
         <!--/ TITLE -->
 
-
         <!-- BREADCRUMB -->
         <ul id="breadcrumb">
             <li>
@@ -650,14 +661,14 @@
             </li>
             <li><i class="fa fa-lg fa-angle-right"></i>
             </li>
-            <li><a href="#" title="Sample page 1">Blog App</a>
+            <li><a href="#" title="Sample page 1">Form</a>
             </li>
             <li><i class="fa fa-lg fa-angle-right"></i>
             </li>
-            <li><a href="#" title="Sample page 1">Blog Detail</a>
+            <li><a href="#" title="Sample page 1">Advance Form</a>
             </li>
             <li class="pull-right">
-                <div class="input-group" style="margin:-7px 30px 0 0">
+                <div class="input-group input-widget">
 
                     <input style="border-radius:15px" type="text" placeholder="Search..." class="form-control">
                 </div>
@@ -666,345 +677,383 @@
 
         <!-- END OF BREADCRUMB -->
 
-        <!--CONTENT-->
-        <div class="row" style="margin-top:30px;padding:0 15px;">
-            <!--  BLOG CONTENT -->
-            <div class="col-sm-8">
 
-                <div class="blog-list-nest">
-                    <div class="vendor">
-                        <iframe width="100%" height="166" scrolling="no" frameborder="no"
-                                src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/149950304&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>
-                    </div>
-
-                    <div class="blog-list-content">
-                        <h2>Favright</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam condimentum sollicitudin mi,
-                            vitae vehicula justo venenatis at. Morbi tempor fermentum velit non pretium. Phasellus at
-                            lacus turpis. Curabitur dapibus pulvinar velit eu rutrum. Nulla adipiscing sapien orci, ac
-                            iaculis justo euismod vitae. Fusce tincidunt accumsan erat, a molestie eros auctor a.
-                            Suspendisse vel nibh vulputate, porttitor neque in, pellentesque lectus. Pellentesque
-                            aliquet diam sed placerat scelerisque. Suspendisse eleifend sem urna, eget viverra nunc
-                            interdum quis. Nam porta nunc turpis. Pellentesque ut adipiscing mi, eu facilisis
-                            turpis.</p>
-
-                        <p>Nunc ac erat semper, ultrices lorem eu, pretium urna. Etiam nibh nibh, laoreet id pharetra
-                            sit amet, interdum at sapien. Fusce venenatis velit in diam auctor tempus. Duis feugiat
-                            consectetur urna vel suscipit. In in lorem placerat, tempus velit ac, aliquam diam. Cras
-                            vestibulum velit posuere, elementum enim sed, imperdiet nisl. Etiam scelerisque purus
-                            tempus, fringilla dolor at, sodales nibh. Morbi molestie porta nunc, ut tincidunt ante
-                            euismod vitae. Mauris vehicula augue augue, ut placerat sapien porta vel. Curabitur laoreet
-                            odio et nibh hendrerit consequat. Quisque aliquet orci est, condimentum dignissim felis
-                            tempus eget. Morbi ac bibendum velit, eget aliquam nisi. Integer posuere consequat purus non
-                            mollis. Integer posuere vitae massa a posuere. Vivamus at lectus at elit aliquam pulvinar
-                            porta nec turpis.</p>
-
-                        <p>Vestibulum eu scelerisque ante, eget molestie tellus. Aenean eget sagittis massa. Fusce et
-                            ligula ultricies, venenatis leo et, posuere orci. Aenean euismod augue id orci consequat,
-                            eget lobortis ante blandit. Nulla tempus viverra mattis. Maecenas volutpat ut massa
-                            pellentesque tristique. Morbi erat enim, dapibus ornare laoreet non, auctor sit amet lorem.
-                            Integer nec lorem a risus tristique viverra. Quisque aliquam nisl eu ante pretium, vel
-                            volutpat leo tempus. Nam velit arcu, tincidunt eget viverra vitae, auctor ac neque.</p>
-
-                        <p class="pull-right">
-                            <span class="label label-default">keyword</span>
-                            <span class="label label-default">tag</span>
-                            <span class="label label-default">post</span>
-                        </p>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#">
-                                    <span class="entypo-network"></span>&nbsp;2 Days Ago</a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="entypo-chat"></span>&nbsp;2 Comments</a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="entypo-share"></span>&nbsp;14 Shares</a>
-                            </li>
-                        </ul>
-                        <hr>
-                        <button class="btn btn-info pull-right">Read More</button>
-                        <div style="clear:both;"></div>
-                    </div>
-                </div>
-
-
-                <div class="comment-nest">
-                    <h1>Leave a Comment:</h1>
-                    <div class="well">
-
-                        <form role="form">
-                            <div class="form-group">
-                                <textarea placeholder="Comment" rows="5" class="form-update"></textarea>
+        <div class="content-wrap">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="nest" id="validationClose">
+                        <div class="title-alt">
+                            <h6>
+                                Form Validation</h6>
+                            <div class="titleClose">
+                                <a class="gone" href="#validationClose">
+                                    <span class="entypo-cancel"></span>
+                                </a>
                             </div>
-                            <button type="submit" class="btn btn-info">Submit</button>
-                        </form>
-                    </div>
+                            <div class="titleToggle">
+                                <a class="nav-toggle-alt" href="#validation">
+                                    <span class="entypo-up-open"></span>
+                                </a>
+                            </div>
+
+                        </div>
 
 
-                    <hr>
-                    <ul class="media-list">
-                        <li class="media">
-                            <a class="pull-left" href="#">
-                                <img class="media-object img-circle" data-src="holder.js/64x64" alt="64x64"
-                                     src="http://api.randomuser.me/portraits/thumb/women/21.jpg"
-                                     style="width: 64px; height: 64px;">
-                            </a>
+                        <div class="body-nest" id="validation">
+                            <div class="form_center">
+
+                                <form action="contact" id="contact-form" class="form-horizontal">
+                                    <fieldset>
 
 
-                            <div class="media-body">
-                                <div class="social-profile">
-                                    <h3><a class="link-comment" href="#">Sympo Nia</a>
-                                        <span><i class="entypo-globe"></i>&nbsp;1 hours ago</span>
-                                        <span><a class="link-comment" href="#"><i class="fontawesome-share"></i>&nbsp;Reply</a>
-                                            </span>
-                                    </h3>
-                                </div>
-
-                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                                    sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
-                                    turpis.</p>
-                                <!-- Nested media object -->
-
-                                <div class="media">
-                                    <a class="pull-left" href="#">
-                                        <img class="media-object img-circle" data-src="holder.js/64x64" alt="64x64"
-                                             src="http://api.randomuser.me/portraits/thumb/men/40.jpg"
-                                             style="width: 64px; height: 64px;">
-                                    </a>
-                                    <div class="media-body">
-
-                                        <div class="social-profile">
-                                            <h3><a class="link-comment" href="#">Awangizm</a>
-                                                <span><i class="entypo-globe"></i>&nbsp;1 hours ago</span>
-                                                <span><a class="link-comment" href="#"><i class="fontawesome-share"></i>&nbsp;Reply</a>
-                                                    </span>
-                                            </h3>
-                                        </div>
-
-                                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                                            sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus
-                                            viverra turpis.</p>
-                                        <!-- Nested media object -->
-                                        <div class="media">
-                                            <a class="pull-left" href="#">
-                                                <img class="media-object img-circle" data-src="holder.js/64x64"
-                                                     alt="64x64"
-                                                     src="http://api.randomuser.me/portraits/thumb/women/21.jpg"
-                                                     style="width: 64px; height: 64px;">
-                                            </a>
-                                            <div class="media-body">
-
-                                                <div class="social-profile">
-                                                    <h3><a class="link-comment" href="#">Symponia</a>
-                                                        <span><i class="entypo-globe"></i>&nbsp;1 hours ago</span>
-                                                        <span><a class="link-comment" href="#"><i
-                                                                        class="fontawesome-share"></i>&nbsp;Reply</a>
-                                                            </span>
-                                                    </h3>
-                                                </div>
-
-
-                                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
-                                                    scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum
-                                                    in vulputate at, tempus viverra turpis.</p>
+                                        <div class="control-group">
+                                            <label class="control-label" for="name">Your Name</label>
+                                            <div class="controls">
+                                                <input type="text" class="form-control" name="name" id="name">
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                                <!-- Nested media object -->
-                                <div class="media">
-                                    <a class="pull-left" href="#">
-                                        <img class="media-object img-circle" data-src="holder.js/64x64" alt="64x64"
-                                             src="http://api.randomuser.me/portraits/thumb/men/55.jpg"
-                                             style="width: 64px; height: 64px;">
-                                    </a>
-                                    <div class="media-body">
-
-                                        <div class="social-profile">
-                                            <h3><a class="link-comment" href="#">Agus Berontazk</a>
-                                                <span><i class="entypo-globe"></i>&nbsp;12 minute ago</span>
-                                                <span><a class="link-comment" href="#"><i class="fontawesome-share"></i>&nbsp;Reply</a>
-                                                    </span>
-                                            </h3>
+                                        <div class="control-group">
+                                            <label class="control-label" for="email">Email Address</label>
+                                            <div class="controls">
+                                                <input type="text" class="form-control" name="email" id="email">
+                                            </div>
                                         </div>
+                                        <div class="control-group">
+                                            <label class="control-label" for="subject">Subject</label>
+                                            <div class="controls">
+                                                <input type="text" class="form-control" name="subject" id="subject">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label" for="message">Your Message</label>
+                                            <div class="controls">
+                                                <textarea class="form-control" name="message" id="message"
+                                                          rows="3"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="form-actions" style="margin:20px 0 0 0;">
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                            <button type="reset" class="btn">Cancel</button>
+                                        </div>
+                                    </fieldset>
+                                </form>
 
-
-                                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                                            sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus
-                                            viverra turpis.</p>
-                                    </div>
-                                </div>
                             </div>
-                        </li>
-
-                    </ul>
-
-
-                </div>
-
-
-                <ul class="pager success">
-                    <li class="previous"><a href="#">�?Older</a>
-                    </li>
-                    <li class="next disabled"><a href="#">Newer �?/a>
-                        </a></li>
-                </ul>
-
-
-            </div>
-            <!--  END OF BLOG CONTENT -->
-
-            <!--  BLOG SIDE CONTENT -->
-            <div class="col-sm-4">
-                <div class="panel panel-default">
-                    <img class="media-object img-circle blog-profile" data-src="holder.js/64x64" alt="64x64"
-                         src="http://api.randomuser.me/portraits/thumb/men/10.jpg">
-                    <hr style="margin:0;">
-
-                    <div class="panel-body">
-                        <p class="lead text-center">Dave Mattew</p>
-                        <p class="tex-center social-blog-profile">
-                            <a href="#">
-                                <span class="entypo-facebook-circled"></span>
-                            </a>
-                            <a class="tweet-link" href="#">
-                                <span class="entypo-twitter-circled"></span>
-                            </a>
-                            <a class="gplus-textcolor" href="#">
-                                <span class="entypo-instagrem"></span>
-                            </a>
-
-                        </p>
-                        <p class="social-follower text-center">A graphics designer, a web developer, a boyfriend, a
-                            friend, a son</p>
+                        </div>
 
 
                     </div>
-                </div>
-
-                <div class="blog-side-nest">
-                    <h4 class="text-center">JOIN NEWSLETTER</h4>
-                    <p class="text-center">Sign up for our daily Newslatter</p>
-                    <form role="form">
-                        <div class="row">
-                            <div class="col-xs-8">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Enter email">
-                                </div>
-                            </div>
-                            <!-- /.col-xs-8 -->
-                            <div class="col-xs-4 col-full-width-left">
-                                <button type="submit" class="btn btn-info btn-block">Sign up</button>
-                            </div>
-                            <!-- /.col-xs-4 -->
-                        </div>
-                        <!-- /.row -->
-                    </form>
-
-                </div>
-
-                <div class="blog-side-nest">
-                    <h4 class="text-left">POPULAR POST</h4>
-                    <hr style="margin:0">
-
-                    <div class="media">
-                        <a class="pull-left" href="#">
-                            <img class="media-object img-responsive-media" data-src="holder.js/64x64" alt="64x64"
-                                 src="http://placehold.it/64x64">
-                        </a>
-                        <div class="media-body">
-                            <h5 class="media-heading"> Cras sit amet nibh Lorem ipsum dolor si amet </h5>
-                            <a class="link-comment recentpost-link" style="margin:-10px 0 10px" href="#">88 Views</a>
-                        </div>
-                    </div>
-
-                    <div class="media">
-                        <a class="pull-left" href="#">
-                            <img class="media-object img-responsive-media" data-src="holder.js/64x64" alt="64x64"
-                                 src="http://placehold.it/64x64">
-                        </a>
-                        <div class="media-body">
-                            <h5 class="media-heading"> Cras sit amet nibh Lorem ipsum dolor si amet </h5>
-                            <a class="link-comment recentpost-link" style="margin:-10px 0 10px" href="#">90 Views</a>
-                        </div>
-                    </div>
-
-                    <div class="media">
-                        <a class="pull-left" href="#">
-                            <img class="media-object img-responsive-media" data-src="holder.js/64x64" alt="64x64"
-                                 src="http://placehold.it/64x64">
-                        </a>
-                        <div class="media-body">
-                            <h5 class="media-heading"> Cras sit amet nibh Lorem ipsum dolor si amet </h5>
-                            <a class="link-comment recentpost-link" style="margin:-10px 0 10px" href="#">42 Views</a>
-                        </div>
-                    </div>
-
-                    <div class="media">
-                        <a class="pull-left" href="#">
-                            <img class="media-object img-responsive-media" data-src="holder.js/64x64" alt="64x64"
-                                 src="http://placehold.it/64x64">
-                        </a>
-                        <div class="media-body">
-                            <h5 class="media-heading"> Cras sit amet nibh Lorem ipsum dolor si amet </h5>
-                            <a class="link-comment recentpost-link" style="margin:-10px 0 10px" href="#">111 Views</a>
-                        </div>
-                    </div>
-
-                    <div class="media">
-                        <a class="pull-left" href="#">
-                            <img class="media-object img-responsive-media" data-src="holder.js/64x64" alt="64x64"
-                                 src="http://placehold.it/64x64">
-                        </a>
-                        <div class="media-body">
-                            <h5 class="media-heading"> Cras sit amet nibh Lorem ipsum dolor si amet </h5>
-                            <a class="link-comment recentpost-link" style="margin:-10px 0 10px" href="#">123 Views</a>
-                        </div>
-                    </div>
-
-                    <br>
-                </div>
-
-                <div class="blog-side-nest">
-                    <h4 class="text-left">TAG</h4>
-                    <hr style="margin:0">
-                    <ul class="list-inline">
-                        <li>
-                            <a class="btn btn-info" href="#">Admin</a>
-                        </li>
-                        <li>
-                            <a class="btn btn-info" href="#">Fleet</a>
-                        </li>
-                        <li>
-                            <a class="btn btn-info" href="#">Music</a>
-                        </li>
-                        <li>
-                            <a class="btn btn-info" href="#">Video</a>
-                        </li>
-                        <li>
-                            <a class="btn btn-info" href="#">Typhography</a>
-                        </li>
-                        <li>
-                            <a class="btn btn-info" href="#">Computer</a>
-                        </li>
-                        <li>
-                            <a class="btn btn-info" href="#">Web Design</a>
-                        </li>
-                        <li>
-                            <a class="btn btn-info" href="#">Movie</a>
-                        </li>
-
-                    </ul>
                 </div>
             </div>
-            <!--  END OF BLOG SIDE CONTENT -->
         </div>
 
 
+        <div class="content-wrap">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="nest" id="maskedClose">
+                        <div class="title-alt">
+                            <h6>
+                                Masked Input</h6>
+                            <div class="titleClose">
+                                <a class="gone" href="#maskedClose">
+                                    <span class="entypo-cancel"></span>
+                                </a>
+                            </div>
+                            <div class="titleToggle">
+                                <a class="nav-toggle-alt" href="#masked">
+                                    <span class="entypo-up-open"></span>
+                                </a>
+                            </div>
+
+                        </div>
+
+
+                        <div class="body-nest" id="masked">
+                            <div class="form_center">
+                                <div class="well">
+                                    <div class="input-group ">
+                                            <span class="input-group-addon btn-success"><i class="fa fa-calendar"></i>
+                                            </span>
+                                        <input type="text" class="form-control" id="date">
+                                        <span class="input-group-addon ">99/99/9999</span>
+                                    </div>
+                                </div>
+
+                                <div class="well">
+                                    <div class="input-group ">
+                                            <span class="input-group-addon btn-success"><i
+                                                        class="fa fa-phone-square"></i>
+                                            </span>
+                                        <input type="text" class="form-control" id="phone">
+                                        <span class="input-group-addon ">eg.(021) 751-2789</span>
+                                    </div>
+                                </div>
+
+                                <div class="well">
+                                    <div class="input-group ">
+                                            <span class="input-group-addon btn-success"><i class="fa fa-money"></i>
+                                            </span>
+                                        <input type="text" class="form-control" id="money">
+                                        <span class="input-group-addon ">eg.20.000.000</span>
+                                    </div>
+                                </div>
+                                <div class="well">
+                                    <div class="input-group ">
+                                            <span class="input-group-addon btn-success"><i
+                                                        class="fa fa-phone-square"></i>
+                                            </span>
+                                        <input type="text" class="form-control" id="ssn">
+                                        <span class="input-group-addon ">eg.99-AAA-9999</span>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="content-wrap">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="nest" id="labelClose">
+                        <div class="title-alt">
+                            <h6>
+                                Date Picker</h6>
+                            <div class="titleClose">
+                                <a class="gone" href="#dateClose">
+                                    <span class="entypo-cancel"></span>
+                                </a>
+                            </div>
+                            <div class="titleToggle">
+                                <a class="nav-toggle-alt" href="#date_1">
+                                    <span class="entypo-up-open"></span>
+                                </a>
+                            </div>
+
+                        </div>
+
+
+                        <div class="body-nest" id="date_1">
+                            <div class="form_center">
+                                <p>Attached to a field with the format specified via options.</p>
+
+                                <div class="well">
+                                    <input type="text" class="form-control" id="dp1" value="02-16-2012">
+                                </div>
+                                <p>Start with years viewMode.</p>
+
+
+                                <div class="well">
+                                    <div data-date-viewmode="years" data-date-format="dd-mm-yyyy" data-date="12-02-2012"
+                                         id="dpYears" class="input-group date">
+
+                                        <input type="text" value="12-02-2012" class="form-control" id="ssn2">
+                                        <span class="input-group-addon add-on entypo-calendar "></span>
+                                    </div>
+
+                                </div>
+                                <p>Default behavior in pt-BR, picks date/time with fast masked input typing (need only
+                                    to type the numbers, the static part of the mask is inserted automatically if
+                                    missing) or via the popup widget, which supports year, month, day, hour and minute
+                                    views:</p>
+
+                                <div class="well">
+                                    <div id="datetimepicker1" class="input-group date">
+                                        <input class="form-control" data-format="dd/MM/yyyy hh:mm:ss" type="text">
+
+                                        <span class="input-group-addon add-on">
+                                                <i style="font-style:normal;" data-time-icon="entypo-clock"
+                                                   data-date-icon="entypo-calendar">
+      </i>
+                                            </span>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrap">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="nest" id="timeClose">
+                        <div class="title-alt">
+                            <h6>
+                                Time picker</h6>
+                            <div class="titleClose">
+                                <a class="gone" href="#timeClose">
+                                    <span class="entypo-cancel"></span>
+                                </a>
+                            </div>
+                            <div class="titleToggle">
+                                <a class="nav-toggle-alt" href="#time">
+                                    <span class="entypo-up-open"></span>
+                                </a>
+                            </div>
+
+                        </div>
+
+
+                        <div class="body-nest" id="time">
+                            <div class="form_center">
+
+
+                                <div class="well">
+                                    <div class="input-group bootstrap-timepicker">
+
+                                        <input id="timepicker1" type="text" class="form-control">
+                                        <span class="input-group-addon add-on entypo-clock"></span>
+                                    </div>
+
+                                </div>
+
+
+                                <div class="well">
+                                    <input id="t1" value="2:30 PM" data-format="hh:mm A" class="form-control"
+                                           type="text">
+                                </div>
+
+
+                                <div class="well">
+                                    <div class="input-group">
+                                        <input id="t2" value="14:30" class="form-control" readonly="" type="text">
+                                        <span style="cursor:pointer;" id="toggle-btn"
+                                              class="input-group-addon add-on entypo-calendar "></span>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrap">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="nest" id="colorClose">
+                        <div class="title-alt">
+                            <h6>
+                                Color picker</h6>
+                            <div class="titleClose">
+                                <a class="gone" href="#colorClose">
+                                    <span class="entypo-cancel"></span>
+                                </a>
+                            </div>
+                            <div class="titleToggle">
+                                <a class="nav-toggle-alt" href="#color">
+                                    <span class="entypo-up-open"></span>
+                                </a>
+                            </div>
+
+                        </div>
+
+
+                        <div class="body-nest" id="color">
+                            <div class="form_center">
+
+                                <div class="well">
+                                    <input type="text" class="form-control" value="#8fff00" id="cp1">
+                                </div>
+
+                                <div class="well">
+                                    <input type="text" class="form-control" value="rgb(0,194,255,0.78)" id="cp2"
+                                           data-color-format="rgba">
+                                </div>
+
+                                <div class="well">
+                                    <div class="input-group colorpicker-component bscp" data-color="rgb(255, 146, 180)"
+                                         data-color-format="rgb" id="cp3">
+                                        <input type="text" value="" readonly="" class="form-control">
+                                        <span class="input-group-addon"><i
+                                                    style="background-color: rgb(255, 146, 180)"></i>
+                                            </span>
+                                    </div>
+                                </div>
+
+                                <div class="well">
+                                    <a href="#" class="btn btn-info" id="cp4" data-color-format="hex"
+                                       data-color="rgb(255, 255, 255)">Change background color</a>
+
+                                </div>
+                                <hr>
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="content-wrap">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="nest" id="tagInputClose">
+                        <div class="title-alt">
+                            <h6>
+                                Tag Input</h6>
+                            <div class="titleClose">
+                                <a class="gone" href="#tagInputClose">
+                                    <span class="entypo-cancel"></span>
+                                </a>
+                            </div>
+                            <div class="titleToggle">
+                                <a class="nav-toggle-alt" href="#tagInput">
+                                    <span class="entypo-up-open"></span>
+                                </a>
+                            </div>
+
+                        </div>
+
+
+                        <div class="body-nest" id="tagInput">
+                            <div class="form_center">
+
+                                <div class="well">
+
+                                    <label>Defaults:</label>
+                                    <input id="tags_1" type="text" class="form-control tags" value="foo,bar,baz,roffle">
+                                </div>
+
+                                <div class="well">
+                                    <label>Technologies: (Programming languages in yellow)</label>
+                                    <input id="tags_2" type="text" class="tags"
+                                           value="php,ios,javascript,ruby,android,kindle">
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- /END OF CONTENT -->
 
 
@@ -1028,7 +1077,6 @@
     </div>
 </div>
 <!--  END OF PAPER WRAP -->
-
 <!-- RIGHT SLIDER CONTENT -->
 <div class="sb-slidebar sb-right">
     <div class="right-wrapper">
@@ -1162,6 +1210,7 @@
                         </a>
                     </li>
 
+
                 </ul>
             </div>
         </div>
@@ -1177,18 +1226,166 @@
 <script type="text/javascript" src="assets/js/app.js"></script>
 <script type="text/javascript" src="assets/js/load.js"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>
-<script src="assets/js/flatvideo/jquery.fitvids.js"></script>
 
 
+<!-- /MAIN EFFECT -->
+
+<script type="text/javascript" src="assets/js/colorPicker/bootstrap-colorpicker.min.js"></script>
+<script type="text/javascript" src="assets/js/inputMask/jquery.maskedinput.js"></script>
+<script type="text/javascript" src="assets/js/switch/bootstrap-switch.js"></script>
+<script type="text/javascript" src="assets/js/validate/jquery.validate.min.js"></script>
+<script type="text/javascript" src="assets/js/idealform/jquery.idealforms.js"></script>
+
+<script type="text/javascript" src="assets/js/timepicker/bootstrap-timepicker.js"></script>
+<script type="text/javascript" src="assets/js/datepicker/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="assets/js/datepicker/clockface.js"></script>
+<script type="text/javascript" src="assets/js/datepicker/bootstrap-datetimepicker.js"></script>
+
+
+<script type="text/javascript" src="assets/js/tag/jquery.tagsinput.js"></script>
+
+<script type="text/javascript">
+    $('#datetimepicker1').datetimepicker({
+        language: 'pt-BR'
+    });
+    $('#dp1').datepicker()
+    $('#dpYears').datepicker();
+    $('#timepicker1').timepicker();
+    $('#t1').clockface();
+    $('#t2').clockface({
+        format: 'HH:mm',
+        trigger: 'manual'
+    });
+
+    $('#toggle-btn').click(function (e) {
+        e.stopPropagation();
+        $('#t2').clockface('toggle');
+    });
+</script>
 <script>
-    // Basic FitVids Test
-    $(".blog-list-nest").fitVids();
-    // Custom selector and No-Double-Wrapping Prevention Test
-    $(".blog-list-nest").fitVids({
-        customSelector: "iframe[src^='http://socialcam.com']"
+    $(document).ready(function () {
+        //Validation
+        $('#contact-form').validate({
+            rules: {
+                name: {
+                    minlength: 2,
+                    required: true
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                subject: {
+                    minlength: 2,
+                    required: true
+                },
+                message: {
+                    minlength: 2,
+                    required: true
+                }
+            },
+            highlight: function (element) {
+                $(element).closest('.control-group').removeClass('success').addClass('error');
+            },
+            success: function (element) {
+                element
+                    .text('OK!').addClass('valid')
+                    .closest('.control-group').removeClass('error').addClass('success');
+            }
+        });
+
+        // MASKED INPUT
+
+        $("#date").mask("99/99/9999", {
+            completed: function () {
+                alert("Your birthday was: " + this.val());
+            }
+        });
+        $("#phone").mask("(999) 999-9999");
+
+        $("#money").mask("99.999.9999", {
+            placeholder: "*"
+        });
+        $("#ssn").mask("99--AAA--9999", {
+            placeholder: "*"
+        });
+
+
+        //COLOR PICKER
+        window.prettyPrint && prettyPrint();
+
+        // Code for those demos
+        var _createColorpickers = function () {
+            $('#cp1').colorpicker({
+                format: 'hex'
+            });
+            $('#cp2').colorpicker();
+            $('#cp3').colorpicker();
+            var bodyStyle = $('body')[0].style;
+            $('#cp4').colorpicker().on('changeColor', function (ev) {
+                bodyStyle.backgroundColor = ev.color.toHex();
+            });
+        }
+
+        _createColorpickers();
+
+        $('.bscp-destroy').click(function (e) {
+            e.preventDefault();
+            $('.bscp').colorpicker('destroy');
+        });
+
+        $('.bscp-create').click(function (e) {
+            e.preventDefault();
+            _createColorpickers();
+        });
+
+
     });
 </script>
 
+<script type="text/javascript">
+    function onAddTag(tag) {
+        alert("Added a tag: " + tag);
+    }
+
+    function onRemoveTag(tag) {
+        alert("Removed a tag: " + tag);
+    }
+
+    function onChangeTag(input, tag) {
+        alert("Changed a tag: " + tag);
+    }
+
+    $(function () {
+
+        $('#tags_1').tagsInput({
+            width: 'auto'
+        });
+        $('#tags_2').tagsInput({
+            width: 'auto',
+            onChange: function (elem, elem_tags) {
+                var languages = ['php', 'ruby', 'javascript'];
+                $('.tag', elem_tags).each(function () {
+                    if ($(this).text().search(new RegExp('//b(' + languages.join('|') + ')//b')) >= 0)
+                        $(this).css('background-color', '#FBB44C');
+                });
+            }
+        });
+        $('#tags_3').tagsInput({
+            width: 'auto',
+
+            //autocomplete_url:'test/fake_plaintext_endpoint.html' //jquery.autocomplete (not jquery ui)
+            autocomplete_url: 'test/fake_json_endpoint.html' // jquery ui autocomplete requires a json endpoint
+        });
+
+
+        // Uncomment this line to see the callback functions in action
+        //          $('input.tags').tagsInput({onAddTag:onAddTag,onRemoveTag:onRemoveTag,onChange: onChangeTag});       
+
+        // Uncomment this line to see an input with no interface for adding new tags.
+        //          $('input.tags').tagsInput({interactive:false});
+    });
+</script>
 
 </body>
 

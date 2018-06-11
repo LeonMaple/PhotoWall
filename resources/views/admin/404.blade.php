@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Apricot v1.2</title>
+    <title>HeLinFeng v1.0</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -33,7 +33,7 @@
 
 <body>
 <div id="awwwards" class="right black"><a
-            href="http://www.awwwards.com/best-websites/apricot-navigation-admin-dashboard-template" target="_blank">best
+            href="http://www.awwwards.com/best-websites/HeLinFeng-navigation-admin-dashboard-template" target="_blank">best
         websites of the world</a></div>
 <!-- Preloader -->
 <div id="preloader">
@@ -42,7 +42,7 @@
 
 
 <div class="logo-error">
-    <h1>Apricot
+    <h1>HeLinFeng
         <span>v1.0</span>
     </h1>
 </div>

@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Apricot V1.3</title>
+    <title>HeLinFeng 1.3</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+
     <!-- Le styles -->
     <script type="text/javascript" src="assets/js/jquery.js"></script>
 
@@ -14,17 +15,10 @@
     <link rel="stylesheet" href="assets/css/loader-style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css">
 
-    <link href="assets/js/colorPicker/bootstrap-colorpicker.css" rel="stylesheet">
-    <link href="assets/js/validate/validate.css" rel="stylesheet">
-    <link href="assets/js/idealform/css/jquery.idealforms.css" rel="stylesheet">
 
-
-    <link rel="stylesheet" href="assets/js/timepicker/bootstrap-timepicker.css">
-    <link rel="stylesheet" href="assets/js/datepicker/datepicker.css">
-    <link rel="stylesheet" href="assets/js/datepicker/clockface.css">
-    <link rel="stylesheet" href="assets/js/datepicker/bootstrap-datetimepicker.css">
-
-    <link rel="stylesheet" type="text/css" href="assets/js/tag/jquery.tagsinput.css">
+    <link href="assets/js/textEditor/editor.css" rel="stylesheet">
+    <link href="assets/js/textEditor/sceditor/minified/themes/square.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/js/textEditor/src/bootstrap-wysihtml5.css">
 
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -37,7 +31,7 @@
 
 <body>
 <div id="awwwards" class="right black"><a
-            href="http://www.awwwards.com/best-websites/apricot-navigation-admin-dashboard-template" target="_blank">best
+            href="http://www.awwwards.com/best-websites/HeLinFeng-navigation-admin-dashboard-template" target="_blank">best
         websites of the world</a></div>
 <!-- Preloader -->
 <div id="preloader">
@@ -58,9 +52,7 @@
 
 
             <div id="logo-mobile" class="visible-xs">
-                <h1>Apricot
-                    <span>v1.3</span>
-                </h1>
+                <h1>HeLinFeng<span>v1.0</span></h1>
             </div>
 
         </div>
@@ -236,7 +228,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="http://themeforest.net/item/apricot-navigation-admin-dashboard-template/7664475?WT.ac=category_item&WT.z_author=themesmile">
+                            <a href="http://themeforest.net/item/HeLinFeng-navigation-admin-dashboard-template/7664475?WT.ac=category_item&WT.z_author=themesmile">
                                 <span class="entypo-basket"></span>&#160;&#160; Purchase</a>
                         </li>
                     </ul>
@@ -280,7 +272,7 @@
 <!-- SIDE MENU -->
 <div id="skin-select">
     <div id="logo">
-        <h1>Apricot<span>v1.3</span></h1>
+        <h1>HeLinFeng<span>v1.0</span></h1>
     </div>
 
     <a id="toggle">
@@ -300,14 +292,6 @@
             <input type="search" placeholder="Search Menu..." class="id_search">
         </form>
     </div>
-
-
-    <div class="search-hover">
-        <form id="demo-2">
-            <input type="search" placeholder="Search Menu..." class="id_search">
-        </form>
-    </div>
-
 
     <div class="skin-part">
         <div id="tree-wrap">
@@ -600,8 +584,8 @@
             <div id="paper-top">
                 <div class="col-sm-3">
                     <h2 class="tittle-content-header">
-                        <i class="icon-map"></i>
-                        <span>Advance Form
+                        <i class="icon-code"></i>
+                        <span>Text Editor
                             </span>
                     </h2>
 
@@ -661,11 +645,11 @@
             </li>
             <li><i class="fa fa-lg fa-angle-right"></i>
             </li>
-            <li><a href="#" title="Sample page 1">Form</a>
+            <li><a href="#" title="Sample page 1">Form Element</a>
             </li>
             <li><i class="fa fa-lg fa-angle-right"></i>
             </li>
-            <li><a href="#" title="Sample page 1">Advance Form</a>
+            <li><a href="#" title="Sample page 1">text editor</a>
             </li>
             <li class="pull-right">
                 <div class="input-group input-widget">
@@ -680,70 +664,105 @@
 
         <div class="content-wrap">
             <div class="row">
+
+
                 <div class="col-sm-12">
-                    <div class="nest" id="validationClose">
+                    <div class="nest" id="headerClose">
                         <div class="title-alt">
                             <h6>
-                                Form Validation</h6>
+                                Editor</h6>
                             <div class="titleClose">
-                                <a class="gone" href="#validationClose">
+                                <a class="gone" href="#headerClose">
                                     <span class="entypo-cancel"></span>
                                 </a>
                             </div>
                             <div class="titleToggle">
-                                <a class="nav-toggle-alt" href="#validation">
+                                <a class="nav-toggle-alt" href="#header">
                                     <span class="entypo-up-open"></span>
                                 </a>
                             </div>
 
                         </div>
 
+                        <div class="body-nest" id="header">
 
-                        <div class="body-nest" id="validation">
-                            <div class="form_center">
+                            <form>
+                                <div id="toolbar" style="display: none;">
+                                    <a class="btn" data-wysihtml5-command="bold" title="CTRL+B">
+                                        <span class="fontawesome-bold"></span>
+                                    </a>
+                                    <a class="btn" data-wysihtml5-command="italic" title="CTRL+I">
+                                        <span class="fontawesome-italic"></span>
+                                    </a>
+                                    <a class="btn" data-wysihtml5-command="createLink">
+                                        <span class="fontawesome-link"></span>
+                                    </a>
+                                    <a class="btn" data-wysihtml5-command="insertImage">
+                                        <span class="fontawesome-picture"></span>
+                                    </a>
+                                    <a class="btn" data-wysihtml5-command="formatBlock"
+                                       data-wysihtml5-command-value="h1">h1</a>
+                                    <a class="btn" data-wysihtml5-command="formatBlock"
+                                       data-wysihtml5-command-value="h2">h2</a>
+                                    <a class="btn" data-wysihtml5-command="insertUnorderedList">
+                                        <span class="fontawesome-list-ul"></span>
+                                    </a>
+                                    <a class="btn" data-wysihtml5-command="insertOrderedList">
+                                        <span class="fontawesome-list-ol"></span>
+                                    </a>
+                                    <a class="btn" data-wysihtml5-command="foreColor"
+                                       data-wysihtml5-command-value="red">red</a>
+                                    <a class="btn" data-wysihtml5-command="foreColor"
+                                       data-wysihtml5-command-value="green">green</a>
+                                    <a class="btn" data-wysihtml5-command="foreColor"
+                                       data-wysihtml5-command-value="blue">blue</a>
+                                    <a class="btn" data-wysihtml5-command="undo">
+                                        <span class="fontawesome-backward"></span>
+                                    </a>
+                                    <a class="btn" data-wysihtml5-command="redo">
+                                        <span class="fontawesome-forward"></span>
+                                    </a>
+                                    <a class="btn" data-wysihtml5-command="insertSpeech">speech</a>
+                                    <a class="btn" data-wysihtml5-action="change_view">switch to html view</a>
 
-                                <form action="contact" id="contact-form" class="form-horizontal">
-                                    <fieldset>
+                                    <div data-wysihtml5-dialog="createLink" style="display: none;">
+                                        <label>
+                                            Link:
+                                            <input data-wysihtml5-dialog-field="href" value="http://">
+                                        </label>
+                                        <a data-wysihtml5-dialog-action="save">OK</a>&nbsp;<a
+                                                data-wysihtml5-dialog-action="cancel">Cancel</a>
+                                    </div>
+
+                                    <div data-wysihtml5-dialog="insertImage" style="display: none;">
+                                        <label>
+                                            Image:
+                                            <input data-wysihtml5-dialog-field="src" value="http://">
+                                        </label>
+                                        <label>
+                                            Align:
+                                            <select data-wysihtml5-dialog-field="className">
+                                                <option value="">default
+                                                <option value="wysiwyg-float-left">left
+                                                <option value="wysiwyg-float-right">right
+                                            </select>
+                                        </label>
+                                        <a data-wysihtml5-dialog-action="save">OK</a>&nbsp;<a
+                                                data-wysihtml5-dialog-action="cancel">Cancel</a>
+                                    </div>
+
+                                </div>
+                                <textarea style="width: 100%; height: 300px" id="textarea"
+                                          placeholder="Enter text ..."></textarea>
+                                <br>
+                                <button class="btn btn-default" type="reset" value="Reset form!">Reset form!</button>
+                            </form>
 
 
-                                        <div class="control-group">
-                                            <label class="control-label" for="name">Your Name</label>
-                                            <div class="controls">
-                                                <input type="text" class="form-control" name="name" id="name">
-                                            </div>
-                                        </div>
-                                        <div class="control-group">
-                                            <label class="control-label" for="email">Email Address</label>
-                                            <div class="controls">
-                                                <input type="text" class="form-control" name="email" id="email">
-                                            </div>
-                                        </div>
-                                        <div class="control-group">
-                                            <label class="control-label" for="subject">Subject</label>
-                                            <div class="controls">
-                                                <input type="text" class="form-control" name="subject" id="subject">
-                                            </div>
-                                        </div>
-                                        <div class="control-group">
-                                            <label class="control-label" for="message">Your Message</label>
-                                            <div class="controls">
-                                                <textarea class="form-control" name="message" id="message"
-                                                          rows="3"></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="form-actions" style="margin:20px 0 0 0;">
-                                            <button type="submit" class="btn btn-primary">Submit</button>
-                                            <button type="reset" class="btn">Cancel</button>
-                                        </div>
-                                    </fieldset>
-                                </form>
-
-                            </div>
                         </div>
-
-
                     </div>
                 </div>
+
             </div>
         </div>
 
@@ -751,309 +770,38 @@
         <div class="content-wrap">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="nest" id="maskedClose">
+                    <div class="nest" id="elClose">
                         <div class="title-alt">
                             <h6>
-                                Masked Input</h6>
+                                wysihtml5</h6>
                             <div class="titleClose">
-                                <a class="gone" href="#maskedClose">
+                                <a class="gone" href="#elClose">
                                     <span class="entypo-cancel"></span>
                                 </a>
                             </div>
                             <div class="titleToggle">
-                                <a class="nav-toggle-alt" href="#masked">
+                                <a class="nav-toggle-alt" href="#el">
                                     <span class="entypo-up-open"></span>
                                 </a>
                             </div>
 
                         </div>
 
-
-                        <div class="body-nest" id="masked">
-                            <div class="form_center">
-                                <div class="well">
-                                    <div class="input-group ">
-                                            <span class="input-group-addon btn-success"><i class="fa fa-calendar"></i>
-                                            </span>
-                                        <input type="text" class="form-control" id="date">
-                                        <span class="input-group-addon ">99/99/9999</span>
-                                    </div>
-                                </div>
-
-                                <div class="well">
-                                    <div class="input-group ">
-                                            <span class="input-group-addon btn-success"><i
-                                                        class="fa fa-phone-square"></i>
-                                            </span>
-                                        <input type="text" class="form-control" id="phone">
-                                        <span class="input-group-addon ">eg.(021) 751-2789</span>
-                                    </div>
-                                </div>
-
-                                <div class="well">
-                                    <div class="input-group ">
-                                            <span class="input-group-addon btn-success"><i class="fa fa-money"></i>
-                                            </span>
-                                        <input type="text" class="form-control" id="money">
-                                        <span class="input-group-addon ">eg.20.000.000</span>
-                                    </div>
-                                </div>
-                                <div class="well">
-                                    <div class="input-group ">
-                                            <span class="input-group-addon btn-success"><i
-                                                        class="fa fa-phone-square"></i>
-                                            </span>
-                                        <input type="text" class="form-control" id="ssn">
-                                        <span class="input-group-addon ">eg.99-AAA-9999</span>
-                                    </div>
-                                </div>
+                        <div class="body-nest" id="el">
 
 
-                            </div>
+                            <textarea class="textarea form-control" placeholder="Enter text ..."
+                                      style="width: 100%; height: 300px"></textarea>
+
+
                         </div>
-
-
                     </div>
                 </div>
+
             </div>
         </div>
 
 
-        <div class="content-wrap">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="nest" id="labelClose">
-                        <div class="title-alt">
-                            <h6>
-                                Date Picker</h6>
-                            <div class="titleClose">
-                                <a class="gone" href="#dateClose">
-                                    <span class="entypo-cancel"></span>
-                                </a>
-                            </div>
-                            <div class="titleToggle">
-                                <a class="nav-toggle-alt" href="#date_1">
-                                    <span class="entypo-up-open"></span>
-                                </a>
-                            </div>
-
-                        </div>
-
-
-                        <div class="body-nest" id="date_1">
-                            <div class="form_center">
-                                <p>Attached to a field with the format specified via options.</p>
-
-                                <div class="well">
-                                    <input type="text" class="form-control" id="dp1" value="02-16-2012">
-                                </div>
-                                <p>Start with years viewMode.</p>
-
-
-                                <div class="well">
-                                    <div data-date-viewmode="years" data-date-format="dd-mm-yyyy" data-date="12-02-2012"
-                                         id="dpYears" class="input-group date">
-
-                                        <input type="text" value="12-02-2012" class="form-control" id="ssn2">
-                                        <span class="input-group-addon add-on entypo-calendar "></span>
-                                    </div>
-
-                                </div>
-                                <p>Default behavior in pt-BR, picks date/time with fast masked input typing (need only
-                                    to type the numbers, the static part of the mask is inserted automatically if
-                                    missing) or via the popup widget, which supports year, month, day, hour and minute
-                                    views:</p>
-
-                                <div class="well">
-                                    <div id="datetimepicker1" class="input-group date">
-                                        <input class="form-control" data-format="dd/MM/yyyy hh:mm:ss" type="text">
-
-                                        <span class="input-group-addon add-on">
-                                                <i style="font-style:normal;" data-time-icon="entypo-clock"
-                                                   data-date-icon="entypo-calendar">
-      </i>
-                                            </span>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="content-wrap">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="nest" id="timeClose">
-                        <div class="title-alt">
-                            <h6>
-                                Time picker</h6>
-                            <div class="titleClose">
-                                <a class="gone" href="#timeClose">
-                                    <span class="entypo-cancel"></span>
-                                </a>
-                            </div>
-                            <div class="titleToggle">
-                                <a class="nav-toggle-alt" href="#time">
-                                    <span class="entypo-up-open"></span>
-                                </a>
-                            </div>
-
-                        </div>
-
-
-                        <div class="body-nest" id="time">
-                            <div class="form_center">
-
-
-                                <div class="well">
-                                    <div class="input-group bootstrap-timepicker">
-
-                                        <input id="timepicker1" type="text" class="form-control">
-                                        <span class="input-group-addon add-on entypo-clock"></span>
-                                    </div>
-
-                                </div>
-
-
-                                <div class="well">
-                                    <input id="t1" value="2:30 PM" data-format="hh:mm A" class="form-control"
-                                           type="text">
-                                </div>
-
-
-                                <div class="well">
-                                    <div class="input-group">
-                                        <input id="t2" value="14:30" class="form-control" readonly="" type="text">
-                                        <span style="cursor:pointer;" id="toggle-btn"
-                                              class="input-group-addon add-on entypo-calendar "></span>
-                                    </div>
-
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="content-wrap">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="nest" id="colorClose">
-                        <div class="title-alt">
-                            <h6>
-                                Color picker</h6>
-                            <div class="titleClose">
-                                <a class="gone" href="#colorClose">
-                                    <span class="entypo-cancel"></span>
-                                </a>
-                            </div>
-                            <div class="titleToggle">
-                                <a class="nav-toggle-alt" href="#color">
-                                    <span class="entypo-up-open"></span>
-                                </a>
-                            </div>
-
-                        </div>
-
-
-                        <div class="body-nest" id="color">
-                            <div class="form_center">
-
-                                <div class="well">
-                                    <input type="text" class="form-control" value="#8fff00" id="cp1">
-                                </div>
-
-                                <div class="well">
-                                    <input type="text" class="form-control" value="rgb(0,194,255,0.78)" id="cp2"
-                                           data-color-format="rgba">
-                                </div>
-
-                                <div class="well">
-                                    <div class="input-group colorpicker-component bscp" data-color="rgb(255, 146, 180)"
-                                         data-color-format="rgb" id="cp3">
-                                        <input type="text" value="" readonly="" class="form-control">
-                                        <span class="input-group-addon"><i
-                                                    style="background-color: rgb(255, 146, 180)"></i>
-                                            </span>
-                                    </div>
-                                </div>
-
-                                <div class="well">
-                                    <a href="#" class="btn btn-info" id="cp4" data-color-format="hex"
-                                       data-color="rgb(255, 255, 255)">Change background color</a>
-
-                                </div>
-                                <hr>
-
-                            </div>
-
-
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="content-wrap">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="nest" id="tagInputClose">
-                        <div class="title-alt">
-                            <h6>
-                                Tag Input</h6>
-                            <div class="titleClose">
-                                <a class="gone" href="#tagInputClose">
-                                    <span class="entypo-cancel"></span>
-                                </a>
-                            </div>
-                            <div class="titleToggle">
-                                <a class="nav-toggle-alt" href="#tagInput">
-                                    <span class="entypo-up-open"></span>
-                                </a>
-                            </div>
-
-                        </div>
-
-
-                        <div class="body-nest" id="tagInput">
-                            <div class="form_center">
-
-                                <div class="well">
-
-                                    <label>Defaults:</label>
-                                    <input id="tags_1" type="text" class="form-control tags" value="foo,bar,baz,roffle">
-                                </div>
-
-                                <div class="well">
-                                    <label>Technologies: (Programming languages in yellow)</label>
-                                    <input id="tags_2" type="text" class="tags"
-                                           value="php,ios,javascript,ruby,android,kindle">
-
-                                </div>
-
-
-                            </div>
-
-
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- /END OF CONTENT -->
 
 
@@ -1226,165 +974,90 @@
 <script type="text/javascript" src="assets/js/app.js"></script>
 <script type="text/javascript" src="assets/js/load.js"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>
+<script src="assets/js/textEditor/parser_rules/advanced.js"></script>
+<script src="assets/js/textEditor/dist/wysihtml5-0.4.0pre.js"></script>
 
 
-<!-- /MAIN EFFECT -->
-
-<script type="text/javascript" src="assets/js/colorPicker/bootstrap-colorpicker.min.js"></script>
-<script type="text/javascript" src="assets/js/inputMask/jquery.maskedinput.js"></script>
-<script type="text/javascript" src="assets/js/switch/bootstrap-switch.js"></script>
-<script type="text/javascript" src="assets/js/validate/jquery.validate.min.js"></script>
-<script type="text/javascript" src="assets/js/idealform/jquery.idealforms.js"></script>
-
-<script type="text/javascript" src="assets/js/timepicker/bootstrap-timepicker.js"></script>
-<script type="text/javascript" src="assets/js/datepicker/bootstrap-datepicker.js"></script>
-<script type="text/javascript" src="assets/js/datepicker/clockface.js"></script>
-<script type="text/javascript" src="assets/js/datepicker/bootstrap-datetimepicker.js"></script>
+<script src="assets/js/textEditor/sceditor/minified/jquery.sceditor.bbcode.min.js"></script>
 
 
-<script type="text/javascript" src="assets/js/tag/jquery.tagsinput.js"></script>
+<script src="assets/js/textEditor/lib/js/wysihtml5-0.3.0.js"></script>
+
+
+<script src="assets/js/textEditor/src/bootstrap3-wysihtml5.js"></script>
+
+<script>
+    $('.textarea').wysihtml5();
+</script>
 
 <script type="text/javascript">
-    $('#datetimepicker1').datetimepicker({
-        language: 'pt-BR'
-    });
-    $('#dp1').datepicker()
-    $('#dpYears').datepicker();
-    $('#timepicker1').timepicker();
-    $('#t1').clockface();
-    $('#t2').clockface({
-        format: 'HH:mm',
-        trigger: 'manual'
-    });
-
-    $('#toggle-btn').click(function (e) {
-        e.stopPropagation();
-        $('#t2').clockface('toggle');
-    });
+    $(prettyPrint);
 </script>
 <script>
-    $(document).ready(function () {
-        //Validation
-        $('#contact-form').validate({
-            rules: {
-                name: {
-                    minlength: 2,
-                    required: true
-                },
-                email: {
-                    required: true,
-                    email: true
-                },
-                subject: {
-                    minlength: 2,
-                    required: true
-                },
-                message: {
-                    minlength: 2,
-                    required: true
-                }
-            },
-            highlight: function (element) {
-                $(element).closest('.control-group').removeClass('success').addClass('error');
-            },
-            success: function (element) {
-                element
-                    .text('OK!').addClass('valid')
-                    .closest('.control-group').removeClass('error').addClass('success');
-            }
-        });
+    // Source: http://www.backalleycoder.com/2011/03/20/link-tag-css-stylesheet-load-event/
+    var loadCSS = function (url, callback) {
+        var link = document.createElement('link');
+        link.type = 'text/css';
+        link.rel = 'stylesheet';
+        link.href = url;
+        link.id = 'theme-style';
 
-        // MASKED INPUT
+        document.getElementsByTagName('head')[0].appendChild(link);
 
-        $("#date").mask("99/99/9999", {
-            completed: function () {
-                alert("Your birthday was: " + this.val());
-            }
-        });
-        $("#phone").mask("(999) 999-9999");
-
-        $("#money").mask("99.999.9999", {
-            placeholder: "*"
-        });
-        $("#ssn").mask("99--AAA--9999", {
-            placeholder: "*"
-        });
-
-
-        //COLOR PICKER
-        window.prettyPrint && prettyPrint();
-
-        // Code for those demos
-        var _createColorpickers = function () {
-            $('#cp1').colorpicker({
-                format: 'hex'
-            });
-            $('#cp2').colorpicker();
-            $('#cp3').colorpicker();
-            var bodyStyle = $('body')[0].style;
-            $('#cp4').colorpicker().on('changeColor', function (ev) {
-                bodyStyle.backgroundColor = ev.color.toHex();
-            });
+        var img = document.createElement('img');
+        img.onerror = function () {
+            if (callback) callback(link);
         }
+        img.src = url;
+    }
 
-        _createColorpickers();
+    $(document).ready(function () {
+        var initEditor = function () {
+            $(".sceditor").sceditor({
+                plugins: 'bbcode',
+                style: "assets/js/textEditor/sceditor/minified/square.min.css"
+            });
+        };
 
-        $('.bscp-destroy').click(function (e) {
-            e.preventDefault();
-            $('.bscp').colorpicker('destroy');
-        });
-
-        $('.bscp-create').click(function (e) {
-            e.preventDefault();
-            _createColorpickers();
-        });
-
-
+        initEditor();
     });
 </script>
 
-<script type="text/javascript">
-    function onAddTag(tag) {
-        alert("Added a tag: " + tag);
-    }
 
-    function onRemoveTag(tag) {
-        alert("Removed a tag: " + tag);
-    }
-
-    function onChangeTag(input, tag) {
-        alert("Changed a tag: " + tag);
-    }
-
-    $(function () {
-
-        $('#tags_1').tagsInput({
-            width: 'auto'
-        });
-        $('#tags_2').tagsInput({
-            width: 'auto',
-            onChange: function (elem, elem_tags) {
-                var languages = ['php', 'ruby', 'javascript'];
-                $('.tag', elem_tags).each(function () {
-                    if ($(this).text().search(new RegExp('//b(' + languages.join('|') + ')//b')) >= 0)
-                        $(this).css('background-color', '#FBB44C');
-                });
-            }
-        });
-        $('#tags_3').tagsInput({
-            width: 'auto',
-
-            //autocomplete_url:'test/fake_plaintext_endpoint.html' //jquery.autocomplete (not jquery ui)
-            autocomplete_url: 'test/fake_json_endpoint.html' // jquery ui autocomplete requires a json endpoint
-        });
-
-
-        // Uncomment this line to see the callback functions in action
-        //          $('input.tags').tagsInput({onAddTag:onAddTag,onRemoveTag:onRemoveTag,onChange: onChangeTag});       
-
-        // Uncomment this line to see an input with no interface for adding new tags.
-        //          $('input.tags').tagsInput({interactive:false});
+<script>
+    var editor = new wysihtml5.Editor("textarea", {
+        toolbar: "toolbar",
+        stylesheets: "assets/js/textEditor/examples/css/stylesheet.css",
+        parserRules: wysihtml5ParserRules
     });
+
+    var log = document.getElementById("log");
+
+    editor
+        .on("load", function () {
+            log.innerHTML += "<div>load</div>";
+        })
+        .on("focus", function () {
+            log.innerHTML += "<div>focus</div>";
+        })
+        .on("blur", function () {
+            log.innerHTML += "<div>blur</div>";
+        })
+        .on("change", function () {
+            log.innerHTML += "<div>change</div>";
+        })
+        .on("paste", function () {
+            log.innerHTML += "<div>paste</div>";
+        })
+        .on("newword:composer", function () {
+            log.innerHTML += "<div>newword:composer</div>";
+        })
+        .on("undo:composer", function () {
+            log.innerHTML += "<div>undo:composer</div>";
+        })
+        .on("redo:composer", function () {
+            log.innerHTML += "<div>redo:composer</div>";
+        });
 </script>
 
 </body>

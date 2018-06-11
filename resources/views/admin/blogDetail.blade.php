@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Apricot v 1.2</title>
+    <title>HeLinFeng v 1.2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -27,7 +27,7 @@
 
 <body>
 <div id="awwwards" class="right black"><a
-            href="http://www.awwwards.com/best-websites/apricot-navigation-admin-dashboard-template" target="_blank">best
+            href="http://www.awwwards.com/best-websites/HeLinFeng-navigation-admin-dashboard-template" target="_blank">best
         websites of the world</a></div>
 <!-- Preloader -->
 <div id="preloader">
@@ -48,7 +48,7 @@
 
 
             <div id="logo-mobile" class="visible-xs">
-                <h1>Apricot<span>v1.3</span></h1>
+                <h1>HeLinFeng<span>v1.0</span></h1>
             </div>
 
         </div>
@@ -224,7 +224,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="http://themeforest.net/item/apricot-navigation-admin-dashboard-template/7664475?WT.ac=category_item&WT.z_author=themesmile">
+                            <a href="http://themeforest.net/item/HeLinFeng-navigation-admin-dashboard-template/7664475?WT.ac=category_item&WT.z_author=themesmile">
                                 <span class="entypo-basket"></span>&#160;&#160; Purchase</a>
                         </li>
                     </ul>
@@ -268,7 +268,7 @@
 <!-- SIDE MENU -->
 <div id="skin-select">
     <div id="logo">
-        <h1>Apricot<span>v1.3</span></h1>
+        <h1>HeLinFeng<span>v1.0</span></h1>
     </div>
 
     <a id="toggle">
@@ -588,8 +588,8 @@
             <div id="paper-top">
                 <div class="col-sm-3">
                     <h2 class="tittle-content-header">
-                        <span class="entypo-doc-text"></span>
-                        <span>Blog List
+                        <span class="entypo-newspaper"></span>
+                        <span>Blog Detail
                             </span>
                     </h2>
 
@@ -642,6 +642,7 @@
         </div>
         <!--/ TITLE -->
 
+
         <!-- BREADCRUMB -->
         <ul id="breadcrumb">
             <li>
@@ -649,14 +650,14 @@
             </li>
             <li><i class="fa fa-lg fa-angle-right"></i>
             </li>
-            <li><a href="#" title="Sample page 1">Blog</a>
+            <li><a href="#" title="Sample page 1">Blog App</a>
             </li>
             <li><i class="fa fa-lg fa-angle-right"></i>
             </li>
-            <li><a href="#" title="Sample page 1">Blog List</a>
+            <li><a href="#" title="Sample page 1">Blog Detail</a>
             </li>
             <li class="pull-right">
-                <div class="input-group input-widget">
+                <div class="input-group" style="margin:-7px 30px 0 0">
 
                     <input style="border-radius:15px" type="text" placeholder="Search..." class="form-control">
                 </div>
@@ -665,132 +666,10 @@
 
         <!-- END OF BREADCRUMB -->
 
-
         <!--CONTENT-->
         <div class="row" style="margin-top:30px;padding:0 15px;">
             <!--  BLOG CONTENT -->
             <div class="col-sm-8">
-
-                <div class="blog-list-nest">
-                    <div class="vendor">
-                        <img class="img-responsive-media" src="http://lorempixel.com/output/food-q-c-600-300-9.jpg"
-                             alt="">
-                    </div>
-
-                    <div class="blog-list-content">
-                        <h2>Article Heading</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet
-                            vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.
-                            Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis.
-                            Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</p>
-
-                        <p class="pull-right">
-                            <span class="label label-default">keyword</span>
-                            <span class="label label-default">tag</span>
-                            <span class="label label-default">post</span>
-                        </p>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#">
-                                    <span class="entypo-network"></span>&nbsp;2 Days Ago</a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="entypo-chat"></span>&nbsp;2 Comments</a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="entypo-share"></span>&nbsp;14 Shares</a>
-                            </li>
-                        </ul>
-                        <hr>
-                        <button class="btn btn-info pull-right">Read More</button>
-                        <div style="clear:both;"></div>
-                    </div>
-                </div>
-
-
-                <div class="blog-list-nest">
-                    <div class="vendor youtube-nest">
-                        <iframe width="560" height="315" src="http://www.youtube.com/embed/Pe0jFDPHkzo" frameborder="0"
-                                allowfullscreen=""></iframe>
-                    </div>
-
-                    <div class="blog-list-content">
-                        <h2>Godzilla</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet
-                            vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.
-                            Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis.
-                            Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</p>
-
-                        <p class="pull-right">
-                            <span class="label label-default">keyword</span>
-                            <span class="label label-default">tag</span>
-                            <span class="label label-default">post</span>
-                        </p>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#">
-                                    <span class="entypo-network"></span>&nbsp;2 Days Ago</a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="entypo-chat"></span>&nbsp;2 Comments</a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="entypo-share"></span>&nbsp;14 Shares</a>
-                            </li>
-                        </ul>
-                        <hr>
-                        <button class="btn btn-info pull-right">Read More</button>
-                        <div style="clear:both;"></div>
-                    </div>
-                </div>
-
-
-                <div class="blog-list-nest">
-                    <div class="vendor">
-                        <blockquote>
-                            <p>"How can we win when fools can be king"</p>
-                            <p>
-                                <small>Mattew Bellamy</small>
-                            </p>
-                        </blockquote>
-                    </div>
-
-                    <div class="blog-list-content">
-                        <h2>Muse</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet
-                            vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.
-                            Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis.
-                            Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</p>
-
-                        <p class="pull-right">
-                            <span class="label label-default">keyword</span>
-                            <span class="label label-default">tag</span>
-                            <span class="label label-default">post</span>
-                        </p>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#">
-                                    <span class="entypo-network"></span>&nbsp;2 Days Ago</a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="entypo-chat"></span>&nbsp;2 Comments</a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="entypo-share"></span>&nbsp;14 Shares</a>
-                            </li>
-                        </ul>
-                        <hr>
-                        <button class="btn btn-info pull-right">Read More</button>
-                        <div style="clear:both;"></div>
-                    </div>
-                </div>
-
 
                 <div class="blog-list-nest">
                     <div class="vendor">
@@ -800,10 +679,32 @@
 
                     <div class="blog-list-content">
                         <h2>Favright</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet
-                            vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.
-                            Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis.
-                            Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam condimentum sollicitudin mi,
+                            vitae vehicula justo venenatis at. Morbi tempor fermentum velit non pretium. Phasellus at
+                            lacus turpis. Curabitur dapibus pulvinar velit eu rutrum. Nulla adipiscing sapien orci, ac
+                            iaculis justo euismod vitae. Fusce tincidunt accumsan erat, a molestie eros auctor a.
+                            Suspendisse vel nibh vulputate, porttitor neque in, pellentesque lectus. Pellentesque
+                            aliquet diam sed placerat scelerisque. Suspendisse eleifend sem urna, eget viverra nunc
+                            interdum quis. Nam porta nunc turpis. Pellentesque ut adipiscing mi, eu facilisis
+                            turpis.</p>
+
+                        <p>Nunc ac erat semper, ultrices lorem eu, pretium urna. Etiam nibh nibh, laoreet id pharetra
+                            sit amet, interdum at sapien. Fusce venenatis velit in diam auctor tempus. Duis feugiat
+                            consectetur urna vel suscipit. In in lorem placerat, tempus velit ac, aliquam diam. Cras
+                            vestibulum velit posuere, elementum enim sed, imperdiet nisl. Etiam scelerisque purus
+                            tempus, fringilla dolor at, sodales nibh. Morbi molestie porta nunc, ut tincidunt ante
+                            euismod vitae. Mauris vehicula augue augue, ut placerat sapien porta vel. Curabitur laoreet
+                            odio et nibh hendrerit consequat. Quisque aliquet orci est, condimentum dignissim felis
+                            tempus eget. Morbi ac bibendum velit, eget aliquam nisi. Integer posuere consequat purus non
+                            mollis. Integer posuere vitae massa a posuere. Vivamus at lectus at elit aliquam pulvinar
+                            porta nec turpis.</p>
+
+                        <p>Vestibulum eu scelerisque ante, eget molestie tellus. Aenean eget sagittis massa. Fusce et
+                            ligula ultricies, venenatis leo et, posuere orci. Aenean euismod augue id orci consequat,
+                            eget lobortis ante blandit. Nulla tempus viverra mattis. Maecenas volutpat ut massa
+                            pellentesque tristique. Morbi erat enim, dapibus ornare laoreet non, auctor sit amet lorem.
+                            Integer nec lorem a risus tristique viverra. Quisque aliquam nisl eu ante pretium, vel
+                            volutpat leo tempus. Nam velit arcu, tincidunt eget viverra vitae, auctor ac neque.</p>
 
                         <p class="pull-right">
                             <span class="label label-default">keyword</span>
@@ -828,6 +729,121 @@
                         <button class="btn btn-info pull-right">Read More</button>
                         <div style="clear:both;"></div>
                     </div>
+                </div>
+
+
+                <div class="comment-nest">
+                    <h1>Leave a Comment:</h1>
+                    <div class="well">
+
+                        <form role="form">
+                            <div class="form-group">
+                                <textarea placeholder="Comment" rows="5" class="form-update"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-info">Submit</button>
+                        </form>
+                    </div>
+
+
+                    <hr>
+                    <ul class="media-list">
+                        <li class="media">
+                            <a class="pull-left" href="#">
+                                <img class="media-object img-circle" data-src="holder.js/64x64" alt="64x64"
+                                     src="http://api.randomuser.me/portraits/thumb/women/21.jpg"
+                                     style="width: 64px; height: 64px;">
+                            </a>
+
+
+                            <div class="media-body">
+                                <div class="social-profile">
+                                    <h3><a class="link-comment" href="#">Sympo Nia</a>
+                                        <span><i class="entypo-globe"></i>&nbsp;1 hours ago</span>
+                                        <span><a class="link-comment" href="#"><i class="fontawesome-share"></i>&nbsp;Reply</a>
+                                            </span>
+                                    </h3>
+                                </div>
+
+                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                    sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra
+                                    turpis.</p>
+                                <!-- Nested media object -->
+
+                                <div class="media">
+                                    <a class="pull-left" href="#">
+                                        <img class="media-object img-circle" data-src="holder.js/64x64" alt="64x64"
+                                             src="http://api.randomuser.me/portraits/thumb/men/40.jpg"
+                                             style="width: 64px; height: 64px;">
+                                    </a>
+                                    <div class="media-body">
+
+                                        <div class="social-profile">
+                                            <h3><a class="link-comment" href="#">Awangizm</a>
+                                                <span><i class="entypo-globe"></i>&nbsp;1 hours ago</span>
+                                                <span><a class="link-comment" href="#"><i class="fontawesome-share"></i>&nbsp;Reply</a>
+                                                    </span>
+                                            </h3>
+                                        </div>
+
+                                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                            sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus
+                                            viverra turpis.</p>
+                                        <!-- Nested media object -->
+                                        <div class="media">
+                                            <a class="pull-left" href="#">
+                                                <img class="media-object img-circle" data-src="holder.js/64x64"
+                                                     alt="64x64"
+                                                     src="http://api.randomuser.me/portraits/thumb/women/21.jpg"
+                                                     style="width: 64px; height: 64px;">
+                                            </a>
+                                            <div class="media-body">
+
+                                                <div class="social-profile">
+                                                    <h3><a class="link-comment" href="#">Symponia</a>
+                                                        <span><i class="entypo-globe"></i>&nbsp;1 hours ago</span>
+                                                        <span><a class="link-comment" href="#"><i
+                                                                        class="fontawesome-share"></i>&nbsp;Reply</a>
+                                                            </span>
+                                                    </h3>
+                                                </div>
+
+
+                                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                                                    scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum
+                                                    in vulputate at, tempus viverra turpis.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Nested media object -->
+                                <div class="media">
+                                    <a class="pull-left" href="#">
+                                        <img class="media-object img-circle" data-src="holder.js/64x64" alt="64x64"
+                                             src="http://api.randomuser.me/portraits/thumb/men/55.jpg"
+                                             style="width: 64px; height: 64px;">
+                                    </a>
+                                    <div class="media-body">
+
+                                        <div class="social-profile">
+                                            <h3><a class="link-comment" href="#">Agus Berontazk</a>
+                                                <span><i class="entypo-globe"></i>&nbsp;12 minute ago</span>
+                                                <span><a class="link-comment" href="#"><i class="fontawesome-share"></i>&nbsp;Reply</a>
+                                                    </span>
+                                            </h3>
+                                        </div>
+
+
+                                        <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                                            sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus
+                                            viverra turpis.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+
                 </div>
 
 
@@ -901,7 +917,7 @@
                                  src="http://placehold.it/64x64">
                         </a>
                         <div class="media-body">
-                            <h5 class="media-heading">Cras sit amet nibh Lorem ipsum dolor si amet</h5>
+                            <h5 class="media-heading"> Cras sit amet nibh Lorem ipsum dolor si amet </h5>
                             <a class="link-comment recentpost-link" style="margin:-10px 0 10px" href="#">88 Views</a>
                         </div>
                     </div>
@@ -912,7 +928,7 @@
                                  src="http://placehold.it/64x64">
                         </a>
                         <div class="media-body">
-                            <h5 class="media-heading">Cras sit amet nibh Lorem ipsum dolor si amet</h5>
+                            <h5 class="media-heading"> Cras sit amet nibh Lorem ipsum dolor si amet </h5>
                             <a class="link-comment recentpost-link" style="margin:-10px 0 10px" href="#">90 Views</a>
                         </div>
                     </div>
@@ -923,7 +939,7 @@
                                  src="http://placehold.it/64x64">
                         </a>
                         <div class="media-body">
-                            <h5 class="media-heading">Cras sit amet nibh Lorem ipsum dolor si amet</h5>
+                            <h5 class="media-heading"> Cras sit amet nibh Lorem ipsum dolor si amet </h5>
                             <a class="link-comment recentpost-link" style="margin:-10px 0 10px" href="#">42 Views</a>
                         </div>
                     </div>
@@ -934,7 +950,7 @@
                                  src="http://placehold.it/64x64">
                         </a>
                         <div class="media-body">
-                            <h5 class="media-heading">Cras sit amet nibh Lorem ipsum dolor si amet</h5>
+                            <h5 class="media-heading"> Cras sit amet nibh Lorem ipsum dolor si amet </h5>
                             <a class="link-comment recentpost-link" style="margin:-10px 0 10px" href="#">111 Views</a>
                         </div>
                     </div>
@@ -945,7 +961,7 @@
                                  src="http://placehold.it/64x64">
                         </a>
                         <div class="media-body">
-                            <h5 class="media-heading">Cras sit amet nibh Lorem ipsum dolor si amet</h5>
+                            <h5 class="media-heading"> Cras sit amet nibh Lorem ipsum dolor si amet </h5>
                             <a class="link-comment recentpost-link" style="margin:-10px 0 10px" href="#">123 Views</a>
                         </div>
                     </div>
@@ -1168,8 +1184,9 @@
     // Basic FitVids Test
     $(".blog-list-nest").fitVids();
     // Custom selector and No-Double-Wrapping Prevention Test
-    $(".blog-list-nest").fitVids();
-    // Custom selector and No-Double-Wrapping Prevention Test
+    $(".blog-list-nest").fitVids({
+        customSelector: "iframe[src^='http://socialcam.com']"
+    });
 </script>
 
 
