@@ -14,10 +14,10 @@
 return [
 
     //前台路由对应的主机访问地址
-    'home_url'      => 'laravel_home.com',
+    'home_url'      => 'h.laravel.com',
 
     //后台路由对应的主机访问地址
-    'admin_url'     => 'laravel_admin.com',
+    'admin_url'     => 'admin.laravel.com',
 
     //API台路由对应的主机访问地址
     'api_url'     => 'laravel_api.com',

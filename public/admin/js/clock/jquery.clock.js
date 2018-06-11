@@ -45,8 +45,8 @@
       {
         jQuery(_this).find(".hour").html(hours);
       }
-      var meridiem = hours<12?'AM':'PM';
-      jQuery(_this).find('.meridiem').html(meridiem);
+      // var meridiem = hours<12?'上午':'下午';
+      jQuery(_this).find('.meridiem').html();
     }, 1000 );
 
     setInterval( function() {

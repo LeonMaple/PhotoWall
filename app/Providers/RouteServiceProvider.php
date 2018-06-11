@@ -15,7 +15,7 @@ class RouteServiceProvider extends ServiceProvider
      * @var string
      */
     protected $namespace = 'App\Http\Controllers';
-    protected $backendNamespace = 'App\Http\Controllers\Admin';
+    protected $adminNamespace = 'App\Http\Controllers\Admin';
     protected $frontendNamespace = 'App\Http\Controllers\Home';
 
     /**
@@ -50,31 +50,28 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected function mapWebRoutes()
     {
+        if(isset($_SERVER['HTTP_HOST'])) {
+            $prefix = explode('.', $_SERVER['HTTP_HOST'])[0];
 
-        $url_prefix = explode('.',$_SERVER['HTTP_HOST'])[0];
+            if ($prefix == 'h') {
 
-        $backendUrl = config('route.admin_url');
-        $frontendUrl = config('route.home_url');
+                Route::middleware('web')
+                    ->namespace($this->namespace)
+                    ->group(base_path('routes/web.php'));
 
-        if($url_prefix=='h'){
+            } //后台
+            elseif ($prefix == 'admin') {
+
+                Route::middleware('web')
+                    ->namespace($this->adminNamespace)
+                    ->group(base_path('app/Http/route_admin.php'));
+
+            }
+        } else {
             Route::middleware('web')
                 ->namespace($this->namespace)
                 ->group(base_path('routes/web.php'));
-        }else if($url_prefix=='admin'){
-            Route::middleware('web')
-                ->namespace($this->namespace)
-                ->group(base_path('Http/route_admin.php'));
-
-//            Route::group([
-//                    'domain' => $backendUrl,
-//                    'namespace' => $this->backendNamespace],
-//                    function ($router) {
-//                        require app_path('Http/route_admin.php');
-//                    }
-//                );
-
         }
-
     }
 
     /**

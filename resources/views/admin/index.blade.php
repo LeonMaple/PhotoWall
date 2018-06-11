@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
-    <title>Apricot 1.3</title>
+    <title>HELINFENG</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/loader-style.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="assets/js/progress-bar/number-pb.css">
+    <link rel="stylesheet" href="{{ URL::asset('admin/css/style.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('admin/css/loader-style.css') }}">
+    <link rel="stylesheet" href="{{ URL::asset('admin/css/bootstrap.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ URL::asset('admin/js/progress-bar/number-pb.css') }}">
     <style type="text/css">
         canvas#canvas4 {
             position: relative;
@@ -19,24 +18,20 @@
     </style>
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <!--<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <!-- Fav and touch icons -->
-    <link rel="shortcut icon" href="assets/ico/minus.png">
+    <link rel="shortcut icon" href="{{ URL::asset('admin/ico/minus.png') }}">
 </head>
 
 <body>
-<!-- Preloader -->
 <div id="preloader">
     <div id="status">&nbsp;</div>
 </div>
-<!-- TOP NAVBAR -->
 <nav role="navigation" class="navbar navbar-static-top">
     <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-            <button data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" class="navbar-toggle"
-                    type="button">
+            <button data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" class="navbar-toggle" type="button">
                 <span class="entypo-menu"></span>
             </button>
             <button class="navbar-toggle toggle-menu-mobile toggle-left" type="button">
@@ -44,9 +39,8 @@
             </button>
 
             <div id="logo-mobile" class="visible-xs">
-                <h1>WEB管理<span>v1.2</span></h1>
+                <h1>WEB管理<span>v1.0</span></h1>
             </div>
-
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -144,7 +138,7 @@
             <div id="nt-title-container" class="navbar-left running-text visible-lg">
                 <ul class="date-top">
                     <li class="entypo-calendar" style="margin-right:5px"></li>
-                    <li id="Date"></li>
+                    <li id="Date">{{ $date }}</li>
                 </ul>
 
                 <ul id="digital-clock" class="digital">
@@ -157,23 +151,11 @@
                     <li class="meridiem"></li>
                 </ul>
                 <ul id="nt-title">
-                    <li><i class="wi-day-lightning"></i>&#160;&#160;Berlin&#160;
+                    <li><i class="wi-day-lightning"></i>&#160;&#160;chengdu&#160;
                         <b>85</b><i class="wi-fahrenheit"></i>&#160;; 15km/h
                     </li>
-                    <li><i class="wi-day-lightning"></i>&#160;&#160;Yogyakarta&#160;
+                    <li><i class="wi-day-lightning"></i>&#160;&#160;chengdu&#160;
                         <b>85</b><i class="wi-fahrenheit"></i>&#160;; Tonight- 72 °F (22.2 °C)
-                    </li>
-
-                    <li><i class="wi-day-lightning"></i>&#160;&#160;Sttugart&#160;
-                        <b>85</b><i class="wi-fahrenheit"></i>&#160;; 15km/h
-                    </li>
-
-                    <li><i class="wi-day-lightning"></i>&#160;&#160;Muchen&#160;
-                        <b>85</b><i class="wi-fahrenheit"></i>&#160;; 15km/h
-                    </li>
-
-                    <li><i class="wi-day-lightning"></i>&#160;&#160;Frankurt&#160;
-                        <b>85</b><i class="wi-fahrenheit"></i>&#160;; 15km/h
                     </li>
 
                 </ul>
@@ -233,17 +215,14 @@
             </ul>
 
         </div>
-        <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container-fluid -->
 </nav>
 
-<!-- /END OF TOP NAVBAR -->
 
 <!-- SIDE MENU -->
 <div id="skin-select">
     <div id="logo">
-        <h1>CloudSoft<span>v1.2</span></h1>
+        <h1>HELINFENG<span>v1.0</span></h1>
     </div>
 
     <a id="toggle">
@@ -1233,45 +1212,41 @@
 </div>
 
 <!-- END OF RIGHT SLIDER CONTENT-->
-<script type="text/javascript" src="assets/js/jquery.js"></script>
-<script src="assets/js/progress-bar/src/jquery.velocity.min.js"></script>
-<script src="assets/js/progress-bar/number-pb.js"></script>
-<script src="assets/js/progress-bar/progress-app.js"></script>
-
+<script type="text/javascript" src="{{ URL::asset('admin/js/jquery.js') }}"></script>
+<script src="{{ URL::asset('admin/js/progress-bar/src/jquery.velocity.min.js') }}"></script>
+<script src="{{ URL::asset('admin/js/progress-bar/number-pb.js') }}"></script>
+<script src="{{ URL::asset('admin/js/progress-bar/progress-app.js') }}"></script>
 
 <!-- MAIN EFFECT -->
-<script type="text/javascript" src="assets/js/preloader.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.js"></script>
-<script type="text/javascript" src="assets/js/app.js"></script>
-<script type="text/javascript" src="assets/js/load.js"></script>
-<script type="text/javascript" src="assets/js/main.js"></script>
-
+<script type="text/javascript" src="{{ URL::asset('admin/js/preloader.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('admin/js/bootstrap.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('admin/js/app.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('admin/js/load.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('admin/js/main.js') }}"></script>
 
 <!-- GAGE -->
+<script type="text/javascript" src="{{ URL::asset('admin/js/chart/jquery.flot.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('admin/js/chart/jquery.flot.resize.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('admin/js/chart/realTime.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('admin/js/speed/canvasgauge-coustom.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('admin/js/countdown/jquery.countdown.js') }}"></script>
 
 
-<script type="text/javascript" src="assets/js/chart/jquery.flot.js"></script>
-<script type="text/javascript" src="assets/js/chart/jquery.flot.resize.js"></script>
-<script type="text/javascript" src="assets/js/chart/realTime.js"></script>
-<script type="text/javascript" src="assets/js/speed/canvasgauge-coustom.js"></script>
-<script type="text/javascript" src="assets/js/countdown/jquery.countdown.js"></script>
+{{--<script src="{{ URL::asset('admin/js/jhere-custom.js') }}"></script>--}}
 
-
-<script src="assets/js/jhere-custom.js"></script>
-
-<script>
-    var gauge4 = new Gauge("canvas4", {
-        'mode': 'needle',
-        'range': {
-            'min': 0,
-            'max': 90
-        }
-    });
-    gauge4.draw(Math.floor(Math.random() * 90));
-    var run = setInterval(function () {
-        gauge4.draw(Math.floor(Math.random() * 90));
-    }, 3500);
-</script>
+{{--<script>--}}
+    {{--var gauge4 = new Gauge("canvas4", {--}}
+        {{--'mode': 'needle',--}}
+        {{--'range': {--}}
+            {{--'min': 0,--}}
+            {{--'max': 90--}}
+        {{--}--}}
+    {{--});--}}
+    {{--gauge4.draw(Math.floor(Math.random() * 90));--}}
+    {{--var run = setInterval(function () {--}}
+        {{--gauge4.draw(Math.floor(Math.random() * 90));--}}
+    {{--}, 3500);--}}
+{{--</script>--}}
 
 
 <script type="text/javascript">
@@ -1285,7 +1260,7 @@
             type: 'smart',
             zoom: 10
         }).jHERE('marker', [52.500556, 13.338889], {
-            icon: 'assets/img/marker.png',
+            icon: "{{ URL::asset('admin/img/marker.pngs') }}",
             anchor: {
                 x: 12,
                 y: 32
