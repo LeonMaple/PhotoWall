@@ -26,6 +26,8 @@
 
 //首页
 Route::get('admin/index', 'IndexController@index');
+//小图标
+Route::get('admin/icon', 'IconController@index');
 
 // 控制器在 "App\Http\Controllers\Admin\User" 命名空间下
 Route::group(['namespace' => 'User'], function()
@@ -53,4 +55,25 @@ Route::group(['namespace' => 'Media'], function()
 Route::group(['namespace' => 'Mail'], function()
 {
     Route::get('admin/mail', 'MailController@index');
+});
+
+
+//email
+Route::group(['namespace' => 'Extra'], function()
+{
+    Route::get('admin/blank', 'BlankController@index');
+    Route::get('admin/profile', 'ProfileController@index');
+    Route::get('admin/invoice', 'InvoiceController@index');
+    Route::get('admin/pricing', 'PricingController@index');
+    Route::get('admin/time', 'TimelineController@index');
+    Route::get('admin/lock', 'LockscreenController@index');
+
+    Route::get('admin/error/server', 'ErrorController@server');
+    Route::get('admin/error/notfound', 'ErrorController@notfound');
+
+    //需要研究下，现在还不起作用
+//    Route::get('error/{action}', function(App\Http\Controllers\Admin\Extra\ErrorController $index, $action){
+//        return $index->$action();
+//    });
+
 });

@@ -4,31 +4,15 @@
 <head>
     <meta charset="utf-8">
     <title>HeLinFeng v1.0</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
     <style type="text/css">
         body {
             overflow: hidden !important;
             padding-top: 120px;
         }
     </style>
-    <!-- Le styles -->
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    @include('admin.layouts')
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/loader-style.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/signin.css">
-    <link rel="stylesheet" href="assets/css/extra-pages.css">
-
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!-- Fav and touch icons -->
-    <link rel="shortcut icon" href="assets/ico/minus.png">
+    <link rel="stylesheet" href="{{ URL::asset('admin/css/extra-pages.css') }}">
 </head>
 
 <body>

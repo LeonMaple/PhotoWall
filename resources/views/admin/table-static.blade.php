@@ -376,7 +376,7 @@
                         </a>
                         <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="blank_page" title="Blank Page"><i
+                                <a class="tooltip-tip2 ajax-load" href="blank" title="Blank Page"><i
                                             class="icon-media-record"></i><span>Blank Page</span></a>
                             </li>
                             <li>
@@ -388,23 +388,23 @@
                                             class="entypo-newspaper"></i><span>Invoice</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="pricing_table" title="Pricing Table"><i
+                                <a class="tooltip-tip2 ajax-load" href="pricing" title="Pricing Table"><i
                                             class="fontawesome-money"></i><span>Pricing Table</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="time-line" title="Time Line"><i
+                                <a class="tooltip-tip2 ajax-load" href="time" title="Time Line"><i
                                             class="entypo-clock"></i><span>Time Line</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2" href="404" title="404 Error Page"><i
+                                <a class="tooltip-tip2" href="error/notfound" title="404 Error Page"><i
                                             class="icon-thumbs-down"></i><span>404 Error Page</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2" href="500" title="500 Error Page"><i
+                                <a class="tooltip-tip2" href="error/server" title="500 Error Page"><i
                                             class="icon-thumbs-down"></i><span>500 Error Page</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2" href="lock-screen" title="Lock Screen"><i
+                                <a class="tooltip-tip2" href="lock" title="Lock Screen"><i
                                             class="icon-lock"></i><span>Lock Screen</span></a>
                             </li>
                         </ul>

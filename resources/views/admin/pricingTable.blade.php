@@ -4,25 +4,9 @@
 <head>
     <meta charset="utf-8">
     <title>HeLinFeng 1.3</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- Le styles -->
-    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    @include('admin.layouts')
 
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/loader-style.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-
-    <link rel="stylesheet" href="assets/css/extra-pages.css">
-
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!-- Fav and touch icons -->
-    <link rel="shortcut icon" href="assets/ico/minus.png">
+    <link rel="stylesheet" href="{{ URL::asset('admin/css/extra-pages.css') }}">
 </head>
 
 <body>
@@ -375,7 +359,7 @@
                         </a>
                         <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="blank_page" title="Blank Page"><i
+                                <a class="tooltip-tip2 ajax-load" href="blank" title="Blank Page"><i
                                             class="icon-media-record"></i><span>Blank Page</span></a>
                             </li>
                             <li>
@@ -387,23 +371,23 @@
                                             class="entypo-newspaper"></i><span>Invoice</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="pricing_table" title="Pricing Table"><i
+                                <a class="tooltip-tip2 ajax-load" href="pricing" title="Pricing Table"><i
                                             class="fontawesome-money"></i><span>Pricing Table</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="time-line" title="Time Line"><i
+                                <a class="tooltip-tip2 ajax-load" href="time" title="Time Line"><i
                                             class="entypo-clock"></i><span>Time Line</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2" href="404" title="404 Error Page"><i
+                                <a class="tooltip-tip2" href="error/notfound" title="404 Error Page"><i
                                             class="icon-thumbs-down"></i><span>404 Error Page</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2" href="500" title="500 Error Page"><i
+                                <a class="tooltip-tip2" href="error/server" title="500 Error Page"><i
                                             class="icon-thumbs-down"></i><span>500 Error Page</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2" href="lock-screen" title="Lock Screen"><i
+                                <a class="tooltip-tip2" href="lock" title="Lock Screen"><i
                                             class="icon-lock"></i><span>Lock Screen</span></a>
                             </li>
                         </ul>
@@ -1018,12 +1002,7 @@
 
 
 <!-- MAIN EFFECT -->
-<script type="text/javascript" src="assets/js/preloader.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.js"></script>
-<script type="text/javascript" src="assets/js/app.js"></script>
-<script type="text/javascript" src="assets/js/load.js"></script>
-<script type="text/javascript" src="assets/js/main.js"></script>
-
+@include('admin.bottom')
 
 </body>
 
