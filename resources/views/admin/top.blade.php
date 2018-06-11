@@ -161,7 +161,7 @@
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="http://themeforest.net/item/HeLinFeng-navigation-admin-dashboard-template/7664475?WT.ac=category_item&WT.z_author=themesmile">
+                            <a href="">
                                 <span class="entypo-basket"></span>&#160;&#160; Purchase</a>
                         </li>
                     </ul>

@@ -17,7 +17,7 @@
 
 <body>
 <div id="awwwards" class="right black"><a
-            href="http://www.awwwards.com/best-websites/HeLinFeng-navigation-admin-dashboard-template" target="_blank">best
+            href="" target="_blank">best
         websites of the world</a></div>
 <!-- Preloader -->
 <div id="preloader">
