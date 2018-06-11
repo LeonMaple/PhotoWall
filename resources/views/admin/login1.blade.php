@@ -34,7 +34,7 @@
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
                 <div class="account-box">
-                    <form role="form" action="index.html">
+                    <form role="form" action="index">
                         <div class="form-group">
                             <!--a href="#" class="pull-right label-forgot">Forgot email?</a-->
                             <label for="inputUsernameEmail">用户名</label>
@@ -53,27 +53,27 @@
                             登 录
                         </button>
                     </form>
-                    <a class="forgotLnk" href="index.html"></a>
+                    <a class="forgotLnk" href="index"></a>
                     <!--
                         <div class="or-box">
                         <center><span class="text-center login-with">Login or <b>Sign Up</b></span></center>
                         <div class="row">
                             <div class="col-md-6 row-block">
-                                <a href="index.html" class="btn btn-facebook btn-block">
+                                <a href="index" class="btn btn-facebook btn-block">
                                     <span class="entypo-facebook space-icon"></span>Facebook</a>
                             </div>
                             <div class="col-md-6 row-block">
-                                <a href="index.html" class="btn btn-twitter btn-block">
+                                <a href="index" class="btn btn-twitter btn-block">
                                     <span class="entypo-twitter space-icon"></span>Twitter</a>
 
                             </div>
                         </div>
                         <div style="margin-top:25px" class="row">
                             <div class="col-md-6 row-block">
-                                <a href="index.html" class="btn btn-google btn-block"><span class="entypo-gplus space-icon"></span>Google +</a>
+                                <a href="index" class="btn btn-google btn-block"><span class="entypo-gplus space-icon"></span>Google +</a>
                             </div>
                             <div class="col-md-6 row-block">
-                                <a href="index.html" class="btn btn-instagram btn-block"><span class="entypo-instagrem space-icon"></span>Instagram</a>
+                                <a href="index" class="btn btn-instagram btn-block"><span class="entypo-instagrem space-icon"></span>Instagram</a>
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
                     <div class="row-block">
                         <div class="row">
                             <div class="col-md-12 row-block">
-                                <a href="index.html" class="btn btn-primary btn-block">Create New Account</a>
+                                <a href="index" class="btn btn-primary btn-block">Create New Account</a>
                             </div>
                         </div>
                     </div>

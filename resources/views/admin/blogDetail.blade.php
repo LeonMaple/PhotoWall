@@ -4,30 +4,12 @@
 <head>
     <meta charset="utf-8">
     <title>HeLinFeng v 1.2</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- Le styles -->
-    <script type="text/javascript" src="assets/js/jquery.js"></script>
-
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/loader-style.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/media.css">
-    <link rel="stylesheet" href="assets/css/social.css">
-
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!-- Fav and touch icons -->
-    <link rel="shortcut icon" href="assets/ico/minus.png">
+    @include('admin.layouts')
 </head>
 
 <body>
 <div id="awwwards" class="right black"><a
-            href="http://www.awwwards.com/best-websites/HeLinFeng-navigation-admin-dashboard-template" target="_blank">best
+            href="" target="_blank">best
         websites of the world</a></div>
 <!-- Preloader -->
 <div id="preloader">
@@ -318,24 +300,24 @@
                         </a>
                         <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="blog-list.html" title="Blog List"><i
+                                <a class="tooltip-tip2 ajax-load" href="blogList" title="Blog List"><i
                                             class="entypo-doc-text"></i><span>Blog List</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="blog-detail.html" title="Blog Detail"><i
+                                <a class="tooltip-tip2 ajax-load" href="blogDetail" title="Blog Detail"><i
                                             class="entypo-newspaper"></i><span>Blog Details</span></a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a class="tooltip-tip ajax-load" href="social.html" title="Social">
+                        <a class="tooltip-tip ajax-load" href="social" title="Social">
                             <i class="icon-feed"></i>
                             <span>Social</span>
 
                         </a>
                     </li>
                     <li>
-                        <a class="tooltip-tip ajax-load" href="media.html" title="Media">
+                        <a class="tooltip-tip ajax-load" href="media" title="Media">
                             <i class="icon-camera"></i>
                             <span>Media</span>
 
@@ -354,14 +336,14 @@
                     </li>
 
                     <li>
-                        <a class="tooltip-tip ajax-load" href="index.html" title="Dashboard">
+                        <a class="tooltip-tip ajax-load" href="index" title="Dashboard">
                             <i class="icon-window"></i>
                             <span>Dashboard</span>
 
                         </a>
                     </li>
                     <li>
-                        <a class="tooltip-tip ajax-load" href="mail.html" title="Mail">
+                        <a class="tooltip-tip ajax-load" href="mail" title="Mail">
                             <i class="icon-mail"></i>
                             <span>mail</span>
                             <div class="noft-blue">289</div>
@@ -369,7 +351,7 @@
                     </li>
 
                     <li>
-                        <a class="tooltip-tip ajax-load" href="icon.html" title="Icons">
+                        <a class="tooltip-tip ajax-load" href="icon" title="Icons">
                             <i class="icon-preview"></i>
                             <span>Icons</span>
                             <div class="noft-blue" style="display: inline-block; float: none;">New</div>
@@ -383,42 +365,42 @@
                         </a>
                         <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="blank_page.html" title="Blank Page"><i
+                                <a class="tooltip-tip2 ajax-load" href="blank_page" title="Blank Page"><i
                                             class="icon-media-record"></i><span>Blank Page</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="profile.html" title="Profile Page"><i
+                                <a class="tooltip-tip2 ajax-load" href="profile" title="Profile Page"><i
                                             class="icon-user"></i><span>Profile Page</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="invoice.html" title="Invoice"><i
+                                <a class="tooltip-tip2 ajax-load" href="invoice" title="Invoice"><i
                                             class="entypo-newspaper"></i><span>Invoice</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="pricing_table.html" title="Pricing Table"><i
+                                <a class="tooltip-tip2 ajax-load" href="pricing_table" title="Pricing Table"><i
                                             class="fontawesome-money"></i><span>Pricing Table</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="time-line.html" title="Time Line"><i
+                                <a class="tooltip-tip2 ajax-load" href="time-line" title="Time Line"><i
                                             class="entypo-clock"></i><span>Time Line</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2" href="404.html" title="404 Error Page"><i
+                                <a class="tooltip-tip2" href="404" title="404 Error Page"><i
                                             class="icon-thumbs-down"></i><span>404 Error Page</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2" href="500.html" title="500 Error Page"><i
+                                <a class="tooltip-tip2" href="500" title="500 Error Page"><i
                                             class="icon-thumbs-down"></i><span>500 Error Page</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2" href="lock-screen.html" title="Lock Screen"><i
+                                <a class="tooltip-tip2" href="lock-screen" title="Lock Screen"><i
                                             class="icon-lock"></i><span>Lock Screen</span></a>
                             </li>
                         </ul>
                     </li>
 
                     <li>
-                        <a class="tooltip-tip " href="login.html" title="login">
+                        <a class="tooltip-tip " href="login" title="login">
                             <i class="icon-download"></i>
                             <span>Login</span>
                         </a>
@@ -444,38 +426,38 @@
                         </a>
                         <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="element.html" title="Element"><i
+                                <a class="tooltip-tip2 ajax-load" href="element" title="Element"><i
                                             class="icon-attachment"></i><span>Element</span></a>
                             </li>
-                            <li><a class="tooltip-tip2 ajax-load" href="button.html" title="Button"><i
+                            <li><a class="tooltip-tip2 ajax-load" href="button" title="Button"><i
                                             class="icon-view-list-large"></i><span>Button</span>
                                     <div class="noft-blue-number">10</div>
                                 </a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="wizard.html" title="Tab & Accordion"><i
+                                <a class="tooltip-tip2 ajax-load" href="wizard" title="Tab & Accordion"><i
                                             class="icon-folder"></i><span>Wizard</span>
                                     <div class="noft-purple-number">3</div>
                                 </a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="calendar.html" title="Calender"><i
+                                <a class="tooltip-tip2 ajax-load" href="calendar" title="Calender"><i
                                             class="icon-calendar"></i><span>Calendar</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="tree.html" title="Tree View"><i
+                                <a class="tooltip-tip2 ajax-load" href="tree" title="Tree View"><i
                                             class="icon-view-list"></i><span>Tree View</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="grids.html" title="Grids"><i
+                                <a class="tooltip-tip2 ajax-load" href="grids" title="Grids"><i
                                             class="icon-menu"></i><span>Grids</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="chart.html" title="Chart"><i
+                                <a class="tooltip-tip2 ajax-load" href="chart" title="Chart"><i
                                             class="icon-graph-pie"></i><span>Chart</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip ajax-load" href="typhography.html" title="Typhoghrapy">
+                                <a class="tooltip-tip ajax-load" href="typhography" title="Typhoghrapy">
                                     <i class="icon-information"></i>
                                     <span>Typhoghrapy</span>
                                 </a>
@@ -489,19 +471,19 @@
                         </a>
                         <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="form-element.html" title="Form Elements"><i
+                                <a class="tooltip-tip2 ajax-load" href="form-element" title="Form Elements"><i
                                             class="icon-document-edit"></i><span>Form Elements</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="andvance-form.html" title="Andvance Form"><i
+                                <a class="tooltip-tip2 ajax-load" href="andvance-form" title="Andvance Form"><i
                                             class="icon-map"></i><span>Andvance Form</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="text-editor.html" title="Text Editor"><i
+                                <a class="tooltip-tip2 ajax-load" href="text-editor" title="Text Editor"><i
                                             class="icon-code"></i><span>Text Editor</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="file-upload.html" title="File Upload"><i
+                                <a class="tooltip-tip2 ajax-load" href="file-upload" title="File Upload"><i
                                             class="icon-upload"></i><span>File Upload</span></a>
                             </li>
                         </ul>
@@ -513,18 +495,18 @@
                         </a>
                         <ul>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="table-static.html" title="Table Static"><i
+                                <a class="tooltip-tip2 ajax-load" href="table-static" title="Table Static"><i
                                             class="entypo-layout"></i><span>Table Static</span></a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="table-dynamic.html" title="Table Dynamic"><i
+                                <a class="tooltip-tip2 ajax-load" href="table-dynamic" title="Table Dynamic"><i
                                             class="entypo-menu"></i><span>Table Dynamic</span></a>
                             </li>
                         </ul>
                     </li>
 
                     <li>
-                        <a class="tooltip-tip ajax-load" href="map.html" title="Map">
+                        <a class="tooltip-tip ajax-load" href="map" title="Map">
                             <i class="icon-location"></i>
                             <span>Map</span>
 
@@ -671,13 +653,13 @@
             <!--  BLOG CONTENT -->
             <div class="col-sm-8">
 
-                <div class="blog-list-nest">
+                <div class="blogList-nest">
                     <div class="vendor">
                         <iframe width="100%" height="166" scrolling="no" frameborder="no"
                                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/149950304&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>
                     </div>
 
-                    <div class="blog-list-content">
+                    <div class="blogList-content">
                         <h2>Favright</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam condimentum sollicitudin mi,
                             vitae vehicula justo venenatis at. Morbi tempor fermentum velit non pretium. Phasellus at
@@ -1172,19 +1154,13 @@
 
 
 <!-- MAIN EFFECT -->
-<script type="text/javascript" src="assets/js/preloader.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.js"></script>
-<script type="text/javascript" src="assets/js/app.js"></script>
-<script type="text/javascript" src="assets/js/load.js"></script>
-<script type="text/javascript" src="assets/js/main.js"></script>
-<script src="assets/js/flatvideo/jquery.fitvids.js"></script>
-
+@include('admin.bottom')
 
 <script>
     // Basic FitVids Test
-    $(".blog-list-nest").fitVids();
+    $(".blogList-nest").fitVids();
     // Custom selector and No-Double-Wrapping Prevention Test
-    $(".blog-list-nest").fitVids({
+    $(".blogList-nest").fitVids({
         customSelector: "iframe[src^='http://socialcam.com']"
     });
 </script>

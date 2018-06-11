@@ -74,7 +74,7 @@
     <!-- /.lockscreen-item -->
 
     <div class="lockscreen-link">
-        <a class="lock-link" href="login.html">Or sign in as a different user</a>
+        <a class="lock-link" href="login">Or sign in as a different user</a>
     </div>
 
 </section>
@@ -114,7 +114,7 @@
             h -= 12;
 
         //Add time to the headline and update every 500 milliseconds
-        $('#time').html(h + ":" + m + ":" + s + " " + day_or_night);
+        $('#time')(h + ":" + m + ":" + s + " " + day_or_night);
         setTimeout(function () {
             startTime()
         }, 500);

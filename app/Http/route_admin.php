@@ -39,4 +39,5 @@ Route::group(['namespace' => 'User'], function()
 Route::group(['namespace' => 'Blog'], function()
 {
     Route::get('admin/blogList', 'BlogController@blogList');
+    Route::get('admin/blogDetail', 'BlogController@blogDetail');
 });

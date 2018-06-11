@@ -14,8 +14,22 @@ use App\Http\Controllers\Controller;
 
 class BlogController extends Controller
 {
+    /**
+     * 列表
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function blogList()
     {
         return view('admin.blogList');
     }
+
+    /**
+     * 详情
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function blogDetail()
+    {
+        return view('admin.blogDetail');
+    }
+
 }
