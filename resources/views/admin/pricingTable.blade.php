@@ -394,7 +394,7 @@
                     </li>
 
                     <li>
-                        <a class="tooltip-tip " href="login" title="login">
+                        <a class="tooltip-tip " href="user" title="login">
                             <i class="icon-download"></i>
                             <span>Login</span>
                         </a>

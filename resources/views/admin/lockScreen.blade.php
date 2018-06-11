@@ -58,7 +58,7 @@
     <!-- /.lockscreen-item -->
 
     <div class="lockscreen-link">
-        <a class="lock-link" href="login">Or sign in as a different user</a>
+        <a class="lock-link" href="user">Or sign in as a different user</a>
     </div>
 
 </section>
