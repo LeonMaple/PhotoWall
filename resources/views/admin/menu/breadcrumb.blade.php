@@ -16,11 +16,11 @@
     </li>
     <li><i class="fa fa-lg fa-angle-right"></i>
     </li>
-    <li><a href="#" title="Sample page 1">标签一</a>
+    <li><a href="#" title="Sample page 1">{{ isset($one) ? $one : '标签一' }}</a>
     </li>
     <li><i class="fa fa-lg fa-angle-right"></i>
     </li>
-    <li><a href="#" title="Sample page 1">标签二</a>
+        <li><a href="#" title="Sample page 1">{{ isset($title) ? $title : '标签二' }}</a>
     </li>
     <li class="pull-right">
         <div class="input-group input-widget">

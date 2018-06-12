@@ -2,8 +2,6 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>HeLinFeng v 1.2</title>
     @include('admin.menu.layouts')
 </head>
 

@@ -10,8 +10,6 @@
         <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>添加博客</title>
     @include('admin.menu.layouts')
     <link rel="stylesheet" href="{{ URL::asset('admin/js/button/ladda/ladda.min.css') }}">
 </head>

@@ -14,6 +14,8 @@ use App\Http\Controllers\Controller;
 
 class BlogController extends Controller
 {
+    public $blog = '博客';
+
     /**
      * 列表
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
@@ -35,7 +37,11 @@ class BlogController extends Controller
 
     public function add()
     {
-        return view('admin.blog.add');
+
+        $view['title'] = '添加博客';
+        $view['one'] = $this->blog;
+
+        return view('admin.blog.add',$view);
     }
 
 }
