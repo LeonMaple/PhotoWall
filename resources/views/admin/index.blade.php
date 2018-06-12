@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>HELINFENG</title>
 
-    @include('admin.layouts')
+    @include('admin.menu.layouts')
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('admin/js/progress-bar/number-pb.css') }}">
     <style type="text/css">
         canvas#canvas4 {
@@ -20,10 +20,10 @@
 </div>
 
 <!-- 顶部 -->
-@include('admin.top')
+@include('admin.menu.top')
 
 <!-- 左边菜单 -->
-@include('admin.menu')
+@include('admin.menu.menu')
 
 <!-- END OF SIDE MENU -->
 
@@ -33,11 +33,11 @@
     <div class="container-fluid paper-wrap bevel tlbr">
         <!-- CONTENT -->
         <!--TITLE -->
-        @include('admin.title')
+        @include('admin.menu.title')
         <!--/ TITLE -->
 
         <!-- BREADCRUMB -->
-        @include('admin.breadcrumb')
+        @include('admin.menu.breadcrumb')
         <!-- END OF BREADCRUMB -->
 
         <div id="paper-middle">
@@ -703,7 +703,7 @@
 <script src="{{ URL::asset('admin/js/progress-bar/progress-app.js') }}"></script>
 
 <!-- MAIN EFFECT -->
-@include('admin.bottom')
+@include('admin.menu.bottom')
 
 <!-- GAGE -->
 <script type="text/javascript" src="{{ URL::asset('admin/js/chart/jquery.flot.js') }}"></script>

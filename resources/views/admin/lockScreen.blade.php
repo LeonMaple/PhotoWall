@@ -10,7 +10,7 @@
             padding-top: 120px;
         }
     </style>
-    @include('admin.layouts')
+    @include('admin.menu.layouts')
 
     <link rel="stylesheet" href="{{ URL::asset('admin/css/extra-pages.css') }}">
 </head>

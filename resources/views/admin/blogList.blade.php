@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>HeLinFeng v 1.2</title>
-    @include('admin.layouts')
+    @include('admin.menu.layouts')
 </head>
 
 <body>
@@ -14,9 +14,9 @@
     <div id="status">&nbsp;</div>
 </div>
 <!-- TOP NAVBAR -->
-@include('admin.top')
+@include('admin.menu.top')
 
-@include('admin.menu')
+@include('admin.menu.menu')
 <!-- END OF SIDE MENU -->
 
 <!--  PAPER WRAP -->
@@ -25,11 +25,11 @@
 
         <!-- CONTENT -->
         <!--TITLE -->
-    @include('admin.title')
+    @include('admin.menu.title')
     <!--/ TITLE -->
 
         <!-- BREADCRUMB -->
-    @include('admin.breadcrumb')
+    @include('admin.menu.breadcrumb')
     <!-- END OF BREADCRUMB -->
         <!--CONTENT-->
         <div class="row" style="margin-top:30px;padding:0 15px;">
@@ -496,7 +496,7 @@
 
 
 <!-- MAIN EFFECT -->
-@include('admin.bottom')
+@include('admin.menu.bottom')
 
 <script>
     // Basic FitVids Test

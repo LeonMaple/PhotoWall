@@ -32,4 +32,10 @@ class BlogController extends Controller
         return view('admin.blogDetail');
     }
 
+
+    public function add()
+    {
+        return view('admin.blog.add');
+    }
+
 }

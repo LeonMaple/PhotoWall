@@ -40,8 +40,9 @@ Route::group(['namespace' => 'User'], function()
 //博客文章操作
 Route::group(['namespace' => 'Blog'], function()
 {
-    Route::get('admin/blogList', 'BlogController@blogList');
-    Route::get('admin/blogDetail', 'BlogController@blogDetail');
+    Route::get('admin/{action}', function(App\Http\Controllers\Admin\Blog\BlogController $index, $action){
+        return $index->$action();
+    });
 });
 
 //媒体

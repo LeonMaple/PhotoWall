@@ -39,11 +39,11 @@
 </div>
 
 <!-- TOP NAVBAR -->
-@include('admin.top')
+@include('admin.menu.top')
 <!-- /END OF TOP NAVBAR -->
 
 <!-- SIDE MENU -->
-@include('admin.menu')
+@include('admin.menu.menu')
 <!-- END OF SIDE MENU -->
 
 
@@ -53,11 +53,11 @@
 
         <!-- CONTENT -->
         <!--TITLE -->
-    @include('admin.title')
+    @include('admin.menu.title')
     <!--/ TITLE -->
 
         <!-- BREADCRUMB -->
-    @include('admin.breadcrumb')
+    @include('admin.menu.breadcrumb')
     <!-- END OF BREADCRUMB -->
 
         <div class="content-wrap">
