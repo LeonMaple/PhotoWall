@@ -49,18 +49,18 @@
                             <span>博客</span>
                         </a>
                         <ul>
-                            <li><a class="tooltip-tip2 ajax-load" href="blogList" title="Blog List"><i class="entypo-doc-text"></i><span>博客列表</span></a></li>
-                            <li><a class="tooltip-tip2 ajax-load" href="blogDetail" title="Blog Detail"><i class="entypo-newspaper"></i><span>博客详情</span></a></li>
+                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/list') }}" title="list"><i class="entypo-doc-text"></i><span>博客列表</span></a></li>
+                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/detail') }}" title="detail"><i class="entypo-newspaper"></i><span>博客详情</span></a></li>
                         </ul>
                     </li>
                     <li>
-                        <a class="tooltip-tip ajax-load" href="social" title="Social">
+                        <a class="tooltip-tip ajax-load" href="{{ url('admin/social') }}" title="Social">
                             <i class="icon-feed"></i>
                             <span>社交</span>
                         </a>
                     </li>
                     <li>
-                        <a class="tooltip-tip ajax-load" href="media" title="Media">
+                        <a class="tooltip-tip ajax-load" href="{{ url('admin/media') }}" title="Media">
                             <i class="icon-camera"></i>
                             <span>媒体</span>
                         </a>
@@ -76,7 +76,7 @@
                     </li>
 
                     <li>
-                        <a class="tooltip-tip ajax-load" href="index" title="Dashboard">
+                        <a class="tooltip-tip ajax-load" href="{{ url('admin/index') }}" title="Dashboard">
                             <i class="icon-window"></i>
                             <span>仪表板</span>
                         </a>
@@ -90,7 +90,7 @@
                     </li>
 
                     <li>
-                        <a class="tooltip-tip ajax-load" href="icon" title="Icons">
+                        <a class="tooltip-tip ajax-load" href="{{ url('admin/icon') }}" title="Icons">
                             <i class="icon-preview"></i>
                             <span>小图标</span>
                             <div class="noft-blue" style="display: inline-block; float: none;">New</div>
@@ -103,19 +103,19 @@
                             <span>其他页面</span>
                         </a>
                         <ul>
-                            <li><a class="tooltip-tip2 ajax-load" href="blank" title="Blank Page"><i class="icon-media-record"></i><span>空白页面</span></a></li>
-                            <li><a class="tooltip-tip2 ajax-load" href="profile" title="Profile Page"><i class="icon-user"></i><span>个人详情</span></a></li>
-                            <li><a class="tooltip-tip2 ajax-load" href="invoice" title="Invoice"><i class="entypo-newspaper"></i><span>表格</span></a></li>
-                            <li><a class="tooltip-tip2 ajax-load" href="pricing" title="Pricing Table"><i class="fontawesome-money"></i><span>Pricing Table</span></a></li>
-                            <li><a class="tooltip-tip2 ajax-load" href="time" title="Time Line"><i class="entypo-clock"></i><span>历史时间</span></a></li>
-                            <li><a class="tooltip-tip2" href="error/notfound" title="404 Error Page"><i class="icon-thumbs-down"></i><span>404</span></a></li>
-                            <li><a class="tooltip-tip2" href="error/server" title="500 Error Page"><i class="icon-thumbs-down"></i><span>500</span></a></li>
-                            <li><a class="tooltip-tip2" href="lock" title="Lock Screen"><i class="icon-lock"></i><span>锁屏</span></a></li>
+                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/blank') }}" title="Blank Page"><i class="icon-media-record"></i><span>空白页面</span></a></li>
+                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/profile') }}" title="Profile Page"><i class="icon-user"></i><span>个人详情</span></a></li>
+                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/invoice') }}" title="Invoice"><i class="entypo-newspaper"></i><span>表格</span></a></li>
+                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/pricing') }}" title="Pricing Table"><i class="fontawesome-money"></i><span>Pricing Table</span></a></li>
+                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/time') }}" title="Time Line"><i class="entypo-clock"></i><span>历史时间</span></a></li>
+                            <li><a class="tooltip-tip2" href="{{ url('admin/error/notfound') }}" title="404 Error Page"><i class="icon-thumbs-down"></i><span>404</span></a></li>
+                            <li><a class="tooltip-tip2" href="{{ url('admin/error/server') }}" title="500 Error Page"><i class="icon-thumbs-down"></i><span>500</span></a></li>
+                            <li><a class="tooltip-tip2" href="{{ url('admin/lock') }}" title="Lock Screen"><i class="icon-lock"></i><span>锁屏</span></a></li>
                         </ul>
                     </li>
 
                     <li>
-                        <a class="tooltip-tip " href="user" title="login">
+                        <a class="tooltip-tip " href="{{ url('admin/user') }}" title="login">
                             <i class="icon-download"></i>
                             <span>登录</span>
                         </a>
@@ -138,23 +138,23 @@
                             <span>UI Element</span>
                         </a>
                         <ul>
-                            <li><a class="tooltip-tip2 ajax-load" href="element" title="Element"><i class="icon-attachment"></i><span>Element</span></a></li>
+                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/element') }}" title="Element"><i class="icon-attachment"></i><span>Element</span></a></li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="button" title="Button"><i class="icon-view-list-large"></i><span>Button</span>
+                                <a class="tooltip-tip2 ajax-load" href="{{ url('admin/button') }}" title="Button"><i class="icon-view-list-large"></i><span>Button</span>
                                     <div class="noft-blue-number">10</div>
                                 </a>
                             </li>
                             <li>
-                                <a class="tooltip-tip2 ajax-load" href="wizard" title="Tab & Accordion"><i class="icon-folder"></i><span>Wizard</span>
+                                <a class="tooltip-tip2 ajax-load" href="{{ url('admin/wizard') }}" title="Tab & Accordion"><i class="icon-folder"></i><span>Wizard</span>
                                     <div class="noft-purple-number">3</div>
                                 </a>
                             </li>
-                            <li><a class="tooltip-tip2 ajax-load" href="calendar" title="Calender"><i class="icon-calendar"></i><span>Calendar</span></a></li>
-                            <li><a class="tooltip-tip2 ajax-load" href="tree" title="Tree View"><i class="icon-view-list"></i><span>Tree View</span></a></li>
-                            <li><a class="tooltip-tip2 ajax-load" href="grids" title="Grids"><i class="icon-menu"></i><span>Grids</span></a></li>
-                            <li><a class="tooltip-tip2 ajax-load" href="chart" title="Chart"><i class="icon-graph-pie"></i><span>Chart</span></a></li>
+                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/calendar') }}" title="Calender"><i class="icon-calendar"></i><span>Calendar</span></a></li>
+                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/tree') }}" title="Tree View"><i class="icon-view-list"></i><span>Tree View</span></a></li>
+                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/grids') }}" title="Grids"><i class="icon-menu"></i><span>Grids</span></a></li>
+                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/chart') }}" title="Chart"><i class="icon-graph-pie"></i><span>Chart</span></a></li>
                             <li>
-                                <a class="tooltip-tip ajax-load" href="typhography" title="Typhoghrapy">
+                                <a class="tooltip-tip ajax-load" href="{{ url('admin/typhography') }}" title="Typhoghrapy">
                                     <i class="icon-information"></i>
                                     <span>Typhoghrapy</span>
                                 </a>
@@ -167,10 +167,10 @@
                             <span>Form</span>
                         </a>
                         <ul>
-                            <li><a class="tooltip-tip2 ajax-load" href="form-element" title="Form Elements"><i class="icon-document-edit"></i><span>Form Elements</span></a></li>
-                            <li><a class="tooltip-tip2 ajax-load" href="andvance-form" title="Andvance Form"><i class="icon-map"></i><span>Andvance Form</span></a></li>
-                            <li><a class="tooltip-tip2 ajax-load" href="text-editor" title="Text Editor"><i class="icon-code"></i><span>Text Editor</span></a></li>
-                            <li><a class="tooltip-tip2 ajax-load" href="file-upload" title="File Upload"><i class="icon-upload"></i><span>File Upload</span></a></li>
+                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/formElement') }}" title="Form Elements"><i class="icon-document-edit"></i><span>Form Elements</span></a></li>
+                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/andvanceForm') }}" title="Andvance Form"><i class="icon-map"></i><span>Andvance Form</span></a></li>
+                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/textEditor') }}" title="Text Editor"><i class="icon-code"></i><span>Text Editor</span></a></li>
+                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/fileUpload') }}" title="File Upload"><i class="icon-upload"></i><span>File Upload</span></a></li>
                         </ul>
                     </li>
                     <li>
@@ -179,13 +179,13 @@
                             <span>Tables</span>
                         </a>
                         <ul>
-                            <li><a class="tooltip-tip2 ajax-load" href="table-static" title="Table Static"><i class="entypo-layout"></i><span>Table Static</span></a></li>
-                            <li><a class="tooltip-tip2 ajax-load" href="table-dynamic" title="Table Dynamic"><i class="entypo-menu"></i><span>Table Dynamic</span></a></li>
+                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/tableStatic') }}" title="Table Static"><i class="entypo-layout"></i><span>Table Static</span></a></li>
+                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/tableDynamic') }}" title="Table Dynamic"><i class="entypo-menu"></i><span>Table Dynamic</span></a></li>
                         </ul>
                     </li>
 
                     <li>
-                        <a class="tooltip-tip ajax-load" href="map" title="Map">
+                        <a class="tooltip-tip ajax-load" href="{{ url('admin/map') }}" title="Map">
                             <i class="icon-location"></i>
                             <span>Map</span>
                         </a>

@@ -18,18 +18,18 @@ class BlogController extends Controller
      * 列表
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function blogList()
+    public function list()
     {
-        return view('admin.blogList');
+        return view('admin.blog.list');
     }
 
     /**
      * 详情
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function blogDetail()
+    public function detail()
     {
-        return view('admin.blogDetail');
+        return view('admin.blog.detail');
     }
 
 

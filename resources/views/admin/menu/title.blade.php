@@ -37,7 +37,7 @@
                     <span class="sr-only">Toggle Dropdown</span>
                 </button>
                 <ul role="menu" class="dropdown-menu">
-                    <li><a href="#"><span class="entypo-plus-circled margin-iconic"></span>添加</a></li>
+                    <li><a href="{{ url('admin/add') }}"><span class="entypo-plus-circled margin-iconic"></span>添加</a></li>
                     <li><a href="#"><span class="entypo-heart margin-iconic"></span>喜欢</a></li>
                     <li><a href="#"><span class="entypo-cog margin-iconic"></span>设置</a></li>
                 </ul>
