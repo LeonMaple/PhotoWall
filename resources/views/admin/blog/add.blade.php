@@ -7,7 +7,7 @@
  * @File: add.blade.php
  */
 ?>
-        <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     @include('admin.menu.layouts')
@@ -28,7 +28,6 @@
     <div class="container-fluid paper-wrap bevel tlbr">
         {{--title--}}
         @include('admin.menu.title')
-
         {{--breadcrumb--}}
         @include('admin.menu.breadcrumb')
 
@@ -54,11 +53,14 @@
 
                         <div class="body-nest" id="Blank_Page_Content">
                             Content Goes Here
+
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="footer-space"></div>
+            <div class="footer-space">
+
+            </div>
             <div id="footer">
                 <div class="devider-footer-left"></div>
                 <div class="time">
@@ -72,7 +74,6 @@
 
             </div>
         </div>
-
     </div>
 
     {{--right--}}

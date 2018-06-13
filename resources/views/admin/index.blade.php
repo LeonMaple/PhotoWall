@@ -202,7 +202,7 @@
                                         </td>
                                         <td class="driver-devider">
                                             <img class="armada-pic img-circle" alt=""
-                                                 src="http://api.randomuser.me/portraits/thumb/men/14.jpg">
+                                                 src="">
                                             <h3>Mark Zukenbeirg</h3>
                                             <br>
                                             <p>Driver</p>
@@ -236,7 +236,7 @@
                                         </td>
                                         <td class="driver-devider">
                                             <img class="armada-pic img-circle" alt=""
-                                                 src="http://api.randomuser.me/portraits/thumb/men/38.jpg">
+                                                 src="">
                                             <h3>Marko Freytag</h3>
                                             <br>
                                             <p>Pilot</p>
@@ -270,7 +270,7 @@
                                         </td>
                                         <td class="driver-devider">
                                             <img class="armada-pic img-circle" alt=""
-                                                 src="http://api.randomuser.me/portraits/thumb/men/39.jpg">
+                                                 src="">
                                             <h3>Dieter Gruenewald</h3>
                                             <br>
                                             <p>machinist</p>
@@ -615,7 +615,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/20.jpg">
+                                         src="">
                                 </span><b>Dave Junior</b>
                             <br><i>Last seen : 08:00 PM</i>
                         </a>
@@ -624,7 +624,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/21.jpg">
+                                         src="">
                                 </span><b>Kenneth Lucas</b>
                             <br><i>Last seen : 07:21 PM</i>
                         </a>
@@ -633,7 +633,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/22.jpg">
+                                         src="">
                                 </span><b>Heidi Perez</b>
                             <br><i>Last seen : 05:43 PM</i>
                         </a>
@@ -648,7 +648,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/23.jpg">
+                                         src="">
                                 </span><b>Dave Junior</b>
                             <br><i>Last seen : 08:00 PM</i>
                         </a>
@@ -657,7 +657,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/women/24.jpg">
+                                         src="">
                                 </span><b>Kenneth Lucas</b>
                             <br><i>Last seen : 07:21 PM</i>
                         </a>
@@ -666,7 +666,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/25.jpg">
+                                         src="">
                                 </span><b>Heidi Perez</b>
                             <br><i>Last seen : 05:43 PM</i>
                         </a>
@@ -675,7 +675,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/women/25.jpg">
+                                         src="">
                                 </span><b>Kenneth Lucas</b>
                             <br><i>Last seen : 07:21 PM</i>
                         </a>
@@ -684,7 +684,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/26.jpg">
+                                         src="">
                                 </span><b>Heidi Perez</b>
                             <br><i>Last seen : 05:43 PM</i>
                         </a>

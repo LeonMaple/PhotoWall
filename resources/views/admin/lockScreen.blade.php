@@ -32,7 +32,7 @@
     <!-- /.headline -->
     <div class="lockscreen-name">John Doe</div>
     <div class="lockscreen-image">
-        <img src="http://api.randomuser.me/portraits/thumb/men/41.jpg" alt="user image">
+        <img src="" alt="user image">
     </div>
     <!-- User name -->
 

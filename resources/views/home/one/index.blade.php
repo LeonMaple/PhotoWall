@@ -669,7 +669,7 @@
             </div>
             <div class="col-md-6 bottom-grid wow fadeInUp animated animated" data-wow-delay=".5s">
                 <h5>Twitter Feed</h5>
-                <p>Check out th best designs online in the world <br>at <a href="mail-to:mail@example.com">http://example.com </a>
+                <p>Check out th best designs online in the world <br>at <a href=""></a>
                 </p>
                 <span>1 day ago</span>
                 <p><a href="#">Twitter</a>, may be the more visual platform for education group.</p>

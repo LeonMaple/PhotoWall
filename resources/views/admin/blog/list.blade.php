@@ -36,7 +36,7 @@
 
                 <div class="blogList-nest">
                     <div class="vendor">
-                        <img class="img-responsive-media" src="http://lorempixel.com/output/food-q-c-600-300-9.jpg" alt="">
+                        <img class="img-responsive-media" src="" alt="">
                     </div>
 
                     <div class="blogList-content">
@@ -71,7 +71,7 @@
 
                 <div class="blogList-nest">
                     <div class="vendor youtube-nest">
-                        <iframe width="560" height="315" src="http://www.youtube.com/embed/Pe0jFDPHkzo" frameborder="0" allowfullscreen=""></iframe>
+                        <iframe width="560" height="315" src="" frameborder="0" allowfullscreen=""></iframe>
                     </div>
 
                     <div class="blogList-content">
@@ -195,7 +195,7 @@
             <div class="col-sm-4">
                 <div class="panel panel-default">
                     <img class="media-object img-circle blog-profile" data-src="holder.js/64x64" alt="64x64"
-                         src="http://api.randomuser.me/portraits/thumb/men/10.jpg">
+                         src="">
                     <hr style="margin:0;">
 
                     <div class="panel-body">
@@ -244,7 +244,7 @@
                     <div class="media">
                         <a class="pull-left" href="#">
                             <img class="media-object img-responsive-media" data-src="holder.js/64x64" alt="64x64"
-                                 src="http://placehold.it/64x64">
+                                 src="">
                         </a>
                         <div class="media-body">
                             <h5 class="media-heading">Cras sit amet nibh Lorem ipsum dolor si amet</h5>
@@ -255,7 +255,7 @@
                     <div class="media">
                         <a class="pull-left" href="#">
                             <img class="media-object img-responsive-media" data-src="holder.js/64x64" alt="64x64"
-                                 src="http://placehold.it/64x64">
+                                 src="">
                         </a>
                         <div class="media-body">
                             <h5 class="media-heading">Cras sit amet nibh Lorem ipsum dolor si amet</h5>
@@ -266,7 +266,7 @@
                     <div class="media">
                         <a class="pull-left" href="#">
                             <img class="media-object img-responsive-media" data-src="holder.js/64x64" alt="64x64"
-                                 src="http://placehold.it/64x64">
+                                 src="">
                         </a>
                         <div class="media-body">
                             <h5 class="media-heading">Cras sit amet nibh Lorem ipsum dolor si amet</h5>
@@ -277,7 +277,7 @@
                     <div class="media">
                         <a class="pull-left" href="#">
                             <img class="media-object img-responsive-media" data-src="holder.js/64x64" alt="64x64"
-                                 src="http://placehold.it/64x64">
+                                 src="">
                         </a>
                         <div class="media-body">
                             <h5 class="media-heading">Cras sit amet nibh Lorem ipsum dolor si amet</h5>
@@ -288,7 +288,7 @@
                     <div class="media">
                         <a class="pull-left" href="#">
                             <img class="media-object img-responsive-media" data-src="holder.js/64x64" alt="64x64"
-                                 src="http://placehold.it/64x64">
+                                 src="">
                         </a>
                         <div class="media-body">
                             <h5 class="media-heading">Cras sit amet nibh Lorem ipsum dolor si amet</h5>
@@ -416,7 +416,7 @@
                     <li>
                         <a href="#">
                                 <span>
-                                    <img alt="" class="img-chat img-circle" src="http://api.randomuser.me/portraits/thumb/men/20.jpg">
+                                    <img alt="" class="img-chat img-circle" src="">
                                 </span><b>Dave Junior</b>
                             <br><i>Last seen : 08:00 PM</i>
                         </a>
@@ -424,7 +424,7 @@
                     <li>
                         <a href="#">
                                 <span>
-                                    <img alt="" class="img-chat img-circle" src="http://api.randomuser.me/portraits/thumb/men/21.jpg">
+                                    <img alt="" class="img-chat img-circle" src="">
                                 </span><b>Kenneth Lucas</b>
                             <br><i>Last seen : 07:21 PM</i>
                         </a>
@@ -432,7 +432,7 @@
                     <li>
                         <a href="#">
                                 <span>
-                                    <img alt="" class="img-chat img-circle" src="http://api.randomuser.me/portraits/thumb/men/22.jpg">
+                                    <img alt="" class="img-chat img-circle" src="">
                                 </span><b>Heidi Perez</b>
                             <br><i>Last seen : 05:43 PM</i>
                         </a>
@@ -446,7 +446,7 @@
                     <li>
                         <a href="#">
                                 <span>
-                                    <img alt="" class="img-chat img-offline img-circle" src="http://api.randomuser.me/portraits/thumb/men/23.jpg">
+                                    <img alt="" class="img-chat img-offline img-circle" src="">
                                 </span><b>Dave Junior</b>
                             <br><i>Last seen : 08:00 PM</i>
                         </a>
@@ -454,7 +454,7 @@
                     <li>
                         <a href="#">
                                 <span>
-                                    <img alt="" class="img-chat img-offline img-circle" src="http://api.randomuser.me/portraits/thumb/women/24.jpg">
+                                    <img alt="" class="img-chat img-offline img-circle" src="">
                                 </span><b>Kenneth Lucas</b>
                             <br><i>Last seen : 07:21 PM</i>
                         </a>
@@ -462,7 +462,7 @@
                     <li>
                         <a href="#">
                                 <span>
-                                    <img alt="" class="img-chat img-offline img-circle" src="http://api.randomuser.me/portraits/thumb/men/25.jpg">
+                                    <img alt="" class="img-chat img-offline img-circle" src="">
                                 </span><b>Heidi Perez</b>
                             <br><i>Last seen : 05:43 PM</i>
                         </a>
@@ -470,7 +470,7 @@
                     <li>
                         <a href="#">
                                 <span>
-                                    <img alt="" class="img-chat img-offline img-circle" src="http://api.randomuser.me/portraits/thumb/women/25.jpg">
+                                    <img alt="" class="img-chat img-offline img-circle" src="">
                                 </span><b>Kenneth Lucas</b>
                             <br><i>Last seen : 07:21 PM</i>
                         </a>
@@ -478,7 +478,7 @@
                     <li>
                         <a href="#">
                                 <span>
-                                    <img alt="" class="img-chat img-offline img-circle" src="http://api.randomuser.me/portraits/thumb/men/26.jpg">
+                                    <img alt="" class="img-chat img-offline img-circle" src="">
                                 </span><b>Heidi Perez</b>
                             <br><i>Last seen : 05:43 PM</i>
                         </a>

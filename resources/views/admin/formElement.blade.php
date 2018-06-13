@@ -619,7 +619,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/20.jpg">
+                                         src="">
                                 </span><b>Dave Junior</b>
                             <br><i>Last seen : 08:00 PM</i>
                         </a>
@@ -628,7 +628,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/21.jpg">
+                                         src="">
                                 </span><b>Kenneth Lucas</b>
                             <br><i>Last seen : 07:21 PM</i>
                         </a>
@@ -637,7 +637,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/22.jpg">
+                                         src="">
                                 </span><b>Heidi Perez</b>
                             <br><i>Last seen : 05:43 PM</i>
                         </a>
@@ -652,7 +652,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/23.jpg">
+                                         src="">
                                 </span><b>Dave Junior</b>
                             <br><i>Last seen : 08:00 PM</i>
                         </a>
@@ -661,7 +661,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/women/24.jpg">
+                                         src="">
                                 </span><b>Kenneth Lucas</b>
                             <br><i>Last seen : 07:21 PM</i>
                         </a>
@@ -670,7 +670,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/25.jpg">
+                                         src="">
                                 </span><b>Heidi Perez</b>
                             <br><i>Last seen : 05:43 PM</i>
                         </a>
@@ -679,7 +679,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/women/25.jpg">
+                                         src="">
                                 </span><b>Kenneth Lucas</b>
                             <br><i>Last seen : 07:21 PM</i>
                         </a>
@@ -688,7 +688,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/26.jpg">
+                                         src="">
                                 </span><b>Heidi Perez</b>
                             <br><i>Last seen : 05:43 PM</i>
                         </a>

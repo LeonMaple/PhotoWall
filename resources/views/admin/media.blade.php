@@ -50,7 +50,7 @@
                     <div class="well-media">
 
                         <div class="vendor">
-                            <iframe width="420" height="315" src="http://www.youtube.com/embed/QqDKF6QIQ1I"
+                            <iframe width="420" height="315" src=""
                                     frameborder="0" allowfullscreen=""></iframe>
                         </div>
                         <div class="video-text">
@@ -83,7 +83,7 @@
 
                             <a class="fancybox" rel="group" href="#">
                                 <img class="img-responsive-media"
-                                     src="http://lorempixel.com/output/city-h-c-350-450-6.jpg" alt="">
+                                     src="" alt="">
                             </a>
                         </div>
                         <div class="video-text">
@@ -236,7 +236,7 @@
 
                             <a rel="group" href="#">
                                 <img class="img-responsive-media"
-                                     src="http://lorempixel.com/output/food-h-c-350-450-8.jpg" alt="">
+                                     src="" alt="">
                             </a>
                         </div>
                         <div class="video-text">
@@ -308,17 +308,17 @@
                                     <div class="item">
                                         <img class="img-responsive-media" alt="First slide"
                                              data-src="holder.js/900x500/auto/#777:#555/text:First slide"
-                                             src="http://placehold.it/350x250">
+                                             src="">
                                     </div>
                                     <div class="item active">
                                         <img class="img-responsive-media" alt="Second slide"
                                              data-src="holder.js/900x500/auto/#666:#444/text:Second slide"
-                                             src="http://placehold.it/350x250">
+                                             src="">
                                     </div>
                                     <div class="item">
                                         <img class="img-responsive-media" alt="Third slide"
                                              data-src="holder.js/900x500/auto/#555:#333/text:Third slide"
-                                             src="http://placehold.it/350x250">
+                                             src="">
                                     </div>
                                 </div>
                                 <a data-slide="prev" href="#carousel-dua" class="left carousel-control">
@@ -469,7 +469,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/20.jpg">
+                                         src="">
                                 </span><b>Dave Junior</b>
                             <br><i>Last seen : 08:00 PM</i>
                         </a>
@@ -478,7 +478,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/21.jpg">
+                                         src="">
                                 </span><b>Kenneth Lucas</b>
                             <br><i>Last seen : 07:21 PM</i>
                         </a>
@@ -487,7 +487,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/22.jpg">
+                                         src="">
                                 </span><b>Heidi Perez</b>
                             <br><i>Last seen : 05:43 PM</i>
                         </a>
@@ -502,7 +502,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/23.jpg">
+                                         src="">
                                 </span><b>Dave Junior</b>
                             <br><i>Last seen : 08:00 PM</i>
                         </a>
@@ -511,7 +511,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/women/24.jpg">
+                                         src="">
                                 </span><b>Kenneth Lucas</b>
                             <br><i>Last seen : 07:21 PM</i>
                         </a>
@@ -520,7 +520,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/25.jpg">
+                                         src="">
                                 </span><b>Heidi Perez</b>
                             <br><i>Last seen : 05:43 PM</i>
                         </a>
@@ -529,7 +529,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/women/25.jpg">
+                                         src="">
                                 </span><b>Kenneth Lucas</b>
                             <br><i>Last seen : 07:21 PM</i>
                         </a>
@@ -538,7 +538,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/26.jpg">
+                                         src="">
                                 </span><b>Heidi Perez</b>
                             <br><i>Last seen : 05:43 PM</i>
                         </a>

@@ -69,9 +69,9 @@
                             <p class="social-follower">120k Followers, 900 Posts</p>
 
                             <p>
-                                <img src="http://api.randomuser.me/portraits/thumb/men/14.jpg" alt=""
+                                <img src="" alt=""
                                      class="social-pic img-circle">
-                                <img src="http://api.randomuser.me/portraits/thumb/women/15.jpg" alt=""
+                                <img src="" alt=""
                                      class="social-pic img-circle">
 
                                 <a href="#" class="link-social">
@@ -97,9 +97,9 @@
                             <p>902 Followers, 88 Posts</p>
 
                             <p>
-                                <img src="http://api.randomuser.me/portraits/thumb/men/16.jpg" alt=""
+                                <img src="" alt=""
                                      class="social-pic img-circle">
-                                <img src="http://api.randomuser.me/portraits/thumb/women/17.jpg" alt=""
+                                <img src="" alt=""
                                      class="social-pic img-circle">
 
                                 <a href="#" class="link-social">
@@ -124,9 +124,9 @@
                             <p>19k Followers, 789 Posts</p>
 
                             <p>
-                                <img src="http://api.randomuser.me/portraits/thumb/men/18.jpg" alt=""
+                                <img src="" alt=""
                                      class="social-pic img-circle">
-                                <img src="http://api.randomuser.me/portraits/thumb/women/19.jpg" alt=""
+                                <img src="" alt=""
                                      class="social-pic img-circle">
 
                                 <a href="#" class="link-social">
@@ -151,9 +151,9 @@
                             <p>902 Followers, 88 Posts</p>
 
                             <p>
-                                <img src="http://api.randomuser.me/portraits/thumb/men/20.jpg" alt=""
+                                <img src="" alt=""
                                      class="social-pic img-circle">
-                                <img src="http://api.randomuser.me/portraits/thumb/women/21.jpg" alt=""
+                                <img src="" alt=""
                                      class="social-pic img-circle">
 
                                 <a href="#" class="link-social">
@@ -261,7 +261,7 @@
                                 </div>
                                 <ul>
                                     <li>
-                                        <img src="http://api.randomuser.me/portraits/thumb/women/45.jpg"
+                                        <img src=""
                                              class="img-social-content img-circle pull-left">
                                         <span><a class="insta-color" href="#">Dyah Pitaloka</a> Lagi liburan di Tionkok ya jeeuungg??
                                                 <br>
@@ -310,7 +310,7 @@
                         </div>
                         <div class="panel-body">
                             <img class="img-circle pull-left"
-                                 src="http://api.randomuser.me/portraits/thumb/women/30.jpg">
+                                 src="">
                             <div class="social-profile">
                                 <h3><a class="gplus-textcolor" href="#">Rubi Castello</a>
                                     <span><i class="entypo-globe"></i>&nbsp;38 Minute ago</span>
@@ -332,7 +332,7 @@
                                 <ul>
                                     <li>
                                         <img class="img-social-content img-circle pull-left"
-                                             src="http://api.randomuser.me/portraits/thumb/men/21.jpg">
+                                             src="">
                                         <span><a class="gplus-textcolor" href="#">Ciwuk Hartadi</a> ngono saiki dolan ra ngajak ajak..
                                                 <br>
                                                 <b>5 Minute</b>
@@ -382,7 +382,7 @@
                             </h4>
                         </div>
                         <div class="panel-body">
-                            <img src="http://api.randomuser.me/portraits/thumb/men/21.jpg" class="img-circle pull-left">
+                            <img src="" class="img-circle pull-left">
                             <div class="social-profile">
                                 <h3><a href="#">Sympo Nia</a>
                                     <span><i class="entypo-globe"></i>&nbsp;2 Days ago</span>
@@ -404,7 +404,7 @@
                                 </div>
                                 <ul>
                                     <li>
-                                        <img src="http://api.randomuser.me/portraits/thumb/women/21.jpg"
+                                        <img src=""
                                              class="img-social-content img-circle pull-left">
                                         <span><a href="#">Krida Riyanto</a> Sampluk buu...sampluk...
                                                 <br>
@@ -414,7 +414,7 @@
                                     </li>
 
                                     <li>
-                                        <img src="http://api.randomuser.me/portraits/thumb/women/22.jpg"
+                                        <img src=""
                                              class="img-social-content img-circle pull-left">
                                         <span><a href="#">Srondeng Rimawan</a> Eee karang yo cah enom, cah tuo yo podo wae ding wkwkw
                                                 <br>
@@ -424,7 +424,7 @@
                                     </li>
 
                                     <li>
-                                        <img src="http://api.randomuser.me/portraits/thumb/men/48.jpg"
+                                        <img src=""
                                              class="img-social-content img-circle pull-left">
                                         <span><a href="#">Setan Beras</a> Mesake bangsaku. jane ki yo bijine rasepiro tur mik kakehan geleleng.
                                                 <br>
@@ -482,7 +482,7 @@
                         </div>
                         <div class="panel-body">
                             <img class="img-circle pull-left"
-                                 src="http://api.randomuser.me/portraits/thumb/women/21.jpg">
+                                 src="">
                             <div class="social-profile">
                                 <h3><a href="#">Sympo Nia</a>
                                     <span><i class="entypo-globe"></i>&nbsp;1 hours ago</span>
@@ -505,7 +505,7 @@
                                 <ul>
                                     <li>
                                         <img class="img-social-content img-circle pull-left"
-                                             src="http://api.randomuser.me/portraits/thumb/men/21.jpg">
+                                             src="">
                                         <span><a href="#">Krida Riyanto</a> Sampluk buu...sampluk...
                                                 <br>
                                                 <b>5 Minute</b>
@@ -515,7 +515,7 @@
 
                                     <li>
                                         <img class="img-social-content img-circle pull-left"
-                                             src="http://api.randomuser.me/portraits/thumb/men/22.jpg">
+                                             src="">
                                         <span><a href="#">Srondeng Rimawan</a> Eee karang yo cah enom, cah tuo yo podo wae ding wkwkw
                                                 <br>
                                                 <b>13 Minute</b>
@@ -525,7 +525,7 @@
 
                                     <li>
                                         <img class="img-social-content img-circle pull-left"
-                                             src="http://api.randomuser.me/portraits/thumb/men/23.jpg">
+                                             src="">
                                         <span><a href="#">Setan Beras</a> Mesake bangsaku. jane ki yo bijine rasepiro tur mik kakehan geleleng.
                                                 <br>
                                                 <b>1 Hours</b>
@@ -573,7 +573,7 @@
                             </h4>
                         </div>
                         <div class="panel-body">
-                            <img class="img-circle pull-left" src="http://api.randomuser.me/portraits/thumb/men/29.jpg">
+                            <img class="img-circle pull-left" src="">
                             <div class="social-profile">
                                 <h3><a class="tweet-link" href="#">Ahmad Heavy Folder</a>
                                     <span><i class="entypo-globe"></i>&nbsp;1 hours ago</span>
@@ -595,7 +595,7 @@
                                 <ul>
                                     <li>
                                         <img class="img-social-content img-circle pull-left"
-                                             src="http://api.randomuser.me/portraits/thumb/men/21.jpg">
+                                             src="">
                                         <span><a style="color:#0AA699;" href="#">Ciwuk Hartadi</a> nek do menehi wujud pangan palingo,,dadi gendut...he he he
                                                 <br>
                                                 <b>5 Minute</b>
@@ -605,7 +605,7 @@
 
                                     <li>
                                         <img class="img-social-content img-circle pull-left"
-                                             src="http://api.randomuser.me/portraits/thumb/men/29.jpg">
+                                             src="">
                                         <span><a class="tweet-link" href="#">Ahmad heavy Folder</a> lha pengemise mau nganggo wewangian/parfum barang....elok tenan...
                                                 <a class="tweet-link" href="#">@Ciwuk Hartadi</a>
                                                 <br>
@@ -615,7 +615,7 @@
                                     </li>
                                     <li>
                                         <img class="img-social-content img-circle pull-left"
-                                             src="http://api.randomuser.me/portraits/thumb/men/21.jpg">
+                                             src="">
                                         <span><a class="tweet-link" href="#">Ciwuk Hartadi</a> weh la ak we telung dino telung pekoro ra adus yo ra nganggo parfum je
                                                 <br>
                                                 <b>5 Minute</b>
@@ -683,7 +683,7 @@
                                 <ul>
                                     <li>
                                         <img class="img-social-content img-circle pull-left"
-                                             src="http://api.randomuser.me/portraits/thumb/women/45.jpg">
+                                             src="">
                                         <span><a href="#" class="insta-color">Gifta Gina</a> Keren ini dmn ya?
                                                 <br>
                                                 <b>43 Minute</b>
@@ -802,7 +802,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/20.jpg">
+                                         src="">
                                 </span><b>Dave Junior</b>
                             <br><i>Last seen : 08:00 PM</i>
                         </a>
@@ -811,7 +811,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/21.jpg">
+                                         src="">
                                 </span><b>Kenneth Lucas</b>
                             <br><i>Last seen : 07:21 PM</i>
                         </a>
@@ -820,7 +820,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/22.jpg">
+                                         src="">
                                 </span><b>Heidi Perez</b>
                             <br><i>Last seen : 05:43 PM</i>
                         </a>
@@ -835,7 +835,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/23.jpg">
+                                         src="">
                                 </span><b>Dave Junior</b>
                             <br><i>Last seen : 08:00 PM</i>
                         </a>
@@ -844,7 +844,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/women/24.jpg">
+                                         src="">
                                 </span><b>Kenneth Lucas</b>
                             <br><i>Last seen : 07:21 PM</i>
                         </a>
@@ -853,7 +853,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/25.jpg">
+                                         src="">
                                 </span><b>Heidi Perez</b>
                             <br><i>Last seen : 05:43 PM</i>
                         </a>
@@ -862,7 +862,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/women/25.jpg">
+                                         src="">
                                 </span><b>Kenneth Lucas</b>
                             <br><i>Last seen : 07:21 PM</i>
                         </a>
@@ -871,7 +871,7 @@
                         <a href="#">
                                 <span>
                                     <img alt="" class="img-chat img-offline img-circle"
-                                         src="http://api.randomuser.me/portraits/thumb/men/26.jpg">
+                                         src="">
                                 </span><b>Heidi Perez</b>
                             <br><i>Last seen : 05:43 PM</i>
                         </a>
