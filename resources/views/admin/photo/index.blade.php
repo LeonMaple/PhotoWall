@@ -30,15 +30,15 @@
         <div class="row" style="margin-top:30px;padding:0 15px;">
             <div class="col-sm-6">
                 <div class="blogList-nest">
+                    {{--TODO 定义一个标准的高度--}}
                     <div class="vendor">
-                        <img class="img-responsive-media" src="https://ss2.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=9fc27aa361224f4a4899751339f69044/b3b7d0a20cf431ade6d64fbc4736acaf2edd982a.jpg" alt="">
+                        <img class="img-responsive-media" src="{{ URL::asset('images/two/1.jpg') }}" alt="">
                     </div>
                     <div class="blogList-content">
-                        <h2>Article Heading</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet
-                            vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.
-                            Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis.
-                            Duis elementum auctor accumsan. Aliquam in felis sit amet augue.
+                        <h2>标题</h2>
+                        {{--TODO 定义文字内容长度，超出部分用。。表示--}}
+                        <p>
+                            图文内容
                         </p>
                         <p class="pull-right">
                             <span class="label label-default">keyword</span>
@@ -58,7 +58,7 @@
             <div class="col-sm-6">
                 <div class="blogList-nest">
                     <div class="vendor">
-                        <img class="img-responsive-media" src="https://ss2.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/image/h%3D300/sign=9fc27aa361224f4a4899751339f69044/b3b7d0a20cf431ade6d64fbc4736acaf2edd982a.jpg" alt="">
+                        <img class="img-responsive-media" src="{{ URL::asset('images/two/2.jpg') }}" alt="">
                     </div>
                     <div class="blogList-content">
                         <h2>Article Heading</h2>
