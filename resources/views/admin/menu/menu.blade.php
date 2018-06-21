@@ -44,13 +44,22 @@
                     </li>
 
                     <li>
-                        <a class="tooltip-tip ajax-load" href="#" title="Blog App">
+                        <a class="tooltip-tip ajax-load" href="#" title="blog">
                             <i class="icon-document-edit"></i>
                             <span>博客</span>
                         </a>
                         <ul>
                             <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/list') }}" title="list"><i class="entypo-doc-text"></i><span>博客列表</span></a></li>
                             <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/detail') }}" title="detail"><i class="entypo-newspaper"></i><span>博客详情</span></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="tooltip-tip ajax-load" href="#" title="photo">
+                            <i class="icon-camera"></i>
+                            <span>图片</span>
+                        </a>
+                        <ul>
+                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/photo') }}" title="list"><i class="entypo-doc-text"></i><span>图片列表</span></a></li>
                         </ul>
                     </li>
                     <li>
@@ -123,74 +132,74 @@
 
                 </ul>
 
-                <ul id="menu-showhide" class="topnav menu-left-nest">
-                    <li>
-                        <a href="#" style="border-left:0px solid!important;" class="title-menu-left">
-                            <span class="component"></span>
-                            <i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i>
-                        </a>
-                    </li>
+                {{--<ul id="menu-showhide" class="topnav menu-left-nest">--}}
+                    {{--<li>--}}
+                        {{--<a href="#" style="border-left:0px solid!important;" class="title-menu-left">--}}
+                            {{--<span class="component"></span>--}}
+                            {{--<i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i>--}}
+                        {{--</a>--}}
+                    {{--</li>--}}
 
 
-                    <li>
-                        <a class="tooltip-tip" href="#" title="UI Element">
-                            <i class="icon-monitor"></i>
-                            <span>UI Element</span>
-                        </a>
-                        <ul>
-                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/element') }}" title="Element"><i class="icon-attachment"></i><span>Element</span></a></li>
-                            <li>
-                                <a class="tooltip-tip2 ajax-load" href="{{ url('admin/button') }}" title="Button"><i class="icon-view-list-large"></i><span>Button</span>
-                                    <div class="noft-blue-number">10</div>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="tooltip-tip2 ajax-load" href="{{ url('admin/wizard') }}" title="Tab & Accordion"><i class="icon-folder"></i><span>Wizard</span>
-                                    <div class="noft-purple-number">3</div>
-                                </a>
-                            </li>
-                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/calendar') }}" title="Calender"><i class="icon-calendar"></i><span>Calendar</span></a></li>
-                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/tree') }}" title="Tree View"><i class="icon-view-list"></i><span>Tree View</span></a></li>
-                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/grids') }}" title="Grids"><i class="icon-menu"></i><span>Grids</span></a></li>
-                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/chart') }}" title="Chart"><i class="icon-graph-pie"></i><span>Chart</span></a></li>
-                            <li>
-                                <a class="tooltip-tip ajax-load" href="{{ url('admin/typhography') }}" title="Typhoghrapy">
-                                    <i class="icon-information"></i>
-                                    <span>Typhoghrapy</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="tooltip-tip" href="#" title="Form">
-                            <i class="icon-document"></i>
-                            <span>Form</span>
-                        </a>
-                        <ul>
-                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/formElement') }}" title="Form Elements"><i class="icon-document-edit"></i><span>Form Elements</span></a></li>
-                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/andvanceForm') }}" title="Andvance Form"><i class="icon-map"></i><span>Andvance Form</span></a></li>
-                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/textEditor') }}" title="Text Editor"><i class="icon-code"></i><span>Text Editor</span></a></li>
-                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/fileUpload') }}" title="File Upload"><i class="icon-upload"></i><span>File Upload</span></a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a class="tooltip-tip" href="#" title="Tables">
-                            <i class="icon-view-thumb"></i>
-                            <span>Tables</span>
-                        </a>
-                        <ul>
-                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/tableStatic') }}" title="Table Static"><i class="entypo-layout"></i><span>Table Static</span></a></li>
-                            <li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/tableDynamic') }}" title="Table Dynamic"><i class="entypo-menu"></i><span>Table Dynamic</span></a></li>
-                        </ul>
-                    </li>
+                    {{--<li>--}}
+                        {{--<a class="tooltip-tip" href="#" title="UI Element">--}}
+                            {{--<i class="icon-monitor"></i>--}}
+                            {{--<span>UI Element</span>--}}
+                        {{--</a>--}}
+                        {{--<ul>--}}
+                            {{--<li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/element') }}" title="Element"><i class="icon-attachment"></i><span>Element</span></a></li>--}}
+                            {{--<li>--}}
+                                {{--<a class="tooltip-tip2 ajax-load" href="{{ url('admin/button') }}" title="Button"><i class="icon-view-list-large"></i><span>Button</span>--}}
+                                    {{--<div class="noft-blue-number">10</div>--}}
+                                {{--</a>--}}
+                            {{--</li>--}}
+                            {{--<li>--}}
+                                {{--<a class="tooltip-tip2 ajax-load" href="{{ url('admin/wizard') }}" title="Tab & Accordion"><i class="icon-folder"></i><span>Wizard</span>--}}
+                                    {{--<div class="noft-purple-number">3</div>--}}
+                                {{--</a>--}}
+                            {{--</li>--}}
+                            {{--<li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/calendar') }}" title="Calender"><i class="icon-calendar"></i><span>Calendar</span></a></li>--}}
+                            {{--<li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/tree') }}" title="Tree View"><i class="icon-view-list"></i><span>Tree View</span></a></li>--}}
+                            {{--<li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/grids') }}" title="Grids"><i class="icon-menu"></i><span>Grids</span></a></li>--}}
+                            {{--<li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/chart') }}" title="Chart"><i class="icon-graph-pie"></i><span>Chart</span></a></li>--}}
+                            {{--<li>--}}
+                                {{--<a class="tooltip-tip ajax-load" href="{{ url('admin/typhography') }}" title="Typhoghrapy">--}}
+                                    {{--<i class="icon-information"></i>--}}
+                                    {{--<span>Typhoghrapy</span>--}}
+                                {{--</a>--}}
+                            {{--</li>--}}
+                        {{--</ul>--}}
+                    {{--</li>--}}
+                    {{--<li>--}}
+                        {{--<a class="tooltip-tip" href="#" title="Form">--}}
+                            {{--<i class="icon-document"></i>--}}
+                            {{--<span>Form</span>--}}
+                        {{--</a>--}}
+                        {{--<ul>--}}
+                            {{--<li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/formElement') }}" title="Form Elements"><i class="icon-document-edit"></i><span>Form Elements</span></a></li>--}}
+                            {{--<li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/andvanceForm') }}" title="Andvance Form"><i class="icon-map"></i><span>Andvance Form</span></a></li>--}}
+                            {{--<li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/textEditor') }}" title="Text Editor"><i class="icon-code"></i><span>Text Editor</span></a></li>--}}
+                            {{--<li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/fileUpload') }}" title="File Upload"><i class="icon-upload"></i><span>File Upload</span></a></li>--}}
+                        {{--</ul>--}}
+                    {{--</li>--}}
+                    {{--<li>--}}
+                        {{--<a class="tooltip-tip" href="#" title="Tables">--}}
+                            {{--<i class="icon-view-thumb"></i>--}}
+                            {{--<span>Tables</span>--}}
+                        {{--</a>--}}
+                        {{--<ul>--}}
+                            {{--<li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/tableStatic') }}" title="Table Static"><i class="entypo-layout"></i><span>Table Static</span></a></li>--}}
+                            {{--<li><a class="tooltip-tip2 ajax-load" href="{{ url('admin/tableDynamic') }}" title="Table Dynamic"><i class="entypo-menu"></i><span>Table Dynamic</span></a></li>--}}
+                        {{--</ul>--}}
+                    {{--</li>--}}
 
-                    <li>
-                        <a class="tooltip-tip ajax-load" href="{{ url('admin/map') }}" title="Map">
-                            <i class="icon-location"></i>
-                            <span>Map</span>
-                        </a>
-                    </li>
-                </ul>
+                    {{--<li>--}}
+                        {{--<a class="tooltip-tip ajax-load" href="{{ url('admin/map') }}" title="Map">--}}
+                            {{--<i class="icon-location"></i>--}}
+                            {{--<span>Map</span>--}}
+                        {{--</a>--}}
+                    {{--</li>--}}
+                {{--</ul>--}}
 
 
                 {{--<div class="side-dash">--}}

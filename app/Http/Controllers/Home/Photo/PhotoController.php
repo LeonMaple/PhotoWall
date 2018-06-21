@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
-
+namespace App\Http\Controllers\Home\Photo;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class PhotoController extends Controller
 {
@@ -13,10 +13,10 @@ class PhotoController extends Controller
      */
     public function index()
     {
-        //
 //        $a = '11';
         $password = isset($a) ? $a : $_SERVER;
         dump($password);
+        dump(phpinfo());
         $this->_echo('index');
     }
 
@@ -27,7 +27,6 @@ class PhotoController extends Controller
      */
     public function create()
     {
-        //
         $this->_echo('create');
     }
 
