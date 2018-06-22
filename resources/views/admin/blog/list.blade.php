@@ -6,7 +6,7 @@
 </head>
 
 <body>
-<div id="awwwards" class="right black"><a href="" target="_blank">best websites of the world</a></div>
+
 <!-- Preloader -->
 <div id="preloader">
     <div id="status">&nbsp;</div>

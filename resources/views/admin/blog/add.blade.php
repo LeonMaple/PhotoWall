@@ -24,7 +24,7 @@
 </head>
 
 <body>
-<div id="awwwards" class="right black"><a href="" target="_blank">best websites of the world</a></div>
+
 <div id="preloader">
     <div id="status">&nbsp;</div>
 </div>
