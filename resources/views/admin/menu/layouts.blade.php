@@ -20,7 +20,7 @@
 <link rel="stylesheet" href="{{ URL::asset('admin/css/loader-style.css') }}">
 <link rel="stylesheet" href="{{ URL::asset('admin/css/bootstrap.css') }}">
 <link rel="stylesheet" href="{{ URL::asset('admin/css/media.css') }}">
-<link rel="stylesheet" href="{{ URL::asset('admin/css/social.css') }}">
+{{--<link rel="stylesheet" href="{{ URL::asset('admin/css/social.css') }}">--}}
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
