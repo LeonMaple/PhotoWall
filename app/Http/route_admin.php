@@ -89,5 +89,6 @@ Route::group(['namespace' => 'Photo'], function() {
     //对应多个方法的路由设置方式-photo-下面的方法在后面追加就好
     //比如http://admin.laravel.com/admin/photo/create
     Route::resource('admin/photo', 'PhotoController');
+    Route::post('admin/photo/edit', 'PhotoController@edit');
 });
 
