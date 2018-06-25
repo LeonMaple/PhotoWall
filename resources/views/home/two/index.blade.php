@@ -1,34 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Home</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="keywords" content="Walk Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design"/>
-    <script type="application/x-javascript"> addEventListener("load", function () {
-            setTimeout(hideURLbar, 0);
-        }, false);
-
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        } </script>
-    <link href="{{ URL::asset('css/two/bootstrap.css') }}" rel="stylesheet" type="text/css" media="all"/>
-    <link href="{{ URL::asset('css/two/style.css') }}" rel="stylesheet" type="text/css" media="all"/>
-    <link href="{{ URL::asset('css/two/component.css') }}" rel="stylesheet" type="text/css"/>
-    <link href="{{ URL::asset('css/two/stylesheet.css') }}" rel="stylesheet" type="text/css"/>
-    <script src="{{ URL::asset('js/two/jquery-1.11.1.min.js') }}"></script>
-    <script type="text/javascript" src="{{ URL::asset('js/two/move-top.js') }}"></script>
-    <script type="text/javascript" src="{{ URL::asset('js/two/easing.js') }}"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-            $(".scroll").click(function (event) {
-                event.preventDefault();
-                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
-            });
-        });
-    </script>
-</head>
-
+@include('home.two.menu.heade')
 <body class="cbp-spmenu-push">
 <div class="banner">
     <div class="container">
@@ -74,29 +44,6 @@
             </div>
             <div class="clearfix"></div>
         </div>
-        {{--<div class="banner-info">--}}
-            {{--<h3>Discover The Most Beautiful Places</h3>--}}
-            {{--<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore--}}
-                {{--eu fugiat nulla pariatur.</p>--}}
-            {{--<div class="more">--}}
-                {{--<a href="two/single" class="type-4">--}}
-                    {{--<span> Read More... </span>--}}
-                    {{--<span> Read More... </span>--}}
-                    {{--<span> Read More... </span>--}}
-                    {{--<span> Read More... </span>--}}
-                    {{--<span> Read More... </span>--}}
-                    {{--<span> Read More... </span>--}}
-                {{--</a>--}}
-            {{--</div>--}}
-            {{--<div class="social-icons">--}}
-                {{--<ul>--}}
-                    {{--<li><a href="#" class="twitter"></a></li>--}}
-                    {{--<li><a href="#" class="facebook"></a></li>--}}
-                    {{--<li><a href="#" class="google"></a></li>--}}
-                    {{--<li><a href="#" class="p"></a></li>--}}
-                {{--</ul>--}}
-            {{--</div>--}}
-        {{--</div>--}}
     </div>
 </div>
 <div class="copyrights">Collect from </div>
