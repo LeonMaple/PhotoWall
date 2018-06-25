@@ -5,17 +5,17 @@
         <div class="header">
             <div class="header-left"></div>
             <div class="header-left1">
-                <h1><a href="/two">Walk<span>Where To Go This Summer?</span></a></h1>
+                <h1><a href="/">Walk<span>Where To Go This Summer?</span></a></h1>
             </div>
             <div class="top-nav">
                 <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
                     <ul>
                         <li class="active"><a href="/two">首页</a></li>
-                        <li><a href="two/about">关于</a></li>
-                        <li><a href="two/services">Services</a></li>
-                        <li><a href="two/gallery">画廊</a></li>
-                        <li><a href="two/shortcodes">Short Codes</a></li>
-                        <li><a href="two/contact">Contact</a></li>
+                        <li><a href="about">关于</a></li>
+                        <li><a href="services">Services</a></li>
+                        <li><a href="gallery">画廊</a></li>
+                        <li><a href="shortcodes">Short Codes</a></li>
+                        <li><a href="contact">Contact</a></li>
                     </ul>
                 </nav>
 

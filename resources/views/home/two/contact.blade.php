@@ -44,7 +44,7 @@
             <div class="top-nav">
                 <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
                     <ul>
-                        <li><a href="/two"></span>Home</a></li>
+                        <li><a href="/"></span>Home</a></li>
                         <li><a href="about"></span>About</a></li>
                         <li><a href="services">Services</a></li>
                         <li><a href="gallery"></span>Gallery</a></li>

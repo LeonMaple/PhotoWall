@@ -38,13 +38,13 @@
 
             </div>
             <div class="header-left1">
-                <h1><a href="/two">Walk<span>Where To Go This Summer?</span></a></h1>
+                <h1><a href="/">Walk<span>Where To Go This Summer?</span></a></h1>
             </div>
             <!-- #push_sidebar -->
             <div class="top-nav">
                 <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
                     <ul>
-                        <li><a href="/two">Home</a></li>
+                        <li><a href="/">Home</a></li>
                         <li><a href="about">About</a></li>
                         <li><a href="services">Services</a></li>
                         <li><a href="gallery">Gallery</a></li>

@@ -35,8 +35,6 @@ Route::get('twoo', 'Home\IndexController@index');
 Route::any('/index', 'WelcomeController@index');
 
 
-//http://h.laravel.com/photo
-Route::resource('photo', 'PhotoController');
 
 Route::get('home/index', 'Home\IndexController@index');
 
@@ -44,3 +42,11 @@ Route::get('home/index', 'Home\IndexController@index');
 Route::resource('articles', 'ArticlesController');
 Route::any('/articles/create', 'ArticlesController@create');
 
+
+//http://h.laravel.com/photo
+Route::group(['namespace' => 'Home\Photo'], function()
+{
+//    Route::resource('photo', 'PhotoController');
+    Route::get('photo', 'PhotoController@index');
+    Route::get('photo/single', 'PhotoController@single');
+});

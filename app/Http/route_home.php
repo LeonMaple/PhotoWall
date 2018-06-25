@@ -7,24 +7,19 @@
  * @File: route_home.php
  */
 
-Route::get('/', function () {
-//    return view('welcome');
-    return view('home.one.index');
-});
+Route::get('/', function () { return view('home.two.index'); });
 
-Route::get('/typography', function () { return view('home.one.typography'); });
-
-Route::get('/blog', function () { return view('home.one.blog'); });
-
-Route::get('/gallery', function () { return view('home.one.gallery'); });
-
-Route::get('/contact', function () { return view('home.one.contact'); });
-
-Route::get('two', function () { return view('home.two.index'); });
-Route::get('two/about', function () { return view('home.two.about'); });
-Route::get('two/services', function () { return view('home.two.services'); });
-Route::get('two/gallery', function () { return view('home.two.gallery'); });
-Route::get('two/shortcodes', function () { return view('home.two.shortcodes'); });
-Route::get('two/contact', function () { return view('home.two.contact'); });
+Route::get('about', function () { return view('home.two.about'); });
+Route::get('services', function () { return view('home.two.services'); });
+Route::get('gallery', function () { return view('home.two.gallery'); });
+Route::get('shortcodes', function () { return view('home.two.shortcodes'); });
+Route::get('contact', function () { return view('home.two.contact'); });
 
 
+/*Route::group(['namespace' => 'Photo'], function() {
+//    Route::resource('photo', 'PhotoController');
+    Route::get('photo/index', 'PhotoController@index');
+});*/
+
+//Route::get('photo', 'PhotoController@index');
+//Route::get('photo/single', function () { return view('home.photo.single'); });
