@@ -35,9 +35,7 @@
                             <a href="#"><i class="icon-google-plus"></i></a>
                         </div>
                         <div class="col-md-12" style="margin-top: 40px;">
-                            <p>&copy; 2016 Free HTML5 Template. All Rights Reserved. Designed by <a
-                                        href="http://gettemplates.co/">GetTemplates</a> Demo Images: <a
-                                        href="http://unsplash.com/" target="_blank">Unsplash</a></p>
+                            <p>&copy; 2016 Free HTML5 Template. All Rights Reserved. Designed by </p>
                         </div>
                     </div>
                 </div>
@@ -60,7 +58,8 @@
                             <div>
                                 {{--这里是分类名称--}}
                                 <h2>{{ $category[$value->category]->name }}</h2>
-                                <span>72 photos</span>
+                                {{--分类数据量--}}
+                                <span>{{ $value->count }} photos</span>
                             </div>
                         </div>
                     </div>

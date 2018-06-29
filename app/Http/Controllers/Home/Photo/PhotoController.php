@@ -19,15 +19,21 @@ class PhotoController extends Controller
     {
         //根据分类分组查询所有图片
         $photo = Photo::queryCategoryAll();
+        //TODO 由于mysql5.7分组查询报错问题，现在暂时这么写
+        $result = $photo->toArray();
+        sort($result);
 
         $data = [];
-        //需要统计一下各个分类的总数
         $count = [];
-        foreach ($photo as $key => $val) {
+        foreach ($result as $key => $val) {
+            $count[$val->category][] = $val->category;
             if(!isset($data[$val->category])) {
                 $data[$val->category] = $val;
             }
+            //统计一下各个分类的总数
+            $data[$val->category]->count = count($count[$val->category]);
         }
+        sort($data);
 
         //查询分类
         $category = photo_category::queryAll();

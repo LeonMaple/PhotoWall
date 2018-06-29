@@ -30,7 +30,7 @@ class PhotoController extends Controller
     public function create()
     {
 //
-//        for ($i= 1;$i<21;$i++) {
+//        for ($i= 21;$i<110;$i++) {
 //            $date = date('Y-m-d H:i:s',time());
 //            $data = [
 //                'name' => '图片测试标题'.$i,
@@ -38,10 +38,10 @@ class PhotoController extends Controller
 //                'time' => $date,
 //                'category' => 1,
 //                'tag' => 1,
-//                'url' => "http://admin.laravel.com/images/two/$i.jpg",
+//                'url' => "http://h.pic.com/博客提供展示图片/".$i.".jpg",
 //            ];
 //            DB::table('photo')->insert($data);
-//
+////
 //        }
         if($_GET) {
             $get = Input::get();

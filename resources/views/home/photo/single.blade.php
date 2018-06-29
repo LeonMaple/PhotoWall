@@ -40,9 +40,7 @@
                             <a href="#"><i class="icon-google-plus"></i></a>
                         </div>
                         <div class="col-md-12" style="margin-top: 40px;">
-                            <p>&copy; 2016 Free HTML5 Template. All Rights Reserved. Designed by <a
-                                    href="http://gettemplates.co/">GetTemplates</a> Demo Images: <a
-                                    href="http://unsplash.com/" target="_blank">Unsplash</a></p>
+                            <p>&copy; 2016 Free HTML5 Template. All Rights Reserved. Designed by </p>
                         </div>
                     </div>
                 </div>
@@ -50,8 +48,6 @@
         </div>
     </div>
     <div class="container-fluid" id="fh5co-image-grid">
-
-
         <div class="grid">
             <div class="grid-sizer"></div>
             @foreach($photo as $value)
@@ -63,7 +59,8 @@
                     <div class="text-wrap">
                         <div class="text-inner popup">
                             <div>
-                                <h2>Name of photo or title here</h2>
+                                {{--名称--}}
+                                <h2>{{ $value->name }}</h2>
                             </div>
                         </div>
                     </div>
