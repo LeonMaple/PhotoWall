@@ -48,81 +48,26 @@
     <div class="container-fluid" id="fh5co-image-grid">
         <div class="grid">
             <div class="grid-sizer"></div>
+
+            @foreach($photo as $value)
             <div class="grid-item item animate-box" data-animate-effect="fadeIn">
-                <a href="{{ url('photo/single') }}">
+                <a href="{{ url('photo/single')."?category=$value->category" }}">
                     <div class="img-wrap">
-                        <img src="{{ URL::asset('home/photo/images/img_1.jpg') }}" alt="" class="img-responsive">
+                        <img src="{{ $value->url }}" alt="" class="img-responsive">
                     </div>
                     <div class="text-wrap">
                         <div class="text-inner">
                             <div>
-                                <h2>Name of photo or title here</h2>
+                                {{--这里是分类名称--}}
+                                <h2>{{ $category[$value->category]->name }}</h2>
                                 <span>72 photos</span>
                             </div>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="grid-item item animate-box" data-animate-effect="fadeIn">
-                <a href="{{ url('photo/single') }}">
-                    <div class="img-wrap">
-                        <img src="{{ URL::asset('home/photo/images/img_2.jpg') }}" alt="" class="img-responsive">
-                    </div>
-                    <div class="text-wrap">
-                        <div class="text-inner">
-                            <div>
-                                <h2>Name of photo or title here</h2>
-                                <span>72 photos</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="grid-item item animate-box" data-animate-effect="fadeIn">
-                <a href="{{ url('photo/single') }}">
-                    <div class="img-wrap">
-                        <img src="{{ URL::asset('home/photo/images/img_3.jpg') }}" alt="" class="img-responsive">
-                    </div>
-                    <div class="text-wrap">
-                        <div class="text-inner">
-                            <div>
-                                <h2>Name of photo or title here</h2>
-                                <span>72 photos</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="grid-item item animate-box" data-animate-effect="fadeIn">
-                <a href="{{ url('photo/single') }}">
-                    <div class="img-wrap">
-                        <img src="{{ URL::asset('home/photo/images/img_4.jpg') }}" alt="" class="img-responsive">
-                    </div>
-                    <div class="text-wrap">
-                        <div class="text-inner">
-                            <div>
-                                <h2>Name of photo or title here</h2>
-                                <span>72 photos</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="grid-item item animate-box" data-animate-effect="fadeIn">
-                <a href="{{ url('photo/single') }}">
-                    <div class="img-wrap">
-                        <img src="{{ URL::asset('home/photo/images/img_5.jpg') }}" alt="" class="img-responsive">
-                    </div>
-                    <div class="text-wrap">
-                        <div class="text-inner">
-                            <div>
-                                <h2>Name of photo or title here</h2>
-                                <span>72 photos</span>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
+            @endforeach
+
         </div>
     </div>
 

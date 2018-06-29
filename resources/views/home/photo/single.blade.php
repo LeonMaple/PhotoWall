@@ -54,11 +54,11 @@
 
         <div class="grid">
             <div class="grid-sizer"></div>
-
+            @foreach($photo as $value)
             <div class="grid-item item animate-box" data-animate-effect="fadeIn">
-                <a href="{{ URL::asset('home/photo/images/img_1.jpg') }}" class="image-popup" title="Name of photo or title here">
+                <a href="{{ $value->url }}" class="image-popup" title="Name of photo or title here">
                     <div class="img-wrap">
-                        <img src="{{ URL::asset('home/photo/images/img_1.jpg') }}" alt="" class="img-responsive">
+                        <img src="{{ $value->url }}" alt="" class="img-responsive">
                     </div>
                     <div class="text-wrap">
                         <div class="text-inner popup">
@@ -69,48 +69,7 @@
                     </div>
                 </a>
             </div>
-            <div class="grid-item item animate-box" data-animate-effect="fadeIn">
-                <a href="{{ URL::asset('home/photo/images/img_2.jpg') }}" class="image-popup" title="Name of photo or title here">
-                    <div class="img-wrap">
-                        <img src="{{ URL::asset('home/photo/images/img_2.jpg') }}" alt="" class="img-responsive">
-                    </div>
-                    <div class="text-wrap">
-                        <div class="text-inner popup">
-                            <div>
-                                <h2>Name of photo or title here</h2>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="grid-item item animate-box" data-animate-effect="fadeIn">
-                <a href="{{ URL::asset('home/photo/images/img_3.jpg') }}" class="image-popup" title="Name of photo or title here">
-                    <div class="img-wrap">
-                        <img src="{{ URL::asset('home/photo/images/img_3.jpg') }}" alt="" class="img-responsive">
-                    </div>
-                    <div class="text-wrap">
-                        <div class="text-inner popup">
-                            <div>
-                                <h2>Name of photo or title here</h2>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="grid-item item animate-box" data-animate-effect="fadeIn">
-                <a href="{{ URL::asset('home/photo/images/img_4.jpg') }}" class="image-popup" title="Name of photo or title here">
-                    <div class="img-wrap">
-                        <img src="{{ URL::asset('home/photo/images/img_4.jpg') }}" alt="" class="img-responsive">
-                    </div>
-                    <div class="text-wrap">
-                        <div class="text-inner popup">
-                            <div>
-                                <h2>Name of photo or title here</h2>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
+            @endforeach
         </div>
     </div>
 
