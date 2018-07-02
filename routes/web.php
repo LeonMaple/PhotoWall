@@ -23,11 +23,28 @@ Route::get('/', function () {return view('home.two.index');});
 Route::get('two', function () {
     return view('home.two.index');
 });
-Route::get('two/about', function () { return view('home.two.about'); });
-Route::get('two/services', function () { return view('home.two.services'); });
-Route::get('two/gallery', function () { return view('home.two.gallery'); });
-Route::get('two/shortcodes', function () { return view('home.two.shortcodes'); });
-Route::get('two/contact', function () { return view('home.two.contact'); });
+Route::get('about', function () { return view('home.two.about'); });
+Route::get('services', function () { return view('home.two.services'); });
+Route::get('gallery', function () { return view('home.two.gallery'); });
+Route::get('shortcodes', function () { return view('home.two.shortcodes'); });
+Route::get('contact', function () { return view('home.two.contact'); });
+
+
+//http://h.laravel.com/photo
+Route::group(['namespace' => 'Home\Photo'], function()
+{
+//    Route::resource('photo', 'PhotoController');
+    Route::get('photo', 'PhotoController@index');
+    Route::get('photo/single', 'PhotoController@single');
+});
+
+
+
+
+
+
+
+
 
 Route::get('twoo', 'Home\IndexController@index');
 
@@ -42,11 +59,3 @@ Route::get('home/index', 'Home\IndexController@index');
 Route::resource('articles', 'ArticlesController');
 Route::any('/articles/create', 'ArticlesController@create');
 
-
-//http://h.laravel.com/photo
-Route::group(['namespace' => 'Home\Photo'], function()
-{
-//    Route::resource('photo', 'PhotoController');
-    Route::get('photo', 'PhotoController@index');
-    Route::get('photo/single', 'PhotoController@single');
-});

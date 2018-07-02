@@ -10,7 +10,7 @@
             <div class="top-nav">
                 <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
                     <ul>
-                        <li class="active"><a href="/two">首页</a></li>
+                        <li class="active"><a href="photo">相册</a></li>
                         <li><a href="about">关于</a></li>
                         <li><a href="services">Services</a></li>
                         <li><a href="gallery">画廊</a></li>

@@ -17,9 +17,20 @@ class PhotoController extends Controller
      */
     public function index()
     {
+        //TODO 由于mysql5.7分组查询报错问题，现在暂时这么写
+        /**
+         * TODO 代码会重写
+         * 1、分组获取分类数据
+         * 2、分页获取图片列表
+         * 3、前段需要做瀑布流页面展示 20一页
+         */
+
+        //TODO 创建一个分类展示首页图列表
+
         //根据分类分组查询所有图片
         $photo = Photo::queryCategoryAll();
-        //TODO 由于mysql5.7分组查询报错问题，现在暂时这么写
+
+        //排序让下面更好获取第一个分类
         $result = $photo->toArray();
         sort($result);
 
@@ -39,7 +50,7 @@ class PhotoController extends Controller
         $category = photo_category::queryAll();
 
         return view('home.photo.photo',[
-            'title'  => '图片列表',
+            'title'  => '图片分类',
             'photo'  => $data,
             'category'  => $category,
         ]);
