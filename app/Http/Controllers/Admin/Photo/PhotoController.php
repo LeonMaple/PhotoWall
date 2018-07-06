@@ -29,20 +29,11 @@ class PhotoController extends Controller
      */
     public function create()
     {
-//
-//        for ($i= 21;$i<110;$i++) {
-//            $date = date('Y-m-d H:i:s',time());
-//            $data = [
-//                'name' => '图片测试标题'.$i,
-//                'doc' => '图片测试内容'.$i,
-//                'time' => $date,
-//                'category' => 1,
-//                'tag' => 1,
-//                'url' => "http://h.pic.com/博客提供展示图片/".$i.".jpg",
-//            ];
-//            DB::table('photo')->insert($data);
-////
-//        }
+
+//        $path = '/Users/helinfeng/Pictures/blog/Destination/冷噶措/';
+//        $this->listDirFiles($path,'Destination/冷噶措/','冷噶措');
+
+
         if($_GET) {
             $get = Input::get();
 
@@ -62,6 +53,49 @@ class PhotoController extends Controller
             'title' => '图片添加'
         ]);
     }
+
+
+    /**
+     * 获取文件夹下图片，并把图片路径存入数据库
+     * @param $DirPath  String    图片路径
+     * @param $path     String    一级后缀
+     * @param $name     String    二级后缀
+     */
+    private function listDirFiles($DirPath,$path,$name) {
+        if ($dir = opendir($DirPath)) {
+            $i = 0;
+            while (($file = readdir($dir)) !== false) {
+                if (!is_dir($DirPath . $file)) {
+                    $date = date('Y-m-d H:i:s',time());
+                    $data = [
+                        'name' => $name.$i,
+                        'doc' => $name.$i,
+                        'time' => $date,
+                        'category' => 1,
+                        'tag' => 1,
+                        'url' => "http://h.pic.com/".$path.$file,
+                    ];
+                    DB::table('photo')->insert($data);
+                }
+            }
+        }
+
+//        for ($i= 0;$i<41;$i++) {
+//            $date = date('Y-m-d H:i:s',time());
+//            $data = [
+//                'name' => '冷噶措'.$i,
+//                'doc' => '冷噶措'.$i,
+//                'time' => $date,
+//                'category' => 1,
+//                'tag' => 1,
+//                'url' => "http://h.pic.com/Destination/冷噶措/".$i.".jpg",
+//            ];
+//            DB::table('photo')->insert($data);
+//        }
+
+    }
+
+
 
     /**
      * 显示
