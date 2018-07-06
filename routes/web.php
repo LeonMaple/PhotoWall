@@ -36,6 +36,7 @@ Route::group(['namespace' => 'Home\Photo'], function()
 //    Route::resource('photo', 'PhotoController');
     Route::get('photo', 'PhotoController@index');
     Route::get('photo/single', 'PhotoController@single');
+    Route::get('photo/one', 'PhotoController@one');
 });
 
 

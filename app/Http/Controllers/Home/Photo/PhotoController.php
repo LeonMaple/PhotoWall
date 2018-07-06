@@ -70,4 +70,16 @@ class PhotoController extends Controller
         ]);
     }
 
+    /**
+     * 相册模板 one
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function one()
+    {
+        return view('home.photo.one',[
+            'title'  => '相册模板 one',
+        ]);
+    }
+
+
 }
